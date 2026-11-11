@@ -44,7 +44,7 @@ if not exist "%PLUGINS%" (
 if not exist "%OUT%" mkdir "%OUT%"
 
 if "%~1"=="" (
-set "TARGETS=ts_matchmode ts_probe ts_advertise ts_floatchat ts_uplink ts_survival ts_mechwarrior ts_assault ts_ctf h9_presence h9_community h9_motd tsrp_roambots ts_rtv h9_compete h9_link h9_rank"
+set "TARGETS=ts_matchmode ts_probe ts_advertise ts_floatchat ts_uplink ts_survival ts_mechwarrior ts_assault ts_ctf h9_presence h9_community h9_motd tsrp_roambots ts_rtv h9_compete h9_link h9_rank h9_tempfx"
 ) else (
     if /i "%~1"=="all" (
         set "TARGETS="
@@ -102,6 +102,12 @@ if exist "%SRC%include\h9_vgui.inc" (
     copy /y "%SRC%include\h9_vgui.inc" "%SCRIPTING%\include\h9_vgui.inc" >nul
     if errorlevel 1 (echo [FAIL] could not sync include\h9_vgui.inc) else (echo   synced include\h9_vgui.inc)
     if exist "%SRC%AMXMODX\plugins\include" copy /y "%SRC%include\h9_vgui.inc" "%SRC%AMXMODX\plugins\include\h9_vgui.inc" >nul
+)
+REM Transient combat FX shared API: sync before compiling h9_tempfx or its callers.
+if exist "%SRC%include\h9_tempfx.inc" (
+    copy /y "%SRC%include\h9_tempfx.inc" "%SCRIPTING%\include\h9_tempfx.inc" >nul
+    if errorlevel 1 (echo [FAIL] could not sync include\h9_tempfx.inc) else (echo   synced include\h9_tempfx.inc)
+    if exist "%SRC%AMXMODX\plugins\include" copy /y "%SRC%include\h9_tempfx.inc" "%SRC%AMXMODX\plugins\include\h9_tempfx.inc" >nul
 )
 REM The marks include (include\h9_marks.inc): the objectives of Assault, Capture the Uplink and Capture the Flag drawn through
 REM the walls, shared by those plugins. Refreshed on every build like h9_vgui.inc, which it is built on.
