@@ -1,0 +1,104 @@
+{
+  "schema": "h9.tempfx/1",
+  "authority": "server-event-only",
+  "client_effects_use_existing_TS_fire_events": true,
+  "default_budget_per_actor_per_second": 9,
+  "effects": [
+    {
+      "id": 1,
+      "name": "hit",
+      "duration": [
+        0.05,
+        0.2
+      ],
+      "asset": "sprites/flash.spr",
+      "cue": "flash",
+      "gameplay": "handled elsewhere"
+    },
+    {
+      "id": 2,
+      "name": "stagger",
+      "duration": [
+        0.1,
+        0.7
+      ],
+      "asset": "sprites/dust.spr",
+      "cue": "STAGGERED",
+      "gameplay": "interrupt handled elsewhere"
+    },
+    {
+      "id": 3,
+      "name": "knockback",
+      "duration": [
+        0.15,
+        0.7
+      ],
+      "asset": "sprites/dust.spr",
+      "cue": "KNOCKBACK",
+      "gameplay": "velocity/impulse handled elsewhere"
+    },
+    {
+      "id": 4,
+      "name": "knockdown",
+      "duration": [
+        0.5,
+        2
+      ],
+      "asset": "sprites/gun_smoke_add.spr",
+      "cue": "KNOCKED DOWN",
+      "gameplay": "animation/frozen state handled elsewhere"
+    },
+    {
+      "id": 5,
+      "name": "afterimage",
+      "duration": [
+        0.1,
+        0.8
+      ],
+      "asset": "sprites/bullet_trail.spr",
+      "cue": "movement trail",
+      "gameplay": "movement handled elsewhere",
+      "limitation": "not a pose ghost"
+    },
+    {
+      "id": 6,
+      "name": "guardbreak",
+      "duration": [
+        0.2,
+        1
+      ],
+      "asset": "sprites/sparks.spr",
+      "cue": "GUARD BROKEN",
+      "gameplay": "defense state handled elsewhere"
+    },
+    {
+      "id": 7,
+      "name": "armorbreak",
+      "duration": [
+        0.2,
+        1
+      ],
+      "asset": "sprites/gun_smoke_add.spr",
+      "cue": "ARMOR BROKEN",
+      "gameplay": "equipment health handled elsewhere"
+    },
+    {
+      "id": 8,
+      "name": "stun",
+      "duration": [
+        0.2,
+        2
+      ],
+      "asset": "sprites/flash.spr",
+      "cue": "STUNNED",
+      "gameplay": "stun status handled elsewhere"
+    }
+  ],
+  "design": {
+    "spectator_readability": true,
+    "avoid_screen_spam": true,
+    "visuals_have_no_hit_authority": true,
+    "fade_and_cooldown": true,
+    "existing_gun_fx_reused_not_duplicated": true
+  }
+}
