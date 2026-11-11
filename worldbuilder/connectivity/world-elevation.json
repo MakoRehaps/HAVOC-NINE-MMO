@@ -1,0 +1,40 @@
+{
+  "schema": "h9.world_elevation/1",
+  "units": "GoldSrc units",
+  "coordinate_system": {
+    "up": "+z",
+    "surface_global_z": 0,
+    "transform": "global = sector_origin + local"
+  },
+  "design_layers": [
+    {
+      "id": "surface",
+      "z": 0
+    },
+    {
+      "id": "basement_1",
+      "z": -192
+    },
+    {
+      "id": "basement_2",
+      "z": -384
+    },
+    {
+      "id": "sewer",
+      "z": -576
+    },
+    {
+      "id": "transit",
+      "z": -768
+    }
+  ],
+  "source_of_truth": "design only; extracted map floors must be measured",
+  "constraints": [
+    "Keep multiple floors per XY coordinate; surface heightmap alone is insufficient.",
+    "Align portal heights in global coordinates across sectors.",
+    "Underground must have validated access to surface via stairs/ladders/elevators.",
+    "Do not infer walkable portal or vertical links from proximity alone.",
+    "All structures remain PvP/PvE enabled; damage changes navigation state.",
+    "Do not change existing map sources or binaries."
+  ]
+}
