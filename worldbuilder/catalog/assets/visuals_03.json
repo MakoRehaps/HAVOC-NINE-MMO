@@ -1,0 +1,865 @@
+{
+  "schema": "h9.git_asset_catalog/1",
+  "category": "visuals",
+  "repository": "MakoRehaps/HAVOC-NINE-MMO",
+  "source_tree_sha": "db541cab7b10ff05b1c1701ed092f42dd90a3f6f",
+  "classification": "filename and path only; not geometry-inspected",
+  "entries": [
+    {
+      "path": "ts/gfx/vgui/h9_levels/lv-59.tga",
+      "name": "lv-59",
+      "kind": "interface",
+      "bytes": 7612,
+      "git_sha": "8f4bac952de056600c369ed90da0237f2ea1d253",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/gfx/vgui/h9_levels/lv-6.tga",
+      "name": "lv-6",
+      "kind": "interface",
+      "bytes": 5369,
+      "git_sha": "62b7aeb785ddec593dd8106c53cad46b982721e7",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/gfx/vgui/h9_levels/lv-60.tga",
+      "name": "lv-60",
+      "kind": "interface",
+      "bytes": 8021,
+      "git_sha": "4f1dbd586521d7f631eb5c80eaafdd04401bbc3b",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/gfx/vgui/h9_levels/lv-61.tga",
+      "name": "lv-61",
+      "kind": "interface",
+      "bytes": 5760,
+      "git_sha": "b018718cc75b4d7c4e56af3e75c122ba2e151167",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/gfx/vgui/h9_levels/lv-62.tga",
+      "name": "lv-62",
+      "kind": "interface",
+      "bytes": 5468,
+      "git_sha": "c7faa92744d036c515cfee55f1ee4b78c2782afd",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/gfx/vgui/h9_levels/lv-63.tga",
+      "name": "lv-63",
+      "kind": "interface",
+      "bytes": 5232,
+      "git_sha": "121b96877cf5cd99237f87e842baf921f9fe387d",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/gfx/vgui/h9_levels/lv-64.tga",
+      "name": "lv-64",
+      "kind": "interface",
+      "bytes": 5486,
+      "git_sha": "427fadc614594b8874d121c58589099d2d9770c7",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/gfx/vgui/h9_levels/lv-65.tga",
+      "name": "lv-65",
+      "kind": "interface",
+      "bytes": 4987,
+      "git_sha": "f0b5827143e8d3c81dfcee4eaad3145b46405f21",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/gfx/vgui/h9_levels/lv-66.tga",
+      "name": "lv-66",
+      "kind": "interface",
+      "bytes": 5134,
+      "git_sha": "07cb1cc3dcc55212958ada2517f95db3ebd13afd",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/gfx/vgui/h9_levels/lv-67.tga",
+      "name": "lv-67",
+      "kind": "interface",
+      "bytes": 5583,
+      "git_sha": "5db31fccfafee9506238a372d82fe51f2af25927",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/gfx/vgui/h9_levels/lv-68.tga",
+      "name": "lv-68",
+      "kind": "interface",
+      "bytes": 5123,
+      "git_sha": "fb232dd92381ba1343d2c4abf6b28b91712513c1",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/gfx/vgui/h9_levels/lv-69.tga",
+      "name": "lv-69",
+      "kind": "interface",
+      "bytes": 5156,
+      "git_sha": "21763898336829471e2db5430348d0b129fc396a",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/gfx/vgui/h9_levels/lv-7.tga",
+      "name": "lv-7",
+      "kind": "interface",
+      "bytes": 5197,
+      "git_sha": "93733539901e091a00cc998eed17d40985987547",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/gfx/vgui/h9_levels/lv-70.tga",
+      "name": "lv-70",
+      "kind": "interface",
+      "bytes": 5824,
+      "git_sha": "e84a062e668bfa0f06c4b491b300f03e3df73641",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/gfx/vgui/h9_levels/lv-71.tga",
+      "name": "lv-71",
+      "kind": "interface",
+      "bytes": 6491,
+      "git_sha": "96b54e9b7607ef32754b86f7416b123b847778c7",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/gfx/vgui/h9_levels/lv-72.tga",
+      "name": "lv-72",
+      "kind": "interface",
+      "bytes": 6299,
+      "git_sha": "8e6e591d9b2488f2169ee1de0ebcb25bc22e6fae",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/gfx/vgui/h9_levels/lv-73.tga",
+      "name": "lv-73",
+      "kind": "interface",
+      "bytes": 6257,
+      "git_sha": "8ca14477c8acfc8879068342c3b25ca0a84ffefa",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/gfx/vgui/h9_levels/lv-74.tga",
+      "name": "lv-74",
+      "kind": "interface",
+      "bytes": 6472,
+      "git_sha": "b204a17050afa91baa758eb2710571ece97059ea",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/gfx/vgui/h9_levels/lv-75.tga",
+      "name": "lv-75",
+      "kind": "interface",
+      "bytes": 5987,
+      "git_sha": "01a70cf5d98100839e42c3e3c1475019314344d6",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/gfx/vgui/h9_levels/lv-76.tga",
+      "name": "lv-76",
+      "kind": "interface",
+      "bytes": 6147,
+      "git_sha": "a1818253caa19ebb28be53cc5e470c7698c9ab63",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/gfx/vgui/h9_levels/lv-77.tga",
+      "name": "lv-77",
+      "kind": "interface",
+      "bytes": 6236,
+      "git_sha": "18ce333b314e4baee721527d5e33abc6fae6514d",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/gfx/vgui/h9_levels/lv-78.tga",
+      "name": "lv-78",
+      "kind": "interface",
+      "bytes": 6189,
+      "git_sha": "02e0f3d4573f841406b9b2b1d3ae33d0fe1ed436",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/gfx/vgui/h9_levels/lv-79.tga",
+      "name": "lv-79",
+      "kind": "interface",
+      "bytes": 6188,
+      "git_sha": "26cb97b9e4f5aae3ac4738851f53288b3a913582",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/gfx/vgui/h9_levels/lv-8.tga",
+      "name": "lv-8",
+      "kind": "interface",
+      "bytes": 5397,
+      "git_sha": "88c2a864441c04d187647a46de90354238986577",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/gfx/vgui/h9_levels/lv-80.tga",
+      "name": "lv-80",
+      "kind": "interface",
+      "bytes": 6214,
+      "git_sha": "4c612cdc72da575743158e911bfce8064f25cead",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/gfx/vgui/h9_levels/lv-81.tga",
+      "name": "lv-81",
+      "kind": "interface",
+      "bytes": 8165,
+      "git_sha": "75c60872acad7467b5522859be900312926d6646",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/gfx/vgui/h9_levels/lv-82.tga",
+      "name": "lv-82",
+      "kind": "interface",
+      "bytes": 7956,
+      "git_sha": "fbfb3fdbdfc436ac1f40be0f9a7f41f177be1c79",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/gfx/vgui/h9_levels/lv-83.tga",
+      "name": "lv-83",
+      "kind": "interface",
+      "bytes": 7787,
+      "git_sha": "6d4bdb40b6ed2fa0ce2e76e56d6c4b452fe66fbe",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/gfx/vgui/h9_levels/lv-84.tga",
+      "name": "lv-84",
+      "kind": "interface",
+      "bytes": 8032,
+      "git_sha": "8767d7aa3452a42cb2fceab1f342fed20277d32c",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/gfx/vgui/h9_levels/lv-85.tga",
+      "name": "lv-85",
+      "kind": "interface",
+      "bytes": 7537,
+      "git_sha": "a0e1f3f97258d8e76881682870c47083f1ade254",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/gfx/vgui/h9_levels/lv-86.tga",
+      "name": "lv-86",
+      "kind": "interface",
+      "bytes": 7697,
+      "git_sha": "facd160fa89f7c8699989df3e10a023955b84d3c",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/gfx/vgui/h9_levels/lv-87.tga",
+      "name": "lv-87",
+      "kind": "interface",
+      "bytes": 8132,
+      "git_sha": "dd67b46a848750a7859b54e52ad68e19d84dabc6",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/gfx/vgui/h9_levels/lv-88.tga",
+      "name": "lv-88",
+      "kind": "interface",
+      "bytes": 7658,
+      "git_sha": "4123cc0975f2e70a3a74f5a0545d990a1928d0b6",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/gfx/vgui/h9_levels/lv-89.tga",
+      "name": "lv-89",
+      "kind": "interface",
+      "bytes": 7694,
+      "git_sha": "578e78bda598eb5cbc7d9e0638280a32d6323063",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/gfx/vgui/h9_levels/lv-9.tga",
+      "name": "lv-9",
+      "kind": "interface",
+      "bytes": 5279,
+      "git_sha": "c340ec91bd662faa4a1982ba85378530624dafef",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/gfx/vgui/h9_levels/lv-90.tga",
+      "name": "lv-90",
+      "kind": "interface",
+      "bytes": 7891,
+      "git_sha": "cc18e5dd1151076231b0b34bb234d9f40f02442a",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/gfx/vgui/h9_levels/lv-91.tga",
+      "name": "lv-91",
+      "kind": "interface",
+      "bytes": 8360,
+      "git_sha": "3204ea38d3a8ed89885601e3b61e0294a3750f95",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/gfx/vgui/h9_levels/lv-92.tga",
+      "name": "lv-92",
+      "kind": "interface",
+      "bytes": 8084,
+      "git_sha": "a9f23365fd16508aa5536338775c4214d84bece2",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/gfx/vgui/h9_levels/lv-93.tga",
+      "name": "lv-93",
+      "kind": "interface",
+      "bytes": 7925,
+      "git_sha": "368906d3453040fcc283f2fc4fc0e66d35f09172",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/gfx/vgui/h9_levels/lv-94.tga",
+      "name": "lv-94",
+      "kind": "interface",
+      "bytes": 8105,
+      "git_sha": "c6b20e0063e297da9a93037318f56f55d193877a",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/gfx/vgui/h9_levels/lv-95.tga",
+      "name": "lv-95",
+      "kind": "interface",
+      "bytes": 7657,
+      "git_sha": "35af61bf1a6abe854af318e1e15db45d3ac68154",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/gfx/vgui/h9_levels/lv-96.tga",
+      "name": "lv-96",
+      "kind": "interface",
+      "bytes": 7798,
+      "git_sha": "4fd42e64bb1a1638803efc048af5418eb857e580",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/gfx/vgui/h9_levels/lv-97.tga",
+      "name": "lv-97",
+      "kind": "interface",
+      "bytes": 8242,
+      "git_sha": "2941bd9a07c984454e8b5665c4704d13414f4705",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/gfx/vgui/h9_levels/lv-98.tga",
+      "name": "lv-98",
+      "kind": "interface",
+      "bytes": 7828,
+      "git_sha": "3ad6806de3377145eb9fa4f4b598ba8a653012af",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/gfx/vgui/h9_levels/lv-99.tga",
+      "name": "lv-99",
+      "kind": "interface",
+      "bytes": 7807,
+      "git_sha": "72825644e30adf04823a64f6b3fb785a60ea50f4",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/gfx/vgui/h9_link.tga",
+      "name": "h9_link",
+      "kind": "interface",
+      "bytes": 16428,
+      "git_sha": "cc4519861ac134fcd6269a95cca738aac353466b",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/gfx/vgui/h9_unlink.tga",
+      "name": "h9_unlink",
+      "kind": "interface",
+      "bytes": 16428,
+      "git_sha": "fff413af636feae959645947c31e9309736f9ad9",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/logos/remapped.bmp",
+      "name": "remapped",
+      "kind": "graphic",
+      "bytes": 5176,
+      "git_sha": "3ef12ecb5d3dc976dc0facb4c2ec9421bbe07442",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/models/player/insdroid_bot/insdroid_bot.bmp",
+      "name": "insdroid_bot",
+      "kind": "graphic",
+      "bytes": 33878,
+      "git_sha": "07879b7c73d186a3e4238826a09fd92f25cdad28",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/models/player/Invisible/invisible.BMP",
+      "name": "invisible",
+      "kind": "graphic",
+      "bytes": 33878,
+      "git_sha": "218fd7c83c826f517ea8e6234476a8f881918b0d",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/models/player/msrdroid_bot/msrdroid_bot.bmp",
+      "name": "msrdroid_bot",
+      "kind": "graphic",
+      "bytes": 33878,
+      "git_sha": "197421328413572324073eec7159bbee3c0f21d2",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/models/player/RepuTengu/001540DC.bmp",
+      "name": "001540DC",
+      "kind": "graphic",
+      "bytes": 9270,
+      "git_sha": "139915e538c11f20cd36c05584e0a435a23612e7",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/models/player/RepuTengu/001540E0.bmp",
+      "name": "001540E0",
+      "kind": "graphic",
+      "bytes": 9270,
+      "git_sha": "c1a86f79bbb51a90b5038ee3424293d4b00dbd8d",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/models/player/RepuTengu/001A6AC6.bmp",
+      "name": "001A6AC6",
+      "kind": "graphic",
+      "bytes": 1334,
+      "git_sha": "0d1863488d7ea3af096d82663e191ae268ddbdc2",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/models/player/RepuTengu/002886A8.bmp",
+      "name": "002886A8",
+      "kind": "graphic",
+      "bytes": 5174,
+      "git_sha": "1441209d556871cdfe9258a8f7b26ce06438a63c",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/models/player/RepuTengu/00294E78.bmp",
+      "name": "00294E78",
+      "kind": "graphic",
+      "bytes": 5174,
+      "git_sha": "65627d7406ed43cfa559dad0605c05738d722e41",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/models/player/RepuTengu/002C5D1F.bmp",
+      "name": "002C5D1F",
+      "kind": "graphic",
+      "bytes": 5174,
+      "git_sha": "67d8972a3d3165c0c9ae4da3074b5827276dcbec",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/models/player/RepuTengu/002EFF73.bmp",
+      "name": "002EFF73",
+      "kind": "graphic",
+      "bytes": 9270,
+      "git_sha": "40fef30e8eb76c032b6b640e155eaf8b119e6b0e",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/models/player/RepuTengu/002EFF79.bmp",
+      "name": "002EFF79",
+      "kind": "graphic",
+      "bytes": 3126,
+      "git_sha": "330185e7b182b1c18823c8d8b13d5fedd7aaa8f1",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/models/player/RepuTengu/002EFF7A.bmp",
+      "name": "002EFF7A",
+      "kind": "graphic",
+      "bytes": 3126,
+      "git_sha": "4260086d3063cd64ae61509e0b9dcd6f7fe3196d",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/models/player/RepuTengu/003C88F8.bmp",
+      "name": "003C88F8",
+      "kind": "graphic",
+      "bytes": 2102,
+      "git_sha": "e30a191662dfd851aca3e32d8024297cb729877e",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/models/player/RepuTengu/003C88FE.bmp",
+      "name": "003C88FE",
+      "kind": "graphic",
+      "bytes": 9270,
+      "git_sha": "89087d3e4326576a76f01ea95c8c36d0f86f6e04",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/models/player/RepuTengu/00603BAA.bmp",
+      "name": "00603BAA",
+      "kind": "graphic",
+      "bytes": 1590,
+      "git_sha": "b1f0eafbc782aeae4b2c4b15fcfb9315faeeee19",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/models/player/RepuTengu/006BACB6.bmp",
+      "name": "006BACB6",
+      "kind": "graphic",
+      "bytes": 9270,
+      "git_sha": "0a3bc9337b9b03c92651216f304654d77f031725",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/models/player/RepuTengu/006BACB7.bmp",
+      "name": "006BACB7",
+      "kind": "graphic",
+      "bytes": 5174,
+      "git_sha": "a86c7bf7cdb60f38c0d9bb288ee4fbbdb799c6be",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/models/player/RepuTengu/00736CE7.bmp",
+      "name": "00736CE7",
+      "kind": "graphic",
+      "bytes": 3126,
+      "git_sha": "dc3b6702f638552959f109ec53fc3df9b981cbe7",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/models/player/RepuTengu/00736CEB.bmp",
+      "name": "00736CEB",
+      "kind": "graphic",
+      "bytes": 2102,
+      "git_sha": "e30a191662dfd851aca3e32d8024297cb729877e",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/models/player/RepuTengu/00736CF1.bmp",
+      "name": "00736CF1",
+      "kind": "graphic",
+      "bytes": 2102,
+      "git_sha": "e92838ab65d131bc90777595ec7b5460fd7f8cbf",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/models/player/RepuTengu/00736CF9.bmp",
+      "name": "00736CF9",
+      "kind": "graphic",
+      "bytes": 5174,
+      "git_sha": "67d8972a3d3165c0c9ae4da3074b5827276dcbec",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/models/player/RepuTengu/007C6A95.bmp",
+      "name": "007C6A95",
+      "kind": "graphic",
+      "bytes": 2102,
+      "git_sha": "0e40a250eedd516d009cce1cb9ac304300ea6840",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/models/player/RepuTengu/00A1308F.bmp",
+      "name": "00A1308F",
+      "kind": "graphic",
+      "bytes": 5174,
+      "git_sha": "be08df1eb98aa01128cc24e911e45aa49537ad6e",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/models/player/RepuTengu/00A14167.bmp",
+      "name": "00A14167",
+      "kind": "graphic",
+      "bytes": 3126,
+      "git_sha": "2752d4ec6af67a867debabbc41d9270e6680cd6d",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/models/player/RepuTengu/00DF556C.bmp",
+      "name": "00DF556C",
+      "kind": "graphic",
+      "bytes": 5174,
+      "git_sha": "c9ee40593faa1e0944e8964aae11ffa653bdcd83",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/models/player/RepuTengu/00DFEF77.bmp",
+      "name": "00DFEF77",
+      "kind": "graphic",
+      "bytes": 1334,
+      "git_sha": "3c2112af8487d4c635bbf1b8141f0f4627577a95",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/models/player/scda_Spy02/scda_Spy02.bmp",
+      "name": "scda_Spy02",
+      "kind": "graphic",
+      "bytes": 33878,
+      "git_sha": "249467b765f20ffe9127c21403bd92a93a1ec800",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/models/player/scda_Spy02/scda_Spy02.jpg",
+      "name": "scda_Spy02",
+      "kind": "graphic",
+      "bytes": 151851,
+      "git_sha": "49364f7695f010c9a3377ae29570b7299b253815",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/resource/background/800_1_a_loading.tga",
+      "name": "800_1_a_loading",
+      "kind": "graphic",
+      "bytes": 196626,
+      "git_sha": "bd1b1dca7ef6c310bc152506ac0f08ab68df421d",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/resource/background/800_1_b_loading.tga",
+      "name": "800_1_b_loading",
+      "kind": "graphic",
+      "bytes": 196626,
+      "git_sha": "5615c8be1bf9a6a769b220c1e35dabe0eda54561",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/resource/background/800_1_c_loading.tga",
+      "name": "800_1_c_loading",
+      "kind": "graphic",
+      "bytes": 196626,
+      "git_sha": "98358acfdc53485b1a03cd43b72591ead8049951",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/resource/background/800_1_d_loading.tga",
+      "name": "800_1_d_loading",
+      "kind": "graphic",
+      "bytes": 24594,
+      "git_sha": "8cdbd4199cfa3ed9f8a64624c5daf0624526e61d",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/resource/background/800_2_a_loading.tga",
+      "name": "800_2_a_loading",
+      "kind": "graphic",
+      "bytes": 196626,
+      "git_sha": "c11915e8cacf89d6a3f3efcb8d77c9d5abec47d2",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/resource/background/800_2_b_loading.tga",
+      "name": "800_2_b_loading",
+      "kind": "graphic",
+      "bytes": 196626,
+      "git_sha": "eb163cdea5a9c2304747fa1d44d393ab7f430232",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/resource/background/800_2_c_loading.tga",
+      "name": "800_2_c_loading",
+      "kind": "graphic",
+      "bytes": 196626,
+      "git_sha": "ed6aa0b9fd3f3f2f5251355b5ecf56004a7e37b4",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/resource/background/800_2_d_loading.tga",
+      "name": "800_2_d_loading",
+      "kind": "graphic",
+      "bytes": 24594,
+      "git_sha": "c7ad14211c8bb3f2df944370a060f830f8863bb7",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/resource/background/800_3_a_loading.tga",
+      "name": "800_3_a_loading",
+      "kind": "graphic",
+      "bytes": 67602,
+      "git_sha": "3cba89133ee73892f7d8acb2372719270f36c244",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/resource/background/800_3_b_loading.tga",
+      "name": "800_3_b_loading",
+      "kind": "graphic",
+      "bytes": 67602,
+      "git_sha": "49a391ffa65ebf5c934e6cb5624466f350d98e41",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/resource/background/800_3_c_loading.tga",
+      "name": "800_3_c_loading",
+      "kind": "graphic",
+      "bytes": 67602,
+      "git_sha": "a4830d1a75f1f9e21ac4b3ab62f50ddd1e91cfa0",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/resource/background/800_3_d_loading.tga",
+      "name": "800_3_d_loading",
+      "kind": "graphic",
+      "bytes": 8466,
+      "git_sha": "2a2e77e3f15d081b6944f92aa55ee3f70dc600a4",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/sprites/h9_drain_fog.spr",
+      "name": "h9_drain_fog",
+      "kind": "sprite",
+      "bytes": 525746,
+      "git_sha": "3554f419568c9d1e9f68b7a87e4860161377f2a8",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/sprites/h9_drain_rain.spr",
+      "name": "h9_drain_rain",
+      "kind": "sprite",
+      "bytes": 263282,
+      "git_sha": "1f9faea18d9a98a4332b79878b4b8ea60f057347",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/sprites/h9_drain_splash.spr",
+      "name": "h9_drain_splash",
+      "kind": "sprite",
+      "bytes": 197666,
+      "git_sha": "13734fad26fc8cb18a45964c3a56714b573ed862",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/sprites/h9_lift_haze.spr",
+      "name": "h9_lift_haze",
+      "kind": "sprite",
+      "bytes": 525426,
+      "git_sha": "34040589fabbf4e638c13973a23535a087edff44",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/sprites/tsm_banner.spr",
+      "name": "tsm_banner",
+      "kind": "sprite",
+      "bytes": 25406,
+      "git_sha": "92abb114b479f195679b2619e6d0201dcb3c7a53",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/sprites/tsm_class.spr",
+      "name": "tsm_class",
+      "kind": "sprite",
+      "bytes": 74898,
+      "git_sha": "ea45a19cc013883e3685edf5f8f6f78cf584b799",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/sprites/tsm_obj_mark.spr",
+      "name": "tsm_obj_mark",
+      "kind": "sprite",
+      "bytes": 66682,
+      "git_sha": "7c5e5ea77a7861d7e7b59e9e8ed069a5d79cac25",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/sprites/tsm_panel.spr",
+      "name": "tsm_panel",
+      "kind": "sprite",
+      "bytes": 66366,
+      "git_sha": "7457f86f242a070d6d17b028fc4ad2eaec54965f",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/sprites/tsm_tpad_col_1.spr",
+      "name": "tsm_tpad_col_1",
+      "kind": "sprite",
+      "bytes": 25706,
+      "git_sha": "32963578327dd59513ab0d5cd220bef60a5d6b06",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/sprites/tsm_tpad_col_2.spr",
+      "name": "tsm_tpad_col_2",
+      "kind": "sprite",
+      "bytes": 25706,
+      "git_sha": "a6fe8b0aec3af940e68ae563f4cbd4b22ab628fe",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/sprites/tsm_tpad_ring_1.spr",
+      "name": "tsm_tpad_ring_1",
+      "kind": "sprite",
+      "bytes": 148586,
+      "git_sha": "73734e45ba9bec68b3b690c741cfff607da89fd0",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/sprites/tsm_tpad_ring_2.spr",
+      "name": "tsm_tpad_ring_2",
+      "kind": "sprite",
+      "bytes": 148586,
+      "git_sha": "852626d05db9060d8de69e9e03694f047cc5b8d1",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/sprites/tsm_typing.spr",
+      "name": "tsm_typing",
+      "kind": "sprite",
+      "bytes": 50042,
+      "git_sha": "85868716f20977c5ada73af161d2f1792027eed3",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/sprites/tsm_uplink_mark.spr",
+      "name": "tsm_uplink_mark",
+      "kind": "sprite",
+      "bytes": 66682,
+      "git_sha": "3976205861a5b3d3c9b97c752b1cb6ccaa2f381a",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/sprites/tsm_zone_flag.spr",
+      "name": "tsm_zone_flag",
+      "kind": "sprite",
+      "bytes": 99618,
+      "git_sha": "9bf2720aa3471113c162562090008ecb5d8cf2d9",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/sprites/tsm_zone_ring_0.spr",
+      "name": "tsm_zone_ring_0",
+      "kind": "sprite",
+      "bytes": 164858,
+      "git_sha": "a3986450046b7817cb4bb32b4bcf7cd9a4552e0c",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/sprites/tsm_zone_ring_1.spr",
+      "name": "tsm_zone_ring_1",
+      "kind": "sprite",
+      "bytes": 164858,
+      "git_sha": "f9abc09dd2ec1907ddee0466cd2f16380f7160e8",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/sprites/tsm_zone_ring_2.spr",
+      "name": "tsm_zone_ring_2",
+      "kind": "sprite",
+      "bytes": 164858,
+      "git_sha": "5a44a1ca6c57a0bb95af8b2a91c7b0aa0eaf86cb",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/sprites/tsm_zone_ring_cap.spr",
+      "name": "tsm_zone_ring_cap",
+      "kind": "sprite",
+      "bytes": 132050,
+      "git_sha": "f80ec6a36f7bd890949421ece536c9fe4ea56bc1",
+      "lfs_pointer_likely": false
+    }
+  ]
+}
