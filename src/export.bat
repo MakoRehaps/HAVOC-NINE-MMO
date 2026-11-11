@@ -89,6 +89,7 @@ copy /y "%~dp0ts_survival.sma"   "%EX%\src\"                 >nul && echo   src\
 copy /y "%~dp0ts_mechwarrior.sma" "%EX%\src\"                 >nul && echo   src\ts_mechwarrior.sma
 copy /y "%~dp0ts_assault.sma"    "%EX%\src\"                 >nul && echo   src\ts_assault.sma
 copy /y "%~dp0ts_ctf.sma"        "%EX%\src\"                 >nul && echo   src\ts_ctf.sma
+copy /y "%~dp0h9_tempfx.sma"   "%EX%\src\"                 >nul && echo   src\h9_tempfx.sma
 copy /y "%~dp0h9_presence.sma"   "%EX%\src\"                 >nul && echo   src\h9_presence.sma
 copy /y "%~dp0h9_community.sma"  "%EX%\src\"                 >nul && echo   src\h9_community.sma
 copy /y "%~dp0h9_motd.sma"       "%EX%\src\"                 >nul && echo   src\h9_motd.sma
@@ -102,6 +103,7 @@ copy /y "%~dp0include\h9_community.inc" "%EX%\src\include\" >nul && echo   src\i
 copy /y "%~dp0include\h9_presence.inc" "%EX%\src\include\"  >nul && echo   src\include\h9_presence.inc
 copy /y "%~dp0include\h9_vgui.inc" "%EX%\src\include\"      >nul && echo   src\include\h9_vgui.inc
 copy /y "%~dp0include\h9_marks.inc" "%EX%\src\include\"      >nul && echo   src\include\h9_marks.inc
+copy /y "%~dp0include\h9_tempfx.inc" "%EX%\src\include\"    >nul && echo   src\include\h9_tempfx.inc
 copy /y "%~dp0include\h9_release.inc" "%EX%\src\include\"    >nul && echo   src\include\h9_release.inc
 copy /y "%~dp0build.bat"         "%EX%\src\"                 >nul && echo   src\build.bat
 copy /y "%~dp0export.bat"        "%EX%\src\"                 >nul && echo   src\export.bat
@@ -128,6 +130,12 @@ copy /y "%~dp0docs\LINUX_SUPPORT.txt" "%EX%\docs\"  >nul && echo   docs\LINUX_SU
 REM At the package root, beside README.txt, because that is where someone setting up
 REM a second machine will look for it rather than in src\.
 copy /y "%~dp0install-rcbot.bat" "%EX%\"                     >nul && echo   install-rcbot.bat
+
+REM Transient combat FX compiled plugin. Only include when build succeeded.
+if exist "%~dp0compiled\h9_tempfx.amxx" (
+    copy /y "%~dp0compiled\h9_tempfx.amxx" "%EX%\ts\addons\amxmodx\plugins\" >nul
+    echo   ts\addons\amxmodx\plugins\h9_tempfx.amxx
+)
 
 REM ---- compiled plugin -----------------------------------------------------
 REM From compiled\, not from the server's plugins folder: a failed build leaves
