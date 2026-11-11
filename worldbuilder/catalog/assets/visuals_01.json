@@ -1,0 +1,2409 @@
+{
+  "schema": "h9.git_asset_catalog/1",
+  "category": "visuals",
+  "repository": "MakoRehaps/HAVOC-NINE-MMO",
+  "source_tree_sha": "db541cab7b10ff05b1c1701ed092f42dd90a3f6f",
+  "classification": "filename and path only; not geometry-inspected",
+  "entries": [
+    {
+      "path": "H9XASH/ts/gfx/env/3dm_bikiniBk.tga",
+      "name": "3dm_bikiniBk",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "b731172cd3994da30c8fe4071b3be5f33d2f9eaf",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/3dm_bikiniDn.tga",
+      "name": "3dm_bikiniDn",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "fcae524a4af523cd97fb479406ff5b9ed2ec38b0",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/3dm_bikiniFt.tga",
+      "name": "3dm_bikiniFt",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "466c787678024864ba4a0e192e4dd35b2ae68117",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/3dm_bikiniLf.tga",
+      "name": "3dm_bikiniLf",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "0fd58a96f9c8cd6f91daa8055e208b694f4f6e9d",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/3dm_bikiniRt.tga",
+      "name": "3dm_bikiniRt",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "2263f67578d8903849a9c4b09ceac20848b281ca",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/3dm_bikiniUp.tga",
+      "name": "3dm_bikiniUp",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "444aa7ac60051cd82582f62ddb95eba51f065d8a",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/3dm_stukabk.tga",
+      "name": "3dm_stukabk",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "a0a2a557f5069b942b90ccef8f0a2b488a1ba42d",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/3dm_stukadn.tga",
+      "name": "3dm_stukadn",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "9c98d84205666e6e30844129d3e4f2bb65159201",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/3dm_stukaft.tga",
+      "name": "3dm_stukaft",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "a9d592510fd1998c4a8b8bddcf337d0912d41fb5",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/3dm_stukalf.tga",
+      "name": "3dm_stukalf",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "ea110fe540dd3347f11cf0fc7afdb5ce9ac76566",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/3dm_stukart.tga",
+      "name": "3dm_stukart",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "34ffa6d92a96b1a2d7554d8ddc0306c627cacc29",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/3dm_stukaup.tga",
+      "name": "3dm_stukaup",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "63d56e54ce83a5c5bda84305f9b782bae9688bdc",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/arcdbk.tga",
+      "name": "arcdbk",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "565b2a14dd8952e59465b237a2078b1bb17f6d7b",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/arcddn.tga",
+      "name": "arcddn",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "d26ef4f9499a4db60f051dde5cdddb18fedf2667",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/arcdft.tga",
+      "name": "arcdft",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "c84d872dcd7b26a625fd3aa860cbfb32891ff989",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/arcdlf.tga",
+      "name": "arcdlf",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "5e24d0bdf9061feeb1cd001b7481ed78571c2bda",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/arcdrt.tga",
+      "name": "arcdrt",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "4e9fff4b3d9fd909d1aeee89420db9faf6ad4a3f",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/arcdup.tga",
+      "name": "arcdup",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "546689553b5cb1e8b845ec95cafaf215810d16af",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/bluebk.tga",
+      "name": "bluebk",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "0b9a1efbd6c8bac6937796d482fbbaaac2582374",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/bluedn.tga",
+      "name": "bluedn",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "d632066d34ac46f93b120174b0a714c2eb012753",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/blueft.tga",
+      "name": "blueft",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "a87c2a40614b21979455b8ad5fa5d357d9847753",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/bluelf.tga",
+      "name": "bluelf",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "e8aa169a7980725dfa16a72ebae4c582f916bfc6",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/bluert.tga",
+      "name": "bluert",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "54a32b92889c197f8cc2448fa66c864d7eba62aa",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/blueup.tga",
+      "name": "blueup",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "b2590b3612c36ace60ed3a309dee1015079fbc6b",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/city1bk.tga",
+      "name": "city1bk",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "6655a6daec899f116502b76addd3ed32b1ee7426",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/city1dn.tga",
+      "name": "city1dn",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "d72a43da10b9f62c6945365271f48f55a6e6db9a",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/city1ft.tga",
+      "name": "city1ft",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "47b49f9a6de4880f88822af3110471ba49dcd066",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/city1lf.tga",
+      "name": "city1lf",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "9e7d6446d0cefbd4e54365ef9fd925f2fcd225ee",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/city1rt.tga",
+      "name": "city1rt",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "350d550291eab7fd3fc5b2d3babba99e8980b57d",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/city1up.tga",
+      "name": "city1up",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "c1ec2b893d727c430ac9a4c0316264708f451e97",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/construct_Bk.tga",
+      "name": "construct_Bk",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "b062e16c38875f5373176484449b97ca438cb78f",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/construct_Dn.tga",
+      "name": "construct_Dn",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "b062e16c38875f5373176484449b97ca438cb78f",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/construct_Ft.tga",
+      "name": "construct_Ft",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "b062e16c38875f5373176484449b97ca438cb78f",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/construct_Lf.tga",
+      "name": "construct_Lf",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "b062e16c38875f5373176484449b97ca438cb78f",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/construct_Rt.tga",
+      "name": "construct_Rt",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "b062e16c38875f5373176484449b97ca438cb78f",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/construct_Up.tga",
+      "name": "construct_Up",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "b062e16c38875f5373176484449b97ca438cb78f",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/danightbk.tga",
+      "name": "danightbk",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "224a082d374c64b438143cb4f7a9e3a2bfe7dbac",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/danightdn.tga",
+      "name": "danightdn",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "e3fef623280447fead0264ea3959f335c0413de4",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/danightft.tga",
+      "name": "danightft",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "e4da2027ca0a13f640ea8d34d4aa2566bd908599",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/danightlf.tga",
+      "name": "danightlf",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "c5ed8b03b7a27ab5c52b21225507faba26b6d564",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/danightrt.tga",
+      "name": "danightrt",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "fa43ea248d334289ae60cc360cdcf5a89dc846b8",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/danightup.tga",
+      "name": "danightup",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "cb95f7ccd9258536e4b0e8e76533bf7412a7fc3d",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/deadlockbk.tga",
+      "name": "deadlockbk",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "e0448628bc6c3489ad9fd8a24581ffa638d98240",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/deadlockdn.tga",
+      "name": "deadlockdn",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "cc7fc491afcd3bf7c3a690f2ae2a1e36e4df20b8",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/deadlockft.tga",
+      "name": "deadlockft",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "1497a8d3978b4536e4de489d587c5b79b10f72a0",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/deadlocklf.tga",
+      "name": "deadlocklf",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "3ad7d39da8c393b4c33cd79f1f3e2009f22dac6b",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/deadlockrt.tga",
+      "name": "deadlockrt",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "4a6b732a95b47d7308e0aba9be8600b0ddf63582",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/deadlockup.tga",
+      "name": "deadlockup",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "c8c0dffd999496768792dcfeb499d505d1ac28c1",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/flfsky9Bk.tga",
+      "name": "flfsky9Bk",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "e6571431eb7ab0334b82324bcc5f1d2950c00223",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/flfsky9Dn.tga",
+      "name": "flfsky9Dn",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "e397a9905297aaddfa5b4db2e4a7d3c5b9c9c6bf",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/flfsky9Ft.tga",
+      "name": "flfsky9Ft",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "b12b8ab4323adbba051f22e2debb5dfa7f4b5455",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/flfsky9Lf.tga",
+      "name": "flfsky9Lf",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "866af8453c7a1f1a27aa9eb2142b9fc43b1e7ac1",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/flfsky9Rt.tga",
+      "name": "flfsky9Rt",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "6126dc7b9672b7f337fe2c7167d9c723382496d1",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/flfsky9Up.tga",
+      "name": "flfsky9Up",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "d2d9ae83cb4db4d1bbe3ff0d96cb7af6ca383d09",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/g_nightbk.tga",
+      "name": "g_nightbk",
+      "kind": "skybox",
+      "bytes": 119724,
+      "git_sha": "ea090a4bc6701b84677b533773a083c1d3150b7a",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/g_nightdn.tga",
+      "name": "g_nightdn",
+      "kind": "skybox",
+      "bytes": 3611,
+      "git_sha": "9bc03c0f139793cda8c968c0328f7403766f1129",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/g_nightft.tga",
+      "name": "g_nightft",
+      "kind": "skybox",
+      "bytes": 119373,
+      "git_sha": "9c965ebbf72c1aa0134e706ef423475f56659cdb",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/g_nightlf.tga",
+      "name": "g_nightlf",
+      "kind": "skybox",
+      "bytes": 113957,
+      "git_sha": "5de33b7ed1a3f793f8c269accecb87a0c8965b08",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/g_nightrt.tga",
+      "name": "g_nightrt",
+      "kind": "skybox",
+      "bytes": 119940,
+      "git_sha": "b98a381cfc41bc52e5870da8a0403280e0e1da04",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/g_nightup.tga",
+      "name": "g_nightup",
+      "kind": "skybox",
+      "bytes": 154158,
+      "git_sha": "096e13caa1a89299c0b7fc9956bc2c389bc16ca9",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/grnplsntbk.tga",
+      "name": "grnplsntbk",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "4719f5c805b4bc1d5896e993e9cd482272e56eb8",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/grnplsntdn.tga",
+      "name": "grnplsntdn",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "bdb1354dba46fa502bcabb9b309ab50e921f0b8f",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/grnplsntft.tga",
+      "name": "grnplsntft",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "a1a8af9464913dfe1e05f7799595ad35e1479158",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/grnplsntlf.tga",
+      "name": "grnplsntlf",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "b9a5ca547ba1a0ff1ff2d8fdfb067b019e203f96",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/grnplsntrt.tga",
+      "name": "grnplsntrt",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "48198d207b01d319e78d5b17cf3de7553665dae7",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/grnplsntup.tga",
+      "name": "grnplsntup",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "8cf0b0ee306d2b32f27c37561fdbd7a4482af7ab",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/h9byzbk.tga",
+      "name": "h9byzbk",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "0fcc5ed419951dfc492317717e4c358b5355e186",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/h9byzdn.tga",
+      "name": "h9byzdn",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "16741639d4f62ec2dc41d0adf06fd6c9b15bbdb7",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/h9byzft.tga",
+      "name": "h9byzft",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "41141ee11faf7f918ead15ddfa4ec67b7c6c1885",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/h9byzlf.tga",
+      "name": "h9byzlf",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "62de3dedf9717f17d32a942b6bdc5f95fa5be4e3",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/h9byzrt.tga",
+      "name": "h9byzrt",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "b30cbd61fcec44e99f2054ff93c858b1b841571c",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/h9byzup.tga",
+      "name": "h9byzup",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "3e29757be762f4ee4c994c263a3cddda73ad1bf8",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/h9drainbk.tga",
+      "name": "h9drainbk",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "e9e0d93ac5959410749958d2d20f462af9188ba6",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/h9draindn.tga",
+      "name": "h9draindn",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "7b8979bc4933a0458f3dcb3a7fa37876b43ebf68",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/h9drainft.tga",
+      "name": "h9drainft",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "3873986a497ce64711900d56f5038e05c9773f1e",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/h9drainlf.tga",
+      "name": "h9drainlf",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "83e2fc53732db684bb43071a677b85bf08396605",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/h9drainrt.tga",
+      "name": "h9drainrt",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "0884c78d06d395b9d9613eeb1100d2391627e476",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/h9drainup.tga",
+      "name": "h9drainup",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "6e58bfe2572e3baad2508d3d5aa0eb65c75fe269",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/h9liftbk.tga",
+      "name": "h9liftbk",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "2f68f583ded1417f0d0d821a26bac2c2bd55961f",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/h9liftdn.tga",
+      "name": "h9liftdn",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "d92a4de3d2f6509a36a04b20ba08b443839f7263",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/h9liftft.tga",
+      "name": "h9liftft",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "8c76f56d986cc5d87094bbb5937ed5f65998bb4e",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/h9liftlf.tga",
+      "name": "h9liftlf",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "49ea3422914b8aedb6733572436e309aca273bd5",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/h9liftrt.tga",
+      "name": "h9liftrt",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "8761b5a83cb35c5f95a91a66ff415692794ba39e",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/h9liftup.tga",
+      "name": "h9liftup",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "e20383eec9f0b08fdc7fc4c09d682bd0ea3a9ef4",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/LMcity_1bk.tga",
+      "name": "LMcity_1bk",
+      "kind": "skybox",
+      "bytes": 196626,
+      "git_sha": "c1f26f30ce6ac61f2d170239226736ed011891d2",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/LMcity_1dn.tga",
+      "name": "LMcity_1dn",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "f709f5efc577159fda3893b50e7a7ad52bd8ebf0",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/LMcity_1ft.tga",
+      "name": "LMcity_1ft",
+      "kind": "skybox",
+      "bytes": 196626,
+      "git_sha": "d0f21a1756e4286be50de787403626cb916589be",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/LMcity_1lf.tga",
+      "name": "LMcity_1lf",
+      "kind": "skybox",
+      "bytes": 196626,
+      "git_sha": "8ed620b794f746fe27ec8d52014fd0ecfaa7d0e1",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/LMcity_1rt.tga",
+      "name": "LMcity_1rt",
+      "kind": "skybox",
+      "bytes": 196626,
+      "git_sha": "d79deffcaf9da12d949d77bb6adb34a228d17b94",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/LMcity_1up.tga",
+      "name": "LMcity_1up",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "3c9f167dc49dd6ffc7a7cd1f183ec3f5969dfe37",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/morningmountbk.tga",
+      "name": "morningmountbk",
+      "kind": "skybox",
+      "bytes": 191817,
+      "git_sha": "282273c64594179aeef112021d476a42f11d4746",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/morningmountdn.tga",
+      "name": "morningmountdn",
+      "kind": "skybox",
+      "bytes": 194095,
+      "git_sha": "d2ba2f4c414787270bddd837bff9e6155c47a208",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/morningmountft.tga",
+      "name": "morningmountft",
+      "kind": "skybox",
+      "bytes": 161752,
+      "git_sha": "ad057c53255f71cfeefbffda7b26a3d95d4cb80b",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/morningmountlf.tga",
+      "name": "morningmountlf",
+      "kind": "skybox",
+      "bytes": 167464,
+      "git_sha": "304851cd0a70035ddae46e5cf14d48955881cabe",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/morningmountrt.tga",
+      "name": "morningmountrt",
+      "kind": "skybox",
+      "bytes": 187210,
+      "git_sha": "63531b7ea20afd33df9d39e850d76c7f3efa481f",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/morningmountup.tga",
+      "name": "morningmountup",
+      "kind": "skybox",
+      "bytes": 122097,
+      "git_sha": "d0047ee5a038df314b3b1b1671e728c9b67bad62",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/neurobk.tga",
+      "name": "neurobk",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "d78dee9cb7d27b9de11151279c74973271e0a467",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/neurodn.tga",
+      "name": "neurodn",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "6a785ecea12756386320b936f406655eea0cd617",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/neuroft.tga",
+      "name": "neuroft",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "fd8770cb7f1737782fc00482a078104088c1b94f",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/neurolf.tga",
+      "name": "neurolf",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "249e666181c59b025ccab4c593d8f5458f1f17b2",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/neurort.tga",
+      "name": "neurort",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "6f49dd3c2c999d9362a906a063399cf1d9b6176f",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/neuroup.tga",
+      "name": "neuroup",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "0f62441cbf184f7fa6c73521eac8c3e1ede12768",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/null_hill256_bk.tga",
+      "name": "null_hill256_bk",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "d97e8bca5d7e8308bbbee5a07a2172f70ea030fa",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/null_hill256_dn.tga",
+      "name": "null_hill256_dn",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "6e95fa292de4480abdd2b0963f3c80529bb695b9",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/null_hill256_ft.tga",
+      "name": "null_hill256_ft",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "999228a97c738eb8a57d194ed382e0abcf2b17b6",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/null_hill256_lf.tga",
+      "name": "null_hill256_lf",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "12963d9458729d25985625af359213e6c01a1b20",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/null_hill256_rt.tga",
+      "name": "null_hill256_rt",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "8a7fa58853d61340ac4950d04a755d394ddff30b",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/null_hill256_up.tga",
+      "name": "null_hill256_up",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "51fea847d53643353a64fc61af2de75590e045dc",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/rdm_unbk.tga",
+      "name": "rdm_unbk",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "29dbf4034955ba78519e059b2aee7cefffdfefaa",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/rdm_undn.tga",
+      "name": "rdm_undn",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "3f3bad069c5c2cc4c6e730fd061c1bfaf09a7064",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/rdm_unft.tga",
+      "name": "rdm_unft",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "3dea38e97d30bd1232b74eaa85544bba6450533a",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/rdm_unlf.tga",
+      "name": "rdm_unlf",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "b1024a848a4478c582edfb54c5797105341c1ab3",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/rdm_unrt.tga",
+      "name": "rdm_unrt",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "7b33910b37a40a3ebaf3d0abc58203e609303ef8",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/rdm_unup.tga",
+      "name": "rdm_unup",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "6d2a2d3c90af8bab9b24997f133b416a4f187758",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/trueblue256_bk.tga",
+      "name": "trueblue256_bk",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "5c6bb46363f49e52c2d82c987c00fcad3e3b4ac4",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/trueblue256_dn.tga",
+      "name": "trueblue256_dn",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "88f0082bdb768c5a47318054fda44f20bd7ada1f",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/trueblue256_ft.tga",
+      "name": "trueblue256_ft",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "c19bcb1f35a898cc9ade921dc9c32d4c5df0de89",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/trueblue256_lf.tga",
+      "name": "trueblue256_lf",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "4e3ee4bf891fe4bd3baddb26d277c12a531f4f2f",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/trueblue256_rt.tga",
+      "name": "trueblue256_rt",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "96b646baac1bdab27feb122e266d7847fd6ad08c",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/trueblue256_up.tga",
+      "name": "trueblue256_up",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "1e7be6a848684dd5a3a99be72f69994632b0174d",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/ts_gpcbk.tga",
+      "name": "ts_gpcbk",
+      "kind": "skybox",
+      "bytes": 188123,
+      "git_sha": "5c0c22502dcdf054a4fd5fe344d63b7e0d512ffc",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/ts_gpcdn.tga",
+      "name": "ts_gpcdn",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "fd7e92f853145ad14523b088cf0e633c2c585bdb",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/ts_gpcft.tga",
+      "name": "ts_gpcft",
+      "kind": "skybox",
+      "bytes": 162975,
+      "git_sha": "d99ae1240334049a8ad667e63be0f22f26591d90",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/ts_gpclf.tga",
+      "name": "ts_gpclf",
+      "kind": "skybox",
+      "bytes": 178962,
+      "git_sha": "78d0c51944cddb2b29bcc088891d4ddfb20c93fe",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/ts_gpcrt.tga",
+      "name": "ts_gpcrt",
+      "kind": "skybox",
+      "bytes": 179240,
+      "git_sha": "eb384d9c7143291551f486645b383c05be00900a",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/ts_gpcup.tga",
+      "name": "ts_gpcup",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "295d2d41a7daeeaecbec2407fcf9a550cb7bad39",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/tsccity_bk.tga",
+      "name": "tsccity_bk",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "83e9c0e76008f168d3a2ab0fb7f443b45117b642",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/tsccity_dn.tga",
+      "name": "tsccity_dn",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "93234d31096073e0a92d49547fa4bc4904936896",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/tsccity_ft.tga",
+      "name": "tsccity_ft",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "e824b4da26c725a8387695e4df4d5035b736d737",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/tsccity_lf.tga",
+      "name": "tsccity_lf",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "8b460e26c896cdc52a487dd79cc283b53b9fd5f3",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/tsccity_rt.tga",
+      "name": "tsccity_rt",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "58bc1e46813ab5e9eb94b7241dca393f21530903",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/tsccity_up.tga",
+      "name": "tsccity_up",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "09bab64ac6a93a680c20d0e042f2820a839c8e80",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/xt_medibeachbk.tga",
+      "name": "xt_medibeachbk",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "19c0ac106b6a8297124567ccc31b91d95a501d78",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/xt_medibeachdn.tga",
+      "name": "xt_medibeachdn",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "506ff7fbf5c56a6cab2481983897fb56236b35fc",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/xt_medibeachft.tga",
+      "name": "xt_medibeachft",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "98d791ee423fbbe7ab5cbd25c1980ae3e287b30f",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/xt_medibeachlf.tga",
+      "name": "xt_medibeachlf",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "a3b7ea403229fbfd6a9e061601516eece1c6a283",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/xt_medibeachrt.tga",
+      "name": "xt_medibeachrt",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "764778b3381ddfad4067f6852176bc9f457545e0",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/env/xt_medibeachup.tga",
+      "name": "xt_medibeachup",
+      "kind": "skybox",
+      "bytes": 196652,
+      "git_sha": "657abebbe9ad76d00e9da9940a0d8568d078fad9",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/shell/cls_d.tga",
+      "name": "cls_d",
+      "kind": "graphic",
+      "bytes": 4114,
+      "git_sha": "84ae759e091ba93e96e6f2509223da65dd498655",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/shell/cls_f.tga",
+      "name": "cls_f",
+      "kind": "graphic",
+      "bytes": 4114,
+      "git_sha": "941703a60b85abab95443af571a8bb9444fc3fa8",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/shell/cls_n.tga",
+      "name": "cls_n",
+      "kind": "graphic",
+      "bytes": 4114,
+      "git_sha": "58d2cd6ccf6175435f0dadf68ddc418911a25861",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/shell/conback.tga",
+      "name": "conback",
+      "kind": "graphic",
+      "bytes": 3145746,
+      "git_sha": "03a973d6ef42bbb015d53ea778877184069d8ee5",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/shell/h9_account.tga",
+      "name": "h9_account",
+      "kind": "graphic",
+      "bytes": 812,
+      "git_sha": "9002ba4c2aa4461175d474f1004eecb67ca6ccb0",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/shell/min_d.tga",
+      "name": "min_d",
+      "kind": "graphic",
+      "bytes": 4114,
+      "git_sha": "147113469b90ac95c380a58d829541498c444c66",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/shell/min_f.tga",
+      "name": "min_f",
+      "kind": "graphic",
+      "bytes": 4114,
+      "git_sha": "247b9e3436cf4291c3101d2fed0d9992aee21733",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/shell/min_n.tga",
+      "name": "min_n",
+      "kind": "graphic",
+      "bytes": 4114,
+      "git_sha": "2c92802c40cc68e080c4cc315224448be8502447",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_bot.tga",
+      "name": "h9_bot",
+      "kind": "interface",
+      "bytes": 16428,
+      "git_sha": "8080252169eddc6bbd5dd2f51639238cc8ee56c9",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-0.tga",
+      "name": "lv-0",
+      "kind": "interface",
+      "bytes": 5540,
+      "git_sha": "118b1ac741155a01c10c4841b7531111504c896d",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-1.tga",
+      "name": "lv-1",
+      "kind": "interface",
+      "bytes": 5573,
+      "git_sha": "449dd96483bc7baaef464174354e775497ca1a93",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-10.tga",
+      "name": "lv-10",
+      "kind": "interface",
+      "bytes": 5821,
+      "git_sha": "6c11b85b9254a47208445c45e4af3e336d5d4397",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-11.tga",
+      "name": "lv-11",
+      "kind": "interface",
+      "bytes": 5681,
+      "git_sha": "69b9796641511ed61e8be9f7c40babbaf68a75f9",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-12.tga",
+      "name": "lv-12",
+      "kind": "interface",
+      "bytes": 5605,
+      "git_sha": "188c49bf74a2a6b0c8eff797729647f8a059ac2e",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-13.tga",
+      "name": "lv-13",
+      "kind": "interface",
+      "bytes": 5524,
+      "git_sha": "ead657afa4ad2c5f614be34f1a3cefbc84b7e410",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-14.tga",
+      "name": "lv-14",
+      "kind": "interface",
+      "bytes": 5722,
+      "git_sha": "334a1b4c6ba62894227721552681a2999edff315",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-15.tga",
+      "name": "lv-15",
+      "kind": "interface",
+      "bytes": 5170,
+      "git_sha": "bb01b3ddc2a7948032492aac7a9e2e55dada4f3f",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-16.tga",
+      "name": "lv-16",
+      "kind": "interface",
+      "bytes": 5387,
+      "git_sha": "8db5a1671e9af7af7e0d48fa1a6ff86a4885f64d",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-17.tga",
+      "name": "lv-17",
+      "kind": "interface",
+      "bytes": 5663,
+      "git_sha": "db4d81b220e674744fb0d44be5ba9a1e77a4eaf7",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-18.tga",
+      "name": "lv-18",
+      "kind": "interface",
+      "bytes": 5455,
+      "git_sha": "6f8c04f7ad93ac14226d67aa440c3a24ae88e4a1",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-19.tga",
+      "name": "lv-19",
+      "kind": "interface",
+      "bytes": 5432,
+      "git_sha": "ae97f8174400c4ac8ff629077aad111618f81051",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-2.tga",
+      "name": "lv-2",
+      "kind": "interface",
+      "bytes": 5407,
+      "git_sha": "a38955cc679c00601193c1122adc4c8126afae8e",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-20.tga",
+      "name": "lv-20",
+      "kind": "interface",
+      "bytes": 5390,
+      "git_sha": "e0cbafd940c597d4ea89e5baa70044394efc4511",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-21.tga",
+      "name": "lv-21",
+      "kind": "interface",
+      "bytes": 5975,
+      "git_sha": "3e9f6826e587268b2750dad9e7b7c098c3de4c3c",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-22.tga",
+      "name": "lv-22",
+      "kind": "interface",
+      "bytes": 5889,
+      "git_sha": "3a96e37895c93e48f89b0b47732ced4a06d25faa",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-23.tga",
+      "name": "lv-23",
+      "kind": "interface",
+      "bytes": 5824,
+      "git_sha": "3b2ded0f435b879721a663392d0725b5ea1c68f9",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-24.tga",
+      "name": "lv-24",
+      "kind": "interface",
+      "bytes": 5896,
+      "git_sha": "fd2292d54c53746f9dfd6a1edb500ffd445fbdf0",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-25.tga",
+      "name": "lv-25",
+      "kind": "interface",
+      "bytes": 5432,
+      "git_sha": "3492359b6d9dfab6997a69d121c7032c681ed923",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-26.tga",
+      "name": "lv-26",
+      "kind": "interface",
+      "bytes": 5649,
+      "git_sha": "d595365a4b79b84c015910fa96a15cdc97429844",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-27.tga",
+      "name": "lv-27",
+      "kind": "interface",
+      "bytes": 6043,
+      "git_sha": "07adc8a91fa0b885227d8b3820b5c07b99570c55",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-28.tga",
+      "name": "lv-28",
+      "kind": "interface",
+      "bytes": 5681,
+      "git_sha": "e748ca485605210ba7f983b631e5bb30749081a5",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-29.tga",
+      "name": "lv-29",
+      "kind": "interface",
+      "bytes": 5634,
+      "git_sha": "800f520c85058361ed76a59f8c0b9ef150208bcb",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-3.tga",
+      "name": "lv-3",
+      "kind": "interface",
+      "bytes": 5332,
+      "git_sha": "2b4ba2c2a401239701d651849950120a45138938",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-30.tga",
+      "name": "lv-30",
+      "kind": "interface",
+      "bytes": 5844,
+      "git_sha": "1567d5492eaef552264f426d87a6c873f57d2b7b",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-31.tga",
+      "name": "lv-31",
+      "kind": "interface",
+      "bytes": 8215,
+      "git_sha": "9d9f39a4dc59cc75921ea6b9f96f6d7c644b5971",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-32.tga",
+      "name": "lv-32",
+      "kind": "interface",
+      "bytes": 8084,
+      "git_sha": "0a79ebddba8bc6fbf1991d8d9d2879d1e795d6e2",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-33.tga",
+      "name": "lv-33",
+      "kind": "interface",
+      "bytes": 7968,
+      "git_sha": "5769db2c6054d2ca8e8cd6cba89a50f740102f0e",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-34.tga",
+      "name": "lv-34",
+      "kind": "interface",
+      "bytes": 8196,
+      "git_sha": "6a262d9a8e6b65a8b292c4ebf6922abf7dd75ec9",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-35.tga",
+      "name": "lv-35",
+      "kind": "interface",
+      "bytes": 7618,
+      "git_sha": "526f7aa8172257d0f288ad544a5c7e848d14af07",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-36.tga",
+      "name": "lv-36",
+      "kind": "interface",
+      "bytes": 7828,
+      "git_sha": "e673174b523727ef5c1739789c81f16abd898e86",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-37.tga",
+      "name": "lv-37",
+      "kind": "interface",
+      "bytes": 8199,
+      "git_sha": "f36c58c5d3274d9b3d3ba4ba10d9b7059835cbf1",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-38.tga",
+      "name": "lv-38",
+      "kind": "interface",
+      "bytes": 7871,
+      "git_sha": "acf2f2d7907ffe45b0b28b2959692da4ffdbddf7",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-39.tga",
+      "name": "lv-39",
+      "kind": "interface",
+      "bytes": 7868,
+      "git_sha": "1b0ea43e13ee44a49629d6bcdb9b2118dc9c701b",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-4.tga",
+      "name": "lv-4",
+      "kind": "interface",
+      "bytes": 5523,
+      "git_sha": "331b01ed64cff4057d080e85d2d761fbc7f4aab2",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-40.tga",
+      "name": "lv-40",
+      "kind": "interface",
+      "bytes": 8257,
+      "git_sha": "688e90c0646e2011ee09b9750337ab76bf7ba212",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-41.tga",
+      "name": "lv-41",
+      "kind": "interface",
+      "bytes": 7770,
+      "git_sha": "df794e910c5adfb59aa61d538d9679ba9f01bccd",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-42.tga",
+      "name": "lv-42",
+      "kind": "interface",
+      "bytes": 7674,
+      "git_sha": "619beec48a09ee0f4f3a329c1d54795312b21ab0",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-43.tga",
+      "name": "lv-43",
+      "kind": "interface",
+      "bytes": 7579,
+      "git_sha": "501b52954151cd8c60b659b3eea694f27433c9a8",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-44.tga",
+      "name": "lv-44",
+      "kind": "interface",
+      "bytes": 7660,
+      "git_sha": "d878e2b030c1b7333445c3d4e6e5150111861833",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-45.tga",
+      "name": "lv-45",
+      "kind": "interface",
+      "bytes": 7136,
+      "git_sha": "3b6397edee26fdea80f50e8f5f0071c714916e06",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-46.tga",
+      "name": "lv-46",
+      "kind": "interface",
+      "bytes": 7385,
+      "git_sha": "6d89e00a8b7a1e01d2e5ff0015070ee0a879080e",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-47.tga",
+      "name": "lv-47",
+      "kind": "interface",
+      "bytes": 7762,
+      "git_sha": "3c83bdaa53570ec0d3d38a4b613b44ab67116e89",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-48.tga",
+      "name": "lv-48",
+      "kind": "interface",
+      "bytes": 7452,
+      "git_sha": "58d65ed5537881076861668aefc54b9bf6fe4b1a",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-49.tga",
+      "name": "lv-49",
+      "kind": "interface",
+      "bytes": 7431,
+      "git_sha": "3d5dc66a483ddf1998fd4d957f7f8abe0681f1a6",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-5.tga",
+      "name": "lv-5",
+      "kind": "interface",
+      "bytes": 5179,
+      "git_sha": "cd9ba4fe1071757e1dae207722c17b1f55ab096f",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-50.tga",
+      "name": "lv-50",
+      "kind": "interface",
+      "bytes": 7221,
+      "git_sha": "336ac0b230e0bd4107bc1741e71c72940c23fef9",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-51.tga",
+      "name": "lv-51",
+      "kind": "interface",
+      "bytes": 8167,
+      "git_sha": "6e817b21c3a46be85c7430870adb0f17f6bddf5d",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-52.tga",
+      "name": "lv-52",
+      "kind": "interface",
+      "bytes": 7884,
+      "git_sha": "58ed03b48a5dcf6a0dae94b55079284282183b4e",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-53.tga",
+      "name": "lv-53",
+      "kind": "interface",
+      "bytes": 7700,
+      "git_sha": "bcd3ec6115d86cb474303913c5cbac90753662cc",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-54.tga",
+      "name": "lv-54",
+      "kind": "interface",
+      "bytes": 7976,
+      "git_sha": "05734951a06259f1608922b124c82a6a8d8355d0",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-55.tga",
+      "name": "lv-55",
+      "kind": "interface",
+      "bytes": 7416,
+      "git_sha": "3ac9d110f9ec0a4aab403bd5bcaa9770ce81d19c",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-56.tga",
+      "name": "lv-56",
+      "kind": "interface",
+      "bytes": 7612,
+      "git_sha": "6a4386e7d93b766ce3d95a5ebd9c7924bf8bf9a4",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-57.tga",
+      "name": "lv-57",
+      "kind": "interface",
+      "bytes": 8087,
+      "git_sha": "f59d5beaf6c16109da6cdc8bf68d405a60289df1",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-58.tga",
+      "name": "lv-58",
+      "kind": "interface",
+      "bytes": 7613,
+      "git_sha": "c5e69d54d42c689d630a3346d62f31fafa4d548d",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-59.tga",
+      "name": "lv-59",
+      "kind": "interface",
+      "bytes": 7612,
+      "git_sha": "8f4bac952de056600c369ed90da0237f2ea1d253",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-6.tga",
+      "name": "lv-6",
+      "kind": "interface",
+      "bytes": 5369,
+      "git_sha": "62b7aeb785ddec593dd8106c53cad46b982721e7",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-60.tga",
+      "name": "lv-60",
+      "kind": "interface",
+      "bytes": 8021,
+      "git_sha": "4f1dbd586521d7f631eb5c80eaafdd04401bbc3b",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-61.tga",
+      "name": "lv-61",
+      "kind": "interface",
+      "bytes": 5760,
+      "git_sha": "b018718cc75b4d7c4e56af3e75c122ba2e151167",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-62.tga",
+      "name": "lv-62",
+      "kind": "interface",
+      "bytes": 5468,
+      "git_sha": "c7faa92744d036c515cfee55f1ee4b78c2782afd",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-63.tga",
+      "name": "lv-63",
+      "kind": "interface",
+      "bytes": 5232,
+      "git_sha": "121b96877cf5cd99237f87e842baf921f9fe387d",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-64.tga",
+      "name": "lv-64",
+      "kind": "interface",
+      "bytes": 5486,
+      "git_sha": "427fadc614594b8874d121c58589099d2d9770c7",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-65.tga",
+      "name": "lv-65",
+      "kind": "interface",
+      "bytes": 4987,
+      "git_sha": "f0b5827143e8d3c81dfcee4eaad3145b46405f21",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-66.tga",
+      "name": "lv-66",
+      "kind": "interface",
+      "bytes": 5134,
+      "git_sha": "07cb1cc3dcc55212958ada2517f95db3ebd13afd",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-67.tga",
+      "name": "lv-67",
+      "kind": "interface",
+      "bytes": 5583,
+      "git_sha": "5db31fccfafee9506238a372d82fe51f2af25927",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-68.tga",
+      "name": "lv-68",
+      "kind": "interface",
+      "bytes": 5123,
+      "git_sha": "fb232dd92381ba1343d2c4abf6b28b91712513c1",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-69.tga",
+      "name": "lv-69",
+      "kind": "interface",
+      "bytes": 5156,
+      "git_sha": "21763898336829471e2db5430348d0b129fc396a",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-7.tga",
+      "name": "lv-7",
+      "kind": "interface",
+      "bytes": 5197,
+      "git_sha": "93733539901e091a00cc998eed17d40985987547",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-70.tga",
+      "name": "lv-70",
+      "kind": "interface",
+      "bytes": 5824,
+      "git_sha": "e84a062e668bfa0f06c4b491b300f03e3df73641",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-71.tga",
+      "name": "lv-71",
+      "kind": "interface",
+      "bytes": 6491,
+      "git_sha": "96b54e9b7607ef32754b86f7416b123b847778c7",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-72.tga",
+      "name": "lv-72",
+      "kind": "interface",
+      "bytes": 6299,
+      "git_sha": "8e6e591d9b2488f2169ee1de0ebcb25bc22e6fae",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-73.tga",
+      "name": "lv-73",
+      "kind": "interface",
+      "bytes": 6257,
+      "git_sha": "8ca14477c8acfc8879068342c3b25ca0a84ffefa",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-74.tga",
+      "name": "lv-74",
+      "kind": "interface",
+      "bytes": 6472,
+      "git_sha": "b204a17050afa91baa758eb2710571ece97059ea",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-75.tga",
+      "name": "lv-75",
+      "kind": "interface",
+      "bytes": 5987,
+      "git_sha": "01a70cf5d98100839e42c3e3c1475019314344d6",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-76.tga",
+      "name": "lv-76",
+      "kind": "interface",
+      "bytes": 6147,
+      "git_sha": "a1818253caa19ebb28be53cc5e470c7698c9ab63",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-77.tga",
+      "name": "lv-77",
+      "kind": "interface",
+      "bytes": 6236,
+      "git_sha": "18ce333b314e4baee721527d5e33abc6fae6514d",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-78.tga",
+      "name": "lv-78",
+      "kind": "interface",
+      "bytes": 6189,
+      "git_sha": "02e0f3d4573f841406b9b2b1d3ae33d0fe1ed436",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-79.tga",
+      "name": "lv-79",
+      "kind": "interface",
+      "bytes": 6188,
+      "git_sha": "26cb97b9e4f5aae3ac4738851f53288b3a913582",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-8.tga",
+      "name": "lv-8",
+      "kind": "interface",
+      "bytes": 5397,
+      "git_sha": "88c2a864441c04d187647a46de90354238986577",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-80.tga",
+      "name": "lv-80",
+      "kind": "interface",
+      "bytes": 6214,
+      "git_sha": "4c612cdc72da575743158e911bfce8064f25cead",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-81.tga",
+      "name": "lv-81",
+      "kind": "interface",
+      "bytes": 8165,
+      "git_sha": "75c60872acad7467b5522859be900312926d6646",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-82.tga",
+      "name": "lv-82",
+      "kind": "interface",
+      "bytes": 7956,
+      "git_sha": "fbfb3fdbdfc436ac1f40be0f9a7f41f177be1c79",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-83.tga",
+      "name": "lv-83",
+      "kind": "interface",
+      "bytes": 7787,
+      "git_sha": "6d4bdb40b6ed2fa0ce2e76e56d6c4b452fe66fbe",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-84.tga",
+      "name": "lv-84",
+      "kind": "interface",
+      "bytes": 8032,
+      "git_sha": "8767d7aa3452a42cb2fceab1f342fed20277d32c",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-85.tga",
+      "name": "lv-85",
+      "kind": "interface",
+      "bytes": 7537,
+      "git_sha": "a0e1f3f97258d8e76881682870c47083f1ade254",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-86.tga",
+      "name": "lv-86",
+      "kind": "interface",
+      "bytes": 7697,
+      "git_sha": "facd160fa89f7c8699989df3e10a023955b84d3c",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-87.tga",
+      "name": "lv-87",
+      "kind": "interface",
+      "bytes": 8132,
+      "git_sha": "dd67b46a848750a7859b54e52ad68e19d84dabc6",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-88.tga",
+      "name": "lv-88",
+      "kind": "interface",
+      "bytes": 7658,
+      "git_sha": "4123cc0975f2e70a3a74f5a0545d990a1928d0b6",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-89.tga",
+      "name": "lv-89",
+      "kind": "interface",
+      "bytes": 7694,
+      "git_sha": "578e78bda598eb5cbc7d9e0638280a32d6323063",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-9.tga",
+      "name": "lv-9",
+      "kind": "interface",
+      "bytes": 5279,
+      "git_sha": "c340ec91bd662faa4a1982ba85378530624dafef",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-90.tga",
+      "name": "lv-90",
+      "kind": "interface",
+      "bytes": 7891,
+      "git_sha": "cc18e5dd1151076231b0b34bb234d9f40f02442a",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-91.tga",
+      "name": "lv-91",
+      "kind": "interface",
+      "bytes": 8360,
+      "git_sha": "3204ea38d3a8ed89885601e3b61e0294a3750f95",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-92.tga",
+      "name": "lv-92",
+      "kind": "interface",
+      "bytes": 8084,
+      "git_sha": "a9f23365fd16508aa5536338775c4214d84bece2",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-93.tga",
+      "name": "lv-93",
+      "kind": "interface",
+      "bytes": 7925,
+      "git_sha": "368906d3453040fcc283f2fc4fc0e66d35f09172",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-94.tga",
+      "name": "lv-94",
+      "kind": "interface",
+      "bytes": 8105,
+      "git_sha": "c6b20e0063e297da9a93037318f56f55d193877a",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-95.tga",
+      "name": "lv-95",
+      "kind": "interface",
+      "bytes": 7657,
+      "git_sha": "35af61bf1a6abe854af318e1e15db45d3ac68154",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-96.tga",
+      "name": "lv-96",
+      "kind": "interface",
+      "bytes": 7798,
+      "git_sha": "4fd42e64bb1a1638803efc048af5418eb857e580",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-97.tga",
+      "name": "lv-97",
+      "kind": "interface",
+      "bytes": 8242,
+      "git_sha": "2941bd9a07c984454e8b5665c4704d13414f4705",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-98.tga",
+      "name": "lv-98",
+      "kind": "interface",
+      "bytes": 7828,
+      "git_sha": "3ad6806de3377145eb9fa4f4b598ba8a653012af",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_levels/lv-99.tga",
+      "name": "lv-99",
+      "kind": "interface",
+      "bytes": 7807,
+      "git_sha": "72825644e30adf04823a64f6b3fb785a60ea50f4",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_link.tga",
+      "name": "h9_link",
+      "kind": "interface",
+      "bytes": 16428,
+      "git_sha": "cc4519861ac134fcd6269a95cca738aac353466b",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/gfx/vgui/h9_unlink.tga",
+      "name": "h9_unlink",
+      "kind": "interface",
+      "bytes": 16428,
+      "git_sha": "fff413af636feae959645947c31e9309736f9ad9",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/h9_logo_32.tga",
+      "name": "h9_logo_32",
+      "kind": "graphic",
+      "bytes": 4140,
+      "git_sha": "3a80befdbc2c8f8e84bf85f52e8af5c1bc1cdbb1",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/h9_logo.tga",
+      "name": "h9_logo",
+      "kind": "graphic",
+      "bytes": 994,
+      "git_sha": "c05bdefbe05bc641a6f78ea271c2e220f426e9b6",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/logos/remapped.bmp",
+      "name": "remapped",
+      "kind": "graphic",
+      "bytes": 5174,
+      "git_sha": "a8085dd3923ca08a28ef326bc1f1d334c71a00f2",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/logos/xash.bmp",
+      "name": "xash",
+      "kind": "graphic",
+      "bytes": 5174,
+      "git_sha": "a8085dd3923ca08a28ef326bc1f1d334c71a00f2",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/models/player/agent/agent.bmp",
+      "name": "agent",
+      "kind": "graphic",
+      "bytes": 33876,
+      "git_sha": "f5275cdf1f5879f173c7e09fc0912a6fdd329e4d",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/models/player/castor/castor.bmp",
+      "name": "castor",
+      "kind": "graphic",
+      "bytes": 33876,
+      "git_sha": "427db63c795d7261d4d4bab935778a6c34eca37d",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/models/player/gordon/gordon.bmp",
+      "name": "gordon",
+      "kind": "graphic",
+      "bytes": 33876,
+      "git_sha": "f6d2543dea8c362bde8583fcf94a717b81b70db9",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/models/player/hitman/hitman.bmp",
+      "name": "hitman",
+      "kind": "graphic",
+      "bytes": 33876,
+      "git_sha": "804cfd28082e46a703ee02c6a65fe3367a0f418e",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/models/player/insdroid_bot/insdroid_bot.bmp",
+      "name": "insdroid_bot",
+      "kind": "graphic",
+      "bytes": 33878,
+      "git_sha": "07879b7c73d186a3e4238826a09fd92f25cdad28",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/models/player/Invisible/invisible.BMP",
+      "name": "invisible",
+      "kind": "graphic",
+      "bytes": 33878,
+      "git_sha": "218fd7c83c826f517ea8e6234476a8f881918b0d",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/models/player/laurence/laurence.bmp",
+      "name": "laurence",
+      "kind": "graphic",
+      "bytes": 33876,
+      "git_sha": "c01288882404b1136dd6c4ed5525ead75f2bdd16",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/models/player/merc/merc.bmp",
+      "name": "merc",
+      "kind": "graphic",
+      "bytes": 33876,
+      "git_sha": "6df1225830a3a3bc90093a1e8425a7cfee57de42",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/models/player/msrdroid_bot/msrdroid_bot.bmp",
+      "name": "msrdroid_bot",
+      "kind": "graphic",
+      "bytes": 33878,
+      "git_sha": "197421328413572324073eec7159bbee3c0f21d2",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/models/player/remapped.bmp",
+      "name": "remapped",
+      "kind": "graphic",
+      "bytes": 33876,
+      "git_sha": "769288bbc3ec82bd1a1a52fcbd1b99377165c69d",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/models/player/RepuTengu/001540DC.bmp",
+      "name": "001540DC",
+      "kind": "graphic",
+      "bytes": 9270,
+      "git_sha": "139915e538c11f20cd36c05584e0a435a23612e7",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/models/player/RepuTengu/001540E0.bmp",
+      "name": "001540E0",
+      "kind": "graphic",
+      "bytes": 9270,
+      "git_sha": "c1a86f79bbb51a90b5038ee3424293d4b00dbd8d",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/models/player/RepuTengu/001A6AC6.bmp",
+      "name": "001A6AC6",
+      "kind": "graphic",
+      "bytes": 1334,
+      "git_sha": "0d1863488d7ea3af096d82663e191ae268ddbdc2",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/models/player/RepuTengu/002886A8.bmp",
+      "name": "002886A8",
+      "kind": "graphic",
+      "bytes": 5174,
+      "git_sha": "1441209d556871cdfe9258a8f7b26ce06438a63c",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/models/player/RepuTengu/00294E78.bmp",
+      "name": "00294E78",
+      "kind": "graphic",
+      "bytes": 5174,
+      "git_sha": "65627d7406ed43cfa559dad0605c05738d722e41",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/models/player/RepuTengu/002C5D1F.bmp",
+      "name": "002C5D1F",
+      "kind": "graphic",
+      "bytes": 5174,
+      "git_sha": "67d8972a3d3165c0c9ae4da3074b5827276dcbec",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/models/player/RepuTengu/002EFF73.bmp",
+      "name": "002EFF73",
+      "kind": "graphic",
+      "bytes": 9270,
+      "git_sha": "40fef30e8eb76c032b6b640e155eaf8b119e6b0e",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/models/player/RepuTengu/002EFF79.bmp",
+      "name": "002EFF79",
+      "kind": "graphic",
+      "bytes": 3126,
+      "git_sha": "330185e7b182b1c18823c8d8b13d5fedd7aaa8f1",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/models/player/RepuTengu/002EFF7A.bmp",
+      "name": "002EFF7A",
+      "kind": "graphic",
+      "bytes": 3126,
+      "git_sha": "4260086d3063cd64ae61509e0b9dcd6f7fe3196d",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/models/player/RepuTengu/003C88F8.bmp",
+      "name": "003C88F8",
+      "kind": "graphic",
+      "bytes": 2102,
+      "git_sha": "e30a191662dfd851aca3e32d8024297cb729877e",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/models/player/RepuTengu/003C88FE.bmp",
+      "name": "003C88FE",
+      "kind": "graphic",
+      "bytes": 9270,
+      "git_sha": "89087d3e4326576a76f01ea95c8c36d0f86f6e04",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/models/player/RepuTengu/00603BAA.bmp",
+      "name": "00603BAA",
+      "kind": "graphic",
+      "bytes": 1590,
+      "git_sha": "b1f0eafbc782aeae4b2c4b15fcfb9315faeeee19",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/models/player/RepuTengu/006BACB6.bmp",
+      "name": "006BACB6",
+      "kind": "graphic",
+      "bytes": 9270,
+      "git_sha": "0a3bc9337b9b03c92651216f304654d77f031725",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/models/player/RepuTengu/006BACB7.bmp",
+      "name": "006BACB7",
+      "kind": "graphic",
+      "bytes": 5174,
+      "git_sha": "a86c7bf7cdb60f38c0d9bb288ee4fbbdb799c6be",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/models/player/RepuTengu/00736CE7.bmp",
+      "name": "00736CE7",
+      "kind": "graphic",
+      "bytes": 3126,
+      "git_sha": "dc3b6702f638552959f109ec53fc3df9b981cbe7",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/models/player/RepuTengu/00736CEB.bmp",
+      "name": "00736CEB",
+      "kind": "graphic",
+      "bytes": 2102,
+      "git_sha": "e30a191662dfd851aca3e32d8024297cb729877e",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/models/player/RepuTengu/00736CF1.bmp",
+      "name": "00736CF1",
+      "kind": "graphic",
+      "bytes": 2102,
+      "git_sha": "e92838ab65d131bc90777595ec7b5460fd7f8cbf",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/models/player/RepuTengu/00736CF9.bmp",
+      "name": "00736CF9",
+      "kind": "graphic",
+      "bytes": 5174,
+      "git_sha": "67d8972a3d3165c0c9ae4da3074b5827276dcbec",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/models/player/RepuTengu/007C6A95.bmp",
+      "name": "007C6A95",
+      "kind": "graphic",
+      "bytes": 2102,
+      "git_sha": "0e40a250eedd516d009cce1cb9ac304300ea6840",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/models/player/RepuTengu/00A1308F.bmp",
+      "name": "00A1308F",
+      "kind": "graphic",
+      "bytes": 5174,
+      "git_sha": "be08df1eb98aa01128cc24e911e45aa49537ad6e",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/models/player/RepuTengu/00A14167.bmp",
+      "name": "00A14167",
+      "kind": "graphic",
+      "bytes": 3126,
+      "git_sha": "2752d4ec6af67a867debabbc41d9270e6680cd6d",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/models/player/RepuTengu/00DF556C.bmp",
+      "name": "00DF556C",
+      "kind": "graphic",
+      "bytes": 5174,
+      "git_sha": "c9ee40593faa1e0944e8964aae11ffa653bdcd83",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/models/player/RepuTengu/00DFEF77.bmp",
+      "name": "00DFEF77",
+      "kind": "graphic",
+      "bytes": 1334,
+      "git_sha": "3c2112af8487d4c635bbf1b8141f0f4627577a95",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/models/player/scda_Spy02/scda_Spy02.bmp",
+      "name": "scda_Spy02",
+      "kind": "graphic",
+      "bytes": 33878,
+      "git_sha": "249467b765f20ffe9127c21403bd92a93a1ec800",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/models/player/scda_Spy02/scda_Spy02.jpg",
+      "name": "scda_Spy02",
+      "kind": "graphic",
+      "bytes": 151851,
+      "git_sha": "49364f7695f010c9a3377ae29570b7299b253815",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/models/player/seal/seal.bmp",
+      "name": "seal",
+      "kind": "graphic",
+      "bytes": 33876,
+      "git_sha": "c86dfc0ac24d768f64579f4b4031297b23865358",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/resource/background/800_1_a_loading.tga",
+      "name": "800_1_a_loading",
+      "kind": "graphic",
+      "bytes": 196626,
+      "git_sha": "bd1b1dca7ef6c310bc152506ac0f08ab68df421d",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/resource/background/800_1_b_loading.tga",
+      "name": "800_1_b_loading",
+      "kind": "graphic",
+      "bytes": 196626,
+      "git_sha": "5615c8be1bf9a6a769b220c1e35dabe0eda54561",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/resource/background/800_1_c_loading.tga",
+      "name": "800_1_c_loading",
+      "kind": "graphic",
+      "bytes": 196626,
+      "git_sha": "98358acfdc53485b1a03cd43b72591ead8049951",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/resource/background/800_1_d_loading.tga",
+      "name": "800_1_d_loading",
+      "kind": "graphic",
+      "bytes": 24594,
+      "git_sha": "8cdbd4199cfa3ed9f8a64624c5daf0624526e61d",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/resource/background/800_2_a_loading.tga",
+      "name": "800_2_a_loading",
+      "kind": "graphic",
+      "bytes": 196626,
+      "git_sha": "c11915e8cacf89d6a3f3efcb8d77c9d5abec47d2",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/resource/background/800_2_b_loading.tga",
+      "name": "800_2_b_loading",
+      "kind": "graphic",
+      "bytes": 196626,
+      "git_sha": "eb163cdea5a9c2304747fa1d44d393ab7f430232",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/resource/background/800_2_c_loading.tga",
+      "name": "800_2_c_loading",
+      "kind": "graphic",
+      "bytes": 196626,
+      "git_sha": "ed6aa0b9fd3f3f2f5251355b5ecf56004a7e37b4",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/resource/background/800_2_d_loading.tga",
+      "name": "800_2_d_loading",
+      "kind": "graphic",
+      "bytes": 24594,
+      "git_sha": "c7ad14211c8bb3f2df944370a060f830f8863bb7",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/resource/background/800_3_a_loading.tga",
+      "name": "800_3_a_loading",
+      "kind": "graphic",
+      "bytes": 67602,
+      "git_sha": "3cba89133ee73892f7d8acb2372719270f36c244",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/resource/background/800_3_b_loading.tga",
+      "name": "800_3_b_loading",
+      "kind": "graphic",
+      "bytes": 67602,
+      "git_sha": "49a391ffa65ebf5c934e6cb5624466f350d98e41",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/resource/background/800_3_c_loading.tga",
+      "name": "800_3_c_loading",
+      "kind": "graphic",
+      "bytes": 67602,
+      "git_sha": "a4830d1a75f1f9e21ac4b3ab62f50ddd1e91cfa0",
+      "lfs_pointer_likely": false
+    }
+  ]
+}
