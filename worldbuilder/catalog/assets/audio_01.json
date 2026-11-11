@@ -1,0 +1,2409 @@
+{
+  "schema": "h9.git_asset_catalog/1",
+  "category": "audio",
+  "repository": "MakoRehaps/HAVOC-NINE-MMO",
+  "source_tree_sha": "db541cab7b10ff05b1c1701ed092f42dd90a3f6f",
+  "classification": "filename and path only; not geometry-inspected",
+  "entries": [
+    {
+      "path": "H9XASH/ts/sound/alexandria/asyoucame.wav",
+      "name": "asyoucame",
+      "kind": "audio",
+      "bytes": 352162,
+      "git_sha": "b60cc0ef6f075df90ae2268b96cd8b4eb31c6770",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/alexandria/bodybags_b1.wav",
+      "name": "bodybags_b1",
+      "kind": "audio",
+      "bytes": 1050946,
+      "git_sha": "9aaaa632e1483d286fb9326f95242017c85a6001",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/alexandria/flarestack_b1.wav",
+      "name": "flarestack_b1",
+      "kind": "audio",
+      "bytes": 848818,
+      "git_sha": "db221ca97aa95f1ea7d34273c4fe14befd4159b7",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/alexandria/gas.wav",
+      "name": "gas",
+      "kind": "audio",
+      "bytes": 34166,
+      "git_sha": "403a3a1d3675c91cc71701a3da7ed1a3317b3825",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/alexandria/gumnaam.wav",
+      "name": "gumnaam",
+      "kind": "audio",
+      "bytes": 830066,
+      "git_sha": "107808a55f0f87f80b8f931ad88207df05d2fd78",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/alexandria/musicfor.wav",
+      "name": "musicfor",
+      "kind": "audio",
+      "bytes": 754650,
+      "git_sha": "fd847a80d96faf3295addb248696424c1733e161",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/alexandria/places_b1.wav",
+      "name": "places_b1",
+      "kind": "audio",
+      "bytes": 477754,
+      "git_sha": "68eafef3fa293925a78022bd2f5ff0e3717a7dbb",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/alexandria/places.wav",
+      "name": "places",
+      "kind": "audio",
+      "bytes": 477754,
+      "git_sha": "68eafef3fa293925a78022bd2f5ff0e3717a7dbb",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/alexandria/sorath.wav",
+      "name": "sorath",
+      "kind": "audio",
+      "bytes": 903536,
+      "git_sha": "2c526fbd83da9a479b11a707cc1651ed34c5243b",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/alexandria/thedig_b1.wav",
+      "name": "thedig_b1",
+      "kind": "audio",
+      "bytes": 520940,
+      "git_sha": "a40940653460a92444dcb736848ef906f7ee6b19",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/alexandria/thedig.wav",
+      "name": "thedig",
+      "kind": "audio",
+      "bytes": 520940,
+      "git_sha": "a40940653460a92444dcb736848ef906f7ee6b19",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/alexandria/waltzfordeb.wav",
+      "name": "waltzfordeb",
+      "kind": "audio",
+      "bytes": 466756,
+      "git_sha": "39449d9a7da2da7a6f9a4ddf65883aac0e7c2b15",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/3dm_bik_ball.wav",
+      "name": "3dm_bik_ball",
+      "kind": "ambience-or-music",
+      "bytes": 5397,
+      "git_sha": "20359cb2b053a9475b3022ec08f0b0755828a4b1",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/3dm_bik_bel.wav",
+      "name": "3dm_bik_bel",
+      "kind": "ambience-or-music",
+      "bytes": 52976,
+      "git_sha": "6e714f37b39cfc99ca0076c32dfd02a03dda7f8a",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/3dm_bik_hills.wav",
+      "name": "3dm_bik_hills",
+      "kind": "ambience-or-music",
+      "bytes": 138252,
+      "git_sha": "de981d1fb54a3c9e9bae05cae938e00f2f5468e4",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/3dm_bik_intro.wav",
+      "name": "3dm_bik_intro",
+      "kind": "ambience-or-music",
+      "bytes": 69676,
+      "git_sha": "18254a6a0b5934d669b9397e696ef4c037056629",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/3dm_bik_jaws.wav",
+      "name": "3dm_bik_jaws",
+      "kind": "ambience-or-music",
+      "bytes": 118518,
+      "git_sha": "112bd3301bd5197e829f5cfaee6855a42bbe4027",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/3dm_bik_mac.wav",
+      "name": "3dm_bik_mac",
+      "kind": "ambience-or-music",
+      "bytes": 226166,
+      "git_sha": "ac1953a68803929c3b3d6eb9e4ffc9fa25300b1b",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/3dm_bik_plons.wav",
+      "name": "3dm_bik_plons",
+      "kind": "ambience-or-music",
+      "bytes": 22582,
+      "git_sha": "bb39e2b39aaad488b36c78671f2994aa6c7ca2e5",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/3dm_bik_rad.wav",
+      "name": "3dm_bik_rad",
+      "kind": "ambience-or-music",
+      "bytes": 199470,
+      "git_sha": "01ad914dde8e71060fe99c2ef82dd8625e40cae9",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/3dm_bik_sea.wav",
+      "name": "3dm_bik_sea",
+      "kind": "ambience-or-music",
+      "bytes": 106410,
+      "git_sha": "c81fba38783d95f4bcaf2768d8138e5167ba6ab6",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/3dm_bik_seagul.wav",
+      "name": "3dm_bik_seagul",
+      "kind": "ambience-or-music",
+      "bytes": 22693,
+      "git_sha": "2a35a0551e37d2f4e0ef8debebe5e8946e6324a9",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/3dm_bik_sf1.wav",
+      "name": "3dm_bik_sf1",
+      "kind": "ambience-or-music",
+      "bytes": 17344,
+      "git_sha": "aaa4fd7c97d70c0cf00d1f2cd46954b1ebbcaaa0",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/3dm_bik_sf2.wav",
+      "name": "3dm_bik_sf2",
+      "kind": "ambience-or-music",
+      "bytes": 19848,
+      "git_sha": "6ef3ee09e96094faed5dd0939fbe7222b497c755",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/3dm_dojo_code.wav",
+      "name": "3dm_dojo_code",
+      "kind": "ambience-or-music",
+      "bytes": 113770,
+      "git_sha": "2e342c49c4c98f14a71299fc1dec65735962b30a",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/3dm_dojo_gong.wav",
+      "name": "3dm_dojo_gong",
+      "kind": "ambience-or-music",
+      "bytes": 77044,
+      "git_sha": "ff4fdc64cd72ef5644d23d4f3e67b31dead3d54e",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/3dm_dojo_hills.wav",
+      "name": "3dm_dojo_hills",
+      "kind": "ambience-or-music",
+      "bytes": 138252,
+      "git_sha": "de981d1fb54a3c9e9bae05cae938e00f2f5468e4",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/3dm_dojo_thril.wav",
+      "name": "3dm_dojo_thril",
+      "kind": "ambience-or-music",
+      "bytes": 76784,
+      "git_sha": "53794e5308ad99c2db2b79617b84a304df826e01",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/3dm_grn_atm.wav",
+      "name": "3dm_grn_atm",
+      "kind": "ambience-or-music",
+      "bytes": 330092,
+      "git_sha": "6359424c06e66965d042b274b4ad2312505c17ce",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/3dm_grn_bird.wav",
+      "name": "3dm_grn_bird",
+      "kind": "ambience-or-music",
+      "bytes": 138252,
+      "git_sha": "de981d1fb54a3c9e9bae05cae938e00f2f5468e4",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/3dm_grn_hous.wav",
+      "name": "3dm_grn_hous",
+      "kind": "ambience-or-music",
+      "bytes": 81570,
+      "git_sha": "162a824ca612e208d7ccda93e4f80b634d36b30f",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/3dm_grn_ki.wav",
+      "name": "3dm_grn_ki",
+      "kind": "ambience-or-music",
+      "bytes": 298150,
+      "git_sha": "1b660a2782abe28a6cb8d83e5cc6ecb798454b11",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/3dm_grn_mach.wav",
+      "name": "3dm_grn_mach",
+      "kind": "ambience-or-music",
+      "bytes": 65398,
+      "git_sha": "b93fe048e7b97c729b20198f7e0fee0b1780bda8",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/3dm_grn_mk1.wav",
+      "name": "3dm_grn_mk1",
+      "kind": "ambience-or-music",
+      "bytes": 53160,
+      "git_sha": "cb5d62fffedbf6d3c4b76db81cb9a43a3dc64cab",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/3dm_grn_mk2.wav",
+      "name": "3dm_grn_mk2",
+      "kind": "ambience-or-music",
+      "bytes": 24886,
+      "git_sha": "cd24e726ae253ec9d91f11e48cafcd9ab0d5d328",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/3dm_grn_strt.wav",
+      "name": "3dm_grn_strt",
+      "kind": "ambience-or-music",
+      "bytes": 53942,
+      "git_sha": "f91b962ba06109832ed29e160d0d130df98cd879",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/3dm_grn_thril.wav",
+      "name": "3dm_grn_thril",
+      "kind": "ambience-or-music",
+      "bytes": 76784,
+      "git_sha": "53794e5308ad99c2db2b79617b84a304df826e01",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/3dm_grn_wtr.wav",
+      "name": "3dm_grn_wtr",
+      "kind": "ambience-or-music",
+      "bytes": 70732,
+      "git_sha": "1a8f0b56a663ff93aa406b37f008dc5a7e6842af",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/antro_bamboo_1.wav",
+      "name": "antro_bamboo_1",
+      "kind": "ambience-or-music",
+      "bytes": 1306136,
+      "git_sha": "c78c344a54c7d860d299b581d21b4949d04e80ae",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/antro_music_2.wav",
+      "name": "antro_music_2",
+      "kind": "ambience-or-music",
+      "bytes": 1210084,
+      "git_sha": "b9ed09eebb838ab6b7163364218b2e57a2f00954",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/antro_projector.wav",
+      "name": "antro_projector",
+      "kind": "ambience-or-music",
+      "bytes": 12370,
+      "git_sha": "9eed927017eb8fce360a4af5c0febbcaa47eed02",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/antro_techamb.wav",
+      "name": "antro_techamb",
+      "kind": "ambience-or-music",
+      "bytes": 373608,
+      "git_sha": "efe93f0b88ca560e2597fe3be3b9244d679236d9",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/apologize.wav",
+      "name": "apologize",
+      "kind": "ambience-or-music",
+      "bytes": 57840,
+      "git_sha": "3bbe421208f2fbe373ddc2014fc42d3b34e23d3e",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/bido_alarm.wav",
+      "name": "bido_alarm",
+      "kind": "ambience-or-music",
+      "bytes": 5302,
+      "git_sha": "d097284b59033f77386fff139d63bf2290571153",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/birds_outside1.wav",
+      "name": "birds_outside1",
+      "kind": "ambience-or-music",
+      "bytes": 701856,
+      "git_sha": "23f5f9a8bc1ca79d4cbdf40e283da9d4a51b0642",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/cg_arcamb0.wav",
+      "name": "cg_arcamb0",
+      "kind": "ambience-or-music",
+      "bytes": 186226,
+      "git_sha": "48009605eb8f5e288f69112a7af838a6b3106917",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/cg_fat_al.wav",
+      "name": "cg_fat_al",
+      "kind": "ambience-or-music",
+      "bytes": 31224,
+      "git_sha": "60b8c847f48ba61c604982716c37e969207e92ee",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/cg_rdmchowy.wav",
+      "name": "cg_rdmchowy",
+      "kind": "ambience-or-music",
+      "bytes": 341608,
+      "git_sha": "99f7b6fa3a8c1005ed0cf9ee21e1fa657bd5324c",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/cg_rdmkjun01.wav",
+      "name": "cg_rdmkjun01",
+      "kind": "ambience-or-music",
+      "bytes": 191150,
+      "git_sha": "8e3eb8d486555b7f88fa669090bca5aab2f85cb0",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/cg_rdmsc.wav",
+      "name": "cg_rdmsc",
+      "kind": "ambience-or-music",
+      "bytes": 49046,
+      "git_sha": "78b352ad44659021f80c85e46e6d110a75c4300a",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/cg_rdmstamb01.wav",
+      "name": "cg_rdmstamb01",
+      "kind": "ambience-or-music",
+      "bytes": 175868,
+      "git_sha": "9bd251803060d36468b08a7b6b19868b54079965",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/cg_rdmsubway.wav",
+      "name": "cg_rdmsubway",
+      "kind": "ambience-or-music",
+      "bytes": 75309,
+      "git_sha": "2993d52d0b1999874219d1963767cb0ef59c22c8",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/cg_rdmthunder.wav",
+      "name": "cg_rdmthunder",
+      "kind": "ambience-or-music",
+      "bytes": 155574,
+      "git_sha": "8aa8dc026f29ecc1b0e979db24cea871db74a57d",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/cg_rdmtrain01.wav",
+      "name": "cg_rdmtrain01",
+      "kind": "ambience-or-music",
+      "bytes": 106138,
+      "git_sha": "3c256d1cd432a74a2d243dfdf50df62d6bbfdf54",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/cg_rdmtrpsng.wav",
+      "name": "cg_rdmtrpsng",
+      "kind": "ambience-or-music",
+      "bytes": 498396,
+      "git_sha": "8b0e1482ece5dcd21ebd066aade38a42453aa2b5",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/cg_rstr01.wav",
+      "name": "cg_rstr01",
+      "kind": "ambience-or-music",
+      "bytes": 206160,
+      "git_sha": "39b2e738431a042f7011de89a251f28bcf2e7a52",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/computer_ambience.wav",
+      "name": "computer_ambience",
+      "kind": "ambience-or-music",
+      "bytes": 176964,
+      "git_sha": "f58a7a59bc667a2e80567909cdfd5391a1bd8e9c",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/dronemachine2.wav",
+      "name": "dronemachine2",
+      "kind": "ambience-or-music",
+      "bytes": 105480,
+      "git_sha": "d4db8c489b213be2aa590179a278e8cd526acdbd",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/drumfire02.wav",
+      "name": "drumfire02",
+      "kind": "ambience-or-music",
+      "bytes": 77694,
+      "git_sha": "66b69d9ae89f01a70ee952973bea22bde70ec29e",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/fortran_aqua.wav",
+      "name": "fortran_aqua",
+      "kind": "ambience-or-music",
+      "bytes": 93654,
+      "git_sha": "8ea73967d51809b92e28c5833dbe09220bd7692b",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/fortran_city.wav",
+      "name": "fortran_city",
+      "kind": "ambience-or-music",
+      "bytes": 445486,
+      "git_sha": "9d3abe152002493927f8dd07bcdb1267e8a70dce",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/georfwater.wav",
+      "name": "georfwater",
+      "kind": "ambience-or-music",
+      "bytes": 56936,
+      "git_sha": "b4c8f67a2bada713b767dde34319474deaf45e51",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/lv6.wav",
+      "name": "lv6",
+      "kind": "ambience-or-music",
+      "bytes": 159722,
+      "git_sha": "84475adde5075182e96e555c97557aae521a5fd8",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/m60_norm-fire.wav",
+      "name": "m60_norm-fire",
+      "kind": "ambience-or-music",
+      "bytes": 29340,
+      "git_sha": "b387c937f9270e737a11fc08adf55813a0f57884",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/mazyherb1.wav",
+      "name": "mazyherb1",
+      "kind": "ambience-or-music",
+      "bytes": 459276,
+      "git_sha": "67ebdd52f956ed9d7270c85170f2f7f946084631",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/mazyprop1.wav",
+      "name": "mazyprop1",
+      "kind": "ambience-or-music",
+      "bytes": 654240,
+      "git_sha": "a44a32734fa2511a3f49b21d14bf4f5d30b4d18f",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/mind_gap2.wav",
+      "name": "mind_gap2",
+      "kind": "ambience-or-music",
+      "bytes": 11801,
+      "git_sha": "03e47f3b11416d009b0121178bdbd7d9da6ac672",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/platform.wav",
+      "name": "platform",
+      "kind": "ambience-or-music",
+      "bytes": 78218,
+      "git_sha": "a252f6adee4b2198dad364f925321c9f8a21639c",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/po_city1.wav",
+      "name": "po_city1",
+      "kind": "ambience-or-music",
+      "bytes": 102558,
+      "git_sha": "3b01a0326dc1a24c52267f351c6138c4c7fdec58",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/qk_jazz.wav",
+      "name": "qk_jazz",
+      "kind": "ambience-or-music",
+      "bytes": 128138,
+      "git_sha": "c640a9e5ef2f945a4ae485e6a79854af0a90dbab",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/rd_fueldepot.wav",
+      "name": "rd_fueldepot",
+      "kind": "ambience-or-music",
+      "bytes": 261164,
+      "git_sha": "d778c5f86822c570b053117f9f8e740efee6442d",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/rd_shipshorn.wav",
+      "name": "rd_shipshorn",
+      "kind": "ambience-or-music",
+      "bytes": 202598,
+      "git_sha": "8deebf448e6507b766cdad3ad28ce85253f2024a",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/rd_warehouse.wav",
+      "name": "rd_warehouse",
+      "kind": "ambience-or-music",
+      "bytes": 277908,
+      "git_sha": "4277d8d6de70566d6ebbfb8c5d541aa367a38899",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/rd_waves.wav",
+      "name": "rd_waves",
+      "kind": "ambience-or-music",
+      "bytes": 775358,
+      "git_sha": "c5b64eb3e4e6674335e6d9b63d3ce97a3eb64273",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/thunder_rain.wav",
+      "name": "thunder_rain",
+      "kind": "ambience-or-music",
+      "bytes": 1499632,
+      "git_sha": "ee6b337a25231631de11d4d9cc7e823c3f52f93b",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/torn_ambience.wav",
+      "name": "torn_ambience",
+      "kind": "ambience-or-music",
+      "bytes": 150462,
+      "git_sha": "a41a99934c91e4572e65fb2e89cbe0c3418f14db",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/torn_thndrstrike.wav",
+      "name": "torn_thndrstrike",
+      "kind": "ambience-or-music",
+      "bytes": 299924,
+      "git_sha": "740f4101499b59d5df4ee094131ff3dfa9a4c1ee",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/toxicambience1.wav",
+      "name": "toxicambience1",
+      "kind": "ambience-or-music",
+      "bytes": 178076,
+      "git_sha": "474b35a7e550bd9ff372873be67896544d33c893",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/unstable_ground.wav",
+      "name": "unstable_ground",
+      "kind": "ambience-or-music",
+      "bytes": 249630,
+      "git_sha": "9da0dfa5fd825d4d38af9e95241be573fc3b3a77",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/windambient4.wav",
+      "name": "windambient4",
+      "kind": "ambience-or-music",
+      "bytes": 218378,
+      "git_sha": "f51a2c14fa0fcfa581ca20fd49b390f92fc91f7e",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ambience/windy.wav",
+      "name": "windy",
+      "kind": "ambience-or-music",
+      "bytes": 659146,
+      "git_sha": "12f3038fe194ddb8c59cf2ce0250df07ca60f6e0",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/amethyst/erhum.wav",
+      "name": "erhum",
+      "kind": "audio",
+      "bytes": 19544,
+      "git_sha": "7d4ccc11958d9b2eb4b9ab2a628e4281c1fde849",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/amethyst/ipanemaa.wav",
+      "name": "ipanemaa",
+      "kind": "audio",
+      "bytes": 1651678,
+      "git_sha": "af815274459d34f30265e11798faadf505f5dd61",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/anchored.wav",
+      "name": "anchored",
+      "kind": "audio",
+      "bytes": 693056,
+      "git_sha": "e4d6b3d63e1e12bb2aa293b2066412c5a37fdf35",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/arp/1.wav",
+      "name": "1",
+      "kind": "audio",
+      "bytes": 2346,
+      "git_sha": "1940b9e0ec1c045804c769fe226c85322be30ea5",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/arp/9.wav",
+      "name": "9",
+      "kind": "audio",
+      "bytes": 2414,
+      "git_sha": "b247155b9ef4fc2f74109b18a5b49cd147852c3c",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/arp/alarm.wav",
+      "name": "alarm",
+      "kind": "audio",
+      "bytes": 86060,
+      "git_sha": "c23293a19e51f054b8c6df3541c62f27fc8dd134",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/arp/heart.wav",
+      "name": "heart",
+      "kind": "audio",
+      "bytes": 47486,
+      "git_sha": "6b6ef0fc844f4309efdc73bc74459c5c6c7e8b8f",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/arp/ooc.wav",
+      "name": "ooc",
+      "kind": "audio",
+      "bytes": 10732,
+      "git_sha": "b49069454b767149fcd0f3b22562c8cefe2b9757",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/arp/ring.wav",
+      "name": "ring",
+      "kind": "audio",
+      "bytes": 99292,
+      "git_sha": "f8d657a9031e82a82a56e7da55f7070a7223dae5",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/arp/sms.wav",
+      "name": "sms",
+      "kind": "audio",
+      "bytes": 31044,
+      "git_sha": "276b563f1e6770f6010b5b1480404568252270c4",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/arp/tazer.wav",
+      "name": "tazer",
+      "kind": "audio",
+      "bytes": 10964,
+      "git_sha": "4afdb1c962f01fefcad0a2eb870c5277fb1e080e",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/badum.wav",
+      "name": "badum",
+      "kind": "audio",
+      "bytes": 88278,
+      "git_sha": "82144b40c981427301e322504d19d8e2df34bbbd",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/bigwarning.wav",
+      "name": "bigwarning",
+      "kind": "audio",
+      "bytes": 56968,
+      "git_sha": "1ad5c318e8da8eb5a69f7e30463d73e635e44a70",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/bloblarm.wav",
+      "name": "bloblarm",
+      "kind": "audio",
+      "bytes": 597700,
+      "git_sha": "bb44a9a5fdfae9b1552d04f5953c75a31077a364",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/callhascome.wav",
+      "name": "callhascome",
+      "kind": "audio",
+      "bytes": 2783312,
+      "git_sha": "7eb6fa3e2bf3c01dda7bb3d1230e0eb4ffb002db",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/cerberus/clax1low.wav",
+      "name": "clax1low",
+      "kind": "audio",
+      "bytes": 32338,
+      "git_sha": "9d95b85ace5f21cb50e4d31e05ceedc0b99b0a0f",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/cloak.wav",
+      "name": "cloak",
+      "kind": "audio",
+      "bytes": 75666,
+      "git_sha": "514d95894d441d21d74b52c6d6eef2bb2a865b33",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/cloak2.wav",
+      "name": "cloak2",
+      "kind": "audio",
+      "bytes": 79894,
+      "git_sha": "3ac786dfa7502b8fec304a6d4ddfb1178f656bac",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/de_pripyat/spawn/sp_shum.wav",
+      "name": "sp_shum",
+      "kind": "audio",
+      "bytes": 287172,
+      "git_sha": "03bfb977be5d9fafcf8c05a0993c227cadcd93d1",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/de_pripyat/spawn/sp_vozduh.wav",
+      "name": "sp_vozduh",
+      "kind": "audio",
+      "bytes": 82004,
+      "git_sha": "288f57cebbaa03ba5714f5a9a150082f11c989cd",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/death/droid_powerdown.wav",
+      "name": "droid_powerdown",
+      "kind": "audio",
+      "bytes": 213676,
+      "git_sha": "d6ccb2cc056bc5b0173f4e2b5b6867916545ed4a",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/death/fem1.wav",
+      "name": "fem1",
+      "kind": "audio",
+      "bytes": 183534,
+      "git_sha": "2d4741edbb1e5b4db6fcf2d267f29688c831af3a",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/death/fem2.wav",
+      "name": "fem2",
+      "kind": "audio",
+      "bytes": 183534,
+      "git_sha": "2481c8d49605bb33adf405b3920fef325e9caaed",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/death/fem3.wav",
+      "name": "fem3",
+      "kind": "audio",
+      "bytes": 183534,
+      "git_sha": "b2b3fc78a3e6bec54615b7cabdc77bb1c8d62c14",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/death/fem4.wav",
+      "name": "fem4",
+      "kind": "audio",
+      "bytes": 183534,
+      "git_sha": "8d2c69b81dc44d151f7aa0ca9ef8855f1e31c24c",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/death/fem5.wav",
+      "name": "fem5",
+      "kind": "audio",
+      "bytes": 183534,
+      "git_sha": "4d86cc7b83a5e55ef425794e8c76a0e65eeb63d9",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/death/male1.wav",
+      "name": "male1",
+      "kind": "audio",
+      "bytes": 183534,
+      "git_sha": "3a3555b5a1b83b77588e551dd60dd1a91a425181",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/death/male2.wav",
+      "name": "male2",
+      "kind": "audio",
+      "bytes": 183534,
+      "git_sha": "bc47bc610011ea33114abaace0d53b5f7f2033ea",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/death/male3.wav",
+      "name": "male3",
+      "kind": "audio",
+      "bytes": 183534,
+      "git_sha": "4141e0e9234868677be462052bf78858a83d5f26",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/death/male4.wav",
+      "name": "male4",
+      "kind": "audio",
+      "bytes": 183534,
+      "git_sha": "34e081ff3a5b19113ed4f85da4e7e295cd79270c",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/death/male5.mp3",
+      "name": "male5",
+      "kind": "audio",
+      "bytes": 51309,
+      "git_sha": "8bed660df3d1af7e23b1097f2273cbdb73f5c78e",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/death/male5.wav",
+      "name": "male5",
+      "kind": "audio",
+      "bytes": 183534,
+      "git_sha": "291a739058b89d2395e3696b10de4261186c1928",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/death/male6.wav",
+      "name": "male6",
+      "kind": "audio",
+      "bytes": 130628,
+      "git_sha": "9aa614d9c877575333458d8d84b2d5f1f2e9c9a5",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/death/officer_perished.wav",
+      "name": "officer_perished",
+      "kind": "audio",
+      "bytes": 334124,
+      "git_sha": "ba1a8185ced318193f300ecd865f0b4f083f548d",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/debris/bustcrate1.wav",
+      "name": "bustcrate1",
+      "kind": "audio",
+      "bytes": 23862,
+      "git_sha": "12c24b1f531e247101b9110506acf57297b304e7",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/debris/bustcrate2.wav",
+      "name": "bustcrate2",
+      "kind": "audio",
+      "bytes": 26052,
+      "git_sha": "88c3d56c80787c3be155092215fe6b372e410f3b",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/debris/bustcrate3.wav",
+      "name": "bustcrate3",
+      "kind": "audio",
+      "bytes": 21814,
+      "git_sha": "87e7fbec458075b774c685c3f9492172c71ec559",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/debris/bustglass1.wav",
+      "name": "bustglass1",
+      "kind": "audio",
+      "bytes": 24248,
+      "git_sha": "cf8867537c9f92d7c65563a229d85b29fc894d5d",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/debris/bustglass2.wav",
+      "name": "bustglass2",
+      "kind": "audio",
+      "bytes": 30198,
+      "git_sha": "a4093e529adfb0b1d6f35ec2704aaf7974a2df85",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/debris/bustglass3.wav",
+      "name": "bustglass3",
+      "kind": "audio",
+      "bytes": 22520,
+      "git_sha": "ef6b2add998a63739c8f55cd79c11050b3e34a38",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/debris/cement.wav",
+      "name": "cement",
+      "kind": "audio",
+      "bytes": 27824,
+      "git_sha": "89ff1bb28fac7f39259ad1c6183a3e166d45a4ab",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/debris/cement1.wav",
+      "name": "cement1",
+      "kind": "audio",
+      "bytes": 11116,
+      "git_sha": "9233a77d43910bcc5d8ae8db3dd7532fa2682baf",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/debris/cement2.wav",
+      "name": "cement2",
+      "kind": "audio",
+      "bytes": 16564,
+      "git_sha": "b47652191f479c5cb88f6a434ba7b8387f28b76d",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/debris/cement3.wav",
+      "name": "cement3",
+      "kind": "audio",
+      "bytes": 9840,
+      "git_sha": "a3cd232bf145d291c14bb9435a54858c370bfd95",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/debris/cement4.wav",
+      "name": "cement4",
+      "kind": "audio",
+      "bytes": 16520,
+      "git_sha": "87290cb34d162b12f377e622a0dcf39918e130a1",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/debris/cement5.wav",
+      "name": "cement5",
+      "kind": "audio",
+      "bytes": 15956,
+      "git_sha": "9977fa06f90f45064e772fc9e456e558aef37b7d",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/debris/cement6.wav",
+      "name": "cement6",
+      "kind": "audio",
+      "bytes": 14956,
+      "git_sha": "7319d6e622f74e2caa9cb10d34342f6fe9b08390",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/debris/glass1.wav",
+      "name": "glass1",
+      "kind": "audio",
+      "bytes": 7448,
+      "git_sha": "dbfb003f413a00d1210d2e2288e031305df675ef",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/debris/glass2.wav",
+      "name": "glass2",
+      "kind": "audio",
+      "bytes": 11288,
+      "git_sha": "44175893c4392759997bfb58b5af15c61d3bb9bb",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/debris/glass3.wav",
+      "name": "glass3",
+      "kind": "audio",
+      "bytes": 7448,
+      "git_sha": "dbfb003f413a00d1210d2e2288e031305df675ef",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/debris/glass4.wav",
+      "name": "glass4",
+      "kind": "audio",
+      "bytes": 22520,
+      "git_sha": "256ac625dc31c80a7d0c3f7be37bc2d2b07a3389",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/debris/gravel1.wav",
+      "name": "gravel1",
+      "kind": "audio",
+      "bytes": 8260,
+      "git_sha": "72bafcd378428734415fcfd870c1207bca3f0725",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/debris/gravel2.wav",
+      "name": "gravel2",
+      "kind": "audio",
+      "bytes": 24636,
+      "git_sha": "dcd69a597c9c5e98594e0842c63f35a675a1b4e7",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/debris/gravel3.wav",
+      "name": "gravel3",
+      "kind": "audio",
+      "bytes": 16462,
+      "git_sha": "2b5f00e0f8d446883bde2400412c3c14a2cf049f",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/debris/gravel4.wav",
+      "name": "gravel4",
+      "kind": "audio",
+      "bytes": 16462,
+      "git_sha": "83dd16e0acb05d064f25cc07429cae5b73997d06",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/debris/metal1.wav",
+      "name": "metal1",
+      "kind": "audio",
+      "bytes": 24740,
+      "git_sha": "7979a1994c5ade2330b0b3f291335aa0b9936be9",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/debris/metal2.wav",
+      "name": "metal2",
+      "kind": "audio",
+      "bytes": 43580,
+      "git_sha": "9509b645fb8a2bfe80d53985dd2f59fde3b7d2e7",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/debris/metal3.wav",
+      "name": "metal3",
+      "kind": "audio",
+      "bytes": 24188,
+      "git_sha": "bc9451b36ff8b828033e5964882dfab6f36bab28",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/debris/metal4.wav",
+      "name": "metal4",
+      "kind": "audio",
+      "bytes": 20772,
+      "git_sha": "9a651c69d80b1c598fff9fd26d5a68a327356c93",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/debris/metal5.wav",
+      "name": "metal5",
+      "kind": "audio",
+      "bytes": 34442,
+      "git_sha": "ecddd2cdb51868c441baceba513abe874466e9f4",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/debris/metal6.wav",
+      "name": "metal6",
+      "kind": "audio",
+      "bytes": 16802,
+      "git_sha": "77207314b317bd82b36b6c4b6dd0bf9e155f0c63",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/debris/ric1.wav",
+      "name": "ric1",
+      "kind": "audio",
+      "bytes": 32908,
+      "git_sha": "14113f49042a4c73d332337210416978f148fd9e",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/debris/ric2.wav",
+      "name": "ric2",
+      "kind": "audio",
+      "bytes": 55540,
+      "git_sha": "e7652356039746318d4f8c2dacdf4207c55ee1c4",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/debris/ric3.wav",
+      "name": "ric3",
+      "kind": "audio",
+      "bytes": 42652,
+      "git_sha": "6b7518469dcb7e08102657a15fedfa4d0c9aac80",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/debris/ric4.wav",
+      "name": "ric4",
+      "kind": "audio",
+      "bytes": 36642,
+      "git_sha": "6c3073fd263b38cc0e45c4a3a2442780fd3d1389",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/debris/ric5.wav",
+      "name": "ric5",
+      "kind": "audio",
+      "bytes": 38946,
+      "git_sha": "bc34f15aaa10c18ead8d69183a34fe63538de8d0",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/debris/wood1.wav",
+      "name": "wood1",
+      "kind": "audio",
+      "bytes": 5756,
+      "git_sha": "6bdd2d732afbdfe75e5b7dceffdbcf2d8eccfdd8",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/debris/wood2.wav",
+      "name": "wood2",
+      "kind": "audio",
+      "bytes": 11960,
+      "git_sha": "622bd38af9683f926bb1bd47d16bd1aba57a9e02",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/debris/wood3.wav",
+      "name": "wood3",
+      "kind": "audio",
+      "bytes": 8042,
+      "git_sha": "40afd63a486525041171e707be84371d3b6c40dc",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/explo/explode_slow.wav",
+      "name": "explode_slow",
+      "kind": "audio",
+      "bytes": 155980,
+      "git_sha": "135f4c5882df2f4f2d0c350e0f7f521115baa93e",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/explo/explode.wav",
+      "name": "explode",
+      "kind": "audio",
+      "bytes": 311812,
+      "git_sha": "ae798af1986303ccb9d4eed3ee4a69ecd95ad6b9",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/explo/explode1_slow.wav",
+      "name": "explode1_slow",
+      "kind": "audio",
+      "bytes": 78064,
+      "git_sha": "542c361337d787485e354e359059e2269b2de1f9",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/explo/explode1.wav",
+      "name": "explode1",
+      "kind": "audio",
+      "bytes": 155980,
+      "git_sha": "1d45fba9c56e5c4e4b9948592807f7fa23d0e174",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/explo/explode2_slow.wav",
+      "name": "explode2_slow",
+      "kind": "audio",
+      "bytes": 277858,
+      "git_sha": "f987c48b0a5681cc79ea6062329a8759d8dfbb54",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/explo/explode2.wav",
+      "name": "explode2",
+      "kind": "audio",
+      "bytes": 277860,
+      "git_sha": "4560ff595a39c81e740ec0e82f1ccd25549047d4",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/explo/explode3_slow.wav",
+      "name": "explode3_slow",
+      "kind": "audio",
+      "bytes": 277858,
+      "git_sha": "720ed533d79a6f63308b6511d5d4dfbf09b40e35",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/explo/explode3.wav",
+      "name": "explode3",
+      "kind": "audio",
+      "bytes": 277860,
+      "git_sha": "d2be9477794cefb63a8820b0400481c41bdaaa65",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/explo/explode4_slow.wav",
+      "name": "explode4_slow",
+      "kind": "audio",
+      "bytes": 155980,
+      "git_sha": "3d1602e056221533ce27b89b74f60c19717f317a",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/explo/explode4.wav",
+      "name": "explode4",
+      "kind": "audio",
+      "bytes": 311812,
+      "git_sha": "07c12fa4c0748162d576ef07331f5dc918e60827",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/futile_escape.wav",
+      "name": "futile_escape",
+      "kind": "audio",
+      "bytes": 1077078,
+      "git_sha": "3ffc37836de790ea31d1b9e3fbc8293ff24fcdc8",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/get_satchel.wav",
+      "name": "get_satchel",
+      "kind": "audio",
+      "bytes": 138982,
+      "git_sha": "204eef53cbdaf5b5f761eaee66b6ff0283018ec1",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/goslow.wav",
+      "name": "goslow",
+      "kind": "audio",
+      "bytes": 17540,
+      "git_sha": "b48c96b238a01afef506dbdc0a8117563dda4dac",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/h9/laserrifle/fire.wav",
+      "name": "fire",
+      "kind": "audio",
+      "bytes": 88244,
+      "git_sha": "34fff9aea15deb1fe16d69b6791fe33a7fad33d3",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/h9/laserrifle/hit1.wav",
+      "name": "hit1",
+      "kind": "audio",
+      "bytes": 52964,
+      "git_sha": "4bc8ca4f8cdc50a93241c168c2080311c64bbfbf",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/h9/laserrifle/hit2.wav",
+      "name": "hit2",
+      "kind": "audio",
+      "bytes": 60016,
+      "git_sha": "df7e4bb66b507d608700da9e832c6b1c7d939f9c",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/h9/laserrifle/hit3.wav",
+      "name": "hit3",
+      "kind": "audio",
+      "bytes": 67076,
+      "git_sha": "39e86cf864464261be7358c4abfb592e1b003783",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/h9/laserrifle/reload.wav",
+      "name": "reload",
+      "kind": "audio",
+      "bytes": 238184,
+      "git_sha": "68c10764ea184122408d1d8de8fa338a05d0a1d3",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/h9/murmur/murmur1.wav",
+      "name": "murmur1",
+      "kind": "audio",
+      "bytes": 102848,
+      "git_sha": "1f33fefd5df0b4c3a579424afe280250ef2b3cd5",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/h9/murmur/murmur2.wav",
+      "name": "murmur2",
+      "kind": "audio",
+      "bytes": 83280,
+      "git_sha": "048b53429b3d6b252fb678bcb0178eb966f65267",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/h9/murmur/murmur3.wav",
+      "name": "murmur3",
+      "kind": "audio",
+      "bytes": 120588,
+      "git_sha": "0e2381486ad300f18ccab29ce0496694c4e6dcac",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/h9/murmur/murmur4.wav",
+      "name": "murmur4",
+      "kind": "audio",
+      "bytes": 93844,
+      "git_sha": "b34faa69e33b21f01156429ac76c9e22d8ed9803",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/h9/murmur/murmur5.wav",
+      "name": "murmur5",
+      "kind": "audio",
+      "bytes": 72664,
+      "git_sha": "bc46829e1b45c1c396eabaa6d2c4919bd8b1e5a5",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/h9/murmur/murmur6.wav",
+      "name": "murmur6",
+      "kind": "audio",
+      "bytes": 128606,
+      "git_sha": "c9ead34bb9059c8034b8073f1006001e9fcb74a6",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/h9/ppsh41/fire.wav",
+      "name": "fire",
+      "kind": "audio",
+      "bytes": 123620,
+      "git_sha": "b0e5da4e4d88e2ed20bbc8cd05a34ee0d2232bed",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/h9lift/alarm.wav",
+      "name": "alarm",
+      "kind": "audio",
+      "bytes": 87838,
+      "git_sha": "6f55935c6a5f8de599c4981fecabaaa3ea109a96",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/h9lift/cable_sing.wav",
+      "name": "cable_sing",
+      "kind": "audio",
+      "bytes": 211760,
+      "git_sha": "642f8490b0abd4b3d3613000f4f879c14a6e60a9",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/h9lift/crackle.wav",
+      "name": "crackle",
+      "kind": "audio",
+      "bytes": 75974,
+      "git_sha": "228ca002805c53f733681fb7dbee62831125aa1f",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/h9lift/creak1.wav",
+      "name": "creak1",
+      "kind": "audio",
+      "bytes": 57506,
+      "git_sha": "dee72fc481501b45bc553a3d5c970f1a61b5dba5",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/h9lift/creak2.wav",
+      "name": "creak2",
+      "kind": "audio",
+      "bytes": 58326,
+      "git_sha": "87a6e648c3a302e048193f8eeb307757be9d19d1",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/h9lift/drive_hum.wav",
+      "name": "drive_hum",
+      "kind": "audio",
+      "bytes": 158840,
+      "git_sha": "c9bb1012bc3797ac6c15e2e5a70f6b85564f5ca6",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/h9lift/groan1.wav",
+      "name": "groan1",
+      "kind": "audio",
+      "bytes": 109890,
+      "git_sha": "107f858e2592e60eb93605b90e9e9640925aec98",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/h9lift/groan2.wav",
+      "name": "groan2",
+      "kind": "audio",
+      "bytes": 115618,
+      "git_sha": "735589bc9e5d93d84b2f1553945ec9870b5b6555",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/h9lift/groan3.wav",
+      "name": "groan3",
+      "kind": "audio",
+      "bytes": 101624,
+      "git_sha": "4eb752a80fbd5bfd7b832cd1cb3784f494d68746",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/h9lift/gust1.wav",
+      "name": "gust1",
+      "kind": "audio",
+      "bytes": 157706,
+      "git_sha": "9ce066569f2508904652f774babaa8df283d1580",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/h9lift/gust2.wav",
+      "name": "gust2",
+      "kind": "audio",
+      "bytes": 158804,
+      "git_sha": "6b6d7afa353213f8f6eb25db48920234181359d5",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/h9lift/joint.wav",
+      "name": "joint",
+      "kind": "audio",
+      "bytes": 46830,
+      "git_sha": "4587ae5a491d96b5bd8865b9a12f0d99d8e06507",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/h9lift/pa_chime.wav",
+      "name": "pa_chime",
+      "kind": "audio",
+      "bytes": 64026,
+      "git_sha": "45180b0407e0307e418cb053f491b5f069f92c85",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/h9lift/rollers.wav",
+      "name": "rollers",
+      "kind": "audio",
+      "bytes": 112534,
+      "git_sha": "b5ecd69f4c4ebcdc305aeb045925703e90a8fa56",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/h9lift/shriek.wav",
+      "name": "shriek",
+      "kind": "audio",
+      "bytes": 87326,
+      "git_sha": "dcea24c887b001a1e4586a6f4766510067efa074",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/h9lift/spindown.wav",
+      "name": "spindown",
+      "kind": "audio",
+      "bytes": 175956,
+      "git_sha": "7816b0c70b527046a118ec9687199e53618f3d4c",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/h9lift/stress_rumble.wav",
+      "name": "stress_rumble",
+      "kind": "audio",
+      "bytes": 308780,
+      "git_sha": "d6bfa2d1b5c31f1d472e37cd4354c289c99dd553",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/h9lift/war1.wav",
+      "name": "war1",
+      "kind": "audio",
+      "bytes": 131702,
+      "git_sha": "912f2b2617bd72aa4a569a5c3e3dcb931a3078c5",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/h9lift/war2.wav",
+      "name": "war2",
+      "kind": "audio",
+      "bytes": 147630,
+      "git_sha": "6e0ccd22361158134fa3ab6bea79f26928c8097e",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/hammertime/cricketb.wav",
+      "name": "cricketb",
+      "kind": "audio",
+      "bytes": 35432,
+      "git_sha": "bd23cab4c6a77c6ef3d7490968163766a8aa53c7",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/hammertime/ts_hammertime.wav",
+      "name": "ts_hammertime",
+      "kind": "audio",
+      "bytes": 476766,
+      "git_sha": "82c7b268d8a6adfdf8659c2a304f00221ca60ae0",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/mechloop.wav",
+      "name": "mechloop",
+      "kind": "audio",
+      "bytes": 99268,
+      "git_sha": "66920a9cbb523d09f25c072823af7a38aeac1245",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/mechwalk.wav",
+      "name": "mechwalk",
+      "kind": "audio",
+      "bytes": 49030,
+      "git_sha": "075c1fa1d9dc8fa222530fab0a098be34c7629ae",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/mechwalk2.wav",
+      "name": "mechwalk2",
+      "kind": "audio",
+      "bytes": 21406,
+      "git_sha": "80bfb1291da610cc2d70a477b003354c81047d59",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/misc/beep2.wav",
+      "name": "beep2",
+      "kind": "audio",
+      "bytes": 9318,
+      "git_sha": "ac4832c6726bc9b8fb61cd65e0134c1a0930d749",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/misc/doublekill.wav",
+      "name": "doublekill",
+      "kind": "audio",
+      "bytes": 37558,
+      "git_sha": "37330c065dc9eb12a043bc3c99bb733ea5b7e830",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/misc/failed.wav",
+      "name": "failed",
+      "kind": "audio",
+      "bytes": 41218,
+      "git_sha": "62145f15bdfa7a155e24aa9ed6cdbb6e01be1c26",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/misc/godlike.wav",
+      "name": "godlike",
+      "kind": "audio",
+      "bytes": 32118,
+      "git_sha": "70f6c0f1b1be2d8e89e8647cca40cb3a7b71b3a3",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/misc/gogogo.wav",
+      "name": "gogogo",
+      "kind": "audio",
+      "bytes": 32986,
+      "git_sha": "d9fa71f865495fac8861aca07cbc1c8723f94078",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/misc/hacked.wav",
+      "name": "hacked",
+      "kind": "audio",
+      "bytes": 21460,
+      "git_sha": "7a9de6e00a00cd76f9940f3ecb86132b2908d512",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/misc/hacking.wav",
+      "name": "hacking",
+      "kind": "audio",
+      "bytes": 22108,
+      "git_sha": "dce7d335d170cc904190f17306e94f138cd6cf48",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/misc/headshot.wav",
+      "name": "headshot",
+      "kind": "audio",
+      "bytes": 28278,
+      "git_sha": "f37552497532b8aa52f87873826a6be4ae693ca5",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/misc/humiliation.wav",
+      "name": "humiliation",
+      "kind": "audio",
+      "bytes": 77816,
+      "git_sha": "3d0fde8944ffddda49b787f7c4840438884ede89",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/misc/impressive.wav",
+      "name": "impressive",
+      "kind": "audio",
+      "bytes": 62072,
+      "git_sha": "2934af74c238abc3e88a11d40aca32fbc03bfe9e",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/misc/killingspree.wav",
+      "name": "killingspree",
+      "kind": "audio",
+      "bytes": 40880,
+      "git_sha": "14b6ef1403caabb113c614dfbde6c40a4e2f75c5",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/misc/lostlead.wav",
+      "name": "lostlead",
+      "kind": "audio",
+      "bytes": 73222,
+      "git_sha": "7b71a59a9d97264c193f4e17afece3fbd0b66cfe",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/misc/monsterkill.wav",
+      "name": "monsterkill",
+      "kind": "audio",
+      "bytes": 90606,
+      "git_sha": "fde5be41430113eb344fc471ae71dfb9a850e7b3",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/misc/multikill.wav",
+      "name": "multikill",
+      "kind": "audio",
+      "bytes": 42550,
+      "git_sha": "80cd2e97af8f2b85907c6a48794c919bf9250d72",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/misc/rampage.wav",
+      "name": "rampage",
+      "kind": "audio",
+      "bytes": 38256,
+      "git_sha": "53ed625909dcadbf281eea0543daf9fdde8c45ec",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/misc/successful.wav",
+      "name": "successful",
+      "kind": "audio",
+      "bytes": 31340,
+      "git_sha": "43272249a0df991bf4b0b9cfceeeb0e1a4f9c958",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/misc/takenlead.wav",
+      "name": "takenlead",
+      "kind": "audio",
+      "bytes": 87734,
+      "git_sha": "04a3bf60c2d17c51b08e284c742e888acf99158e",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/misc/talk.wav",
+      "name": "talk",
+      "kind": "audio",
+      "bytes": 1904,
+      "git_sha": "e07140b07a93ff50f4e17906d401345f5ca92144",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/misc/tiedlead.wav",
+      "name": "tiedlead",
+      "kind": "audio",
+      "bytes": 92930,
+      "git_sha": "a4c495b859bd652b1d87ce5bcd6574b2df1892d1",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/misc/ultrakill.wav",
+      "name": "ultrakill",
+      "kind": "audio",
+      "bytes": 44022,
+      "git_sha": "85e09a025a137a41bf0d29498df97ed811bbb1f8",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/misc/unstoppable.wav",
+      "name": "unstoppable",
+      "kind": "audio",
+      "bytes": 43378,
+      "git_sha": "3c2a0a95bfdf28f72e6bd9529f40002ef22454f6",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/music/alwaysknew.mp3",
+      "name": "alwaysknew",
+      "kind": "ambience-or-music",
+      "bytes": 3679912,
+      "git_sha": "484208f3192279133e34e542fdb2db5804e1e927",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/music/burned.mp3",
+      "name": "burned",
+      "kind": "ambience-or-music",
+      "bytes": 1383212,
+      "git_sha": "e77ec7ec21fa7a6f15b5f50f96678c6fac2290cb",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/music/clubbedtodeath_ii.mp3",
+      "name": "clubbedtodeath_ii",
+      "kind": "ambience-or-music",
+      "bytes": 4609847,
+      "git_sha": "0438ad97a79ace41fe88d8559e22c153b4195779",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/music/contaminated.mp3",
+      "name": "contaminated",
+      "kind": "ambience-or-music",
+      "bytes": 7300226,
+      "git_sha": "183c0b1e1b9745597fc87424fcdcfcd185770d80",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/music/contaminated.wav",
+      "name": "contaminated",
+      "kind": "ambience-or-music",
+      "bytes": 26822734,
+      "git_sha": "4b667f1e8bde7e4559e531ea37728b7c60b43068",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/music/deadinsects.mp3",
+      "name": "deadinsects",
+      "kind": "ambience-or-music",
+      "bytes": 895215,
+      "git_sha": "a2c6070997609755d3f3eace4e2c78006fffca27",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/music/equilibrium_final_countdown.mp3",
+      "name": "equilibrium_final_countdown",
+      "kind": "ambience-or-music",
+      "bytes": 20595075,
+      "git_sha": "bba89c2c21c39930398540464b7aea5524c498c6",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/music/equilibrium_suite.mp3",
+      "name": "equilibrium_suite",
+      "kind": "ambience-or-music",
+      "bytes": 14528147,
+      "git_sha": "e9273d60f11fc4463c5572894646573560d452d6",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/music/equilibrium.mp3",
+      "name": "equilibrium",
+      "kind": "ambience-or-music",
+      "bytes": 4066569,
+      "git_sha": "a3c51de7a57acddb8bb3d886f39ee6656b08579d",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/music/fivefingers.mp3",
+      "name": "fivefingers",
+      "kind": "ambience-or-music",
+      "bytes": 283136,
+      "git_sha": "638389a045cb23d76de02164223c8bad1194cf7e",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/music/floatingmuseum.mp3",
+      "name": "floatingmuseum",
+      "kind": "ambience-or-music",
+      "bytes": 7334693,
+      "git_sha": "928049011a009a8dd399605b47579d0bc06b91cf",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/music/grammaton_cleric.mp3",
+      "name": "grammaton_cleric",
+      "kind": "ambience-or-music",
+      "bytes": 846325,
+      "git_sha": "ecd9db8d2b6e15ead4f1685c3a2d298cf92edfe9",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/music/ihateher.mp3",
+      "name": "ihateher",
+      "kind": "ambience-or-music",
+      "bytes": 578313,
+      "git_sha": "a9a464250d8f437d1ba017a287814d83ff51dda7",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/music/itsadream.mp3",
+      "name": "itsadream",
+      "kind": "ambience-or-music",
+      "bytes": 522911,
+      "git_sha": "324e3621d3179857969d771b934220d037e03cdb",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/music/supression.mp3",
+      "name": "supression",
+      "kind": "ambience-or-music",
+      "bytes": 1848852,
+      "git_sha": "e1b94d7b5861ee68fda6136d6d42e1f736660a31",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/music/twoplustwo.mp3",
+      "name": "twoplustwo",
+      "kind": "ambience-or-music",
+      "bytes": 314406,
+      "git_sha": "9dd3c7f462014c9097744aceda7c96305f96d66e",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/music/vangelis.mp3",
+      "name": "vangelis",
+      "kind": "ambience-or-music",
+      "bytes": 14853570,
+      "git_sha": "8d38b6e8fc60b2a7d99aae466558d45df3213627",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/music/vangelis.wav",
+      "name": "vangelis",
+      "kind": "ambience-or-music",
+      "bytes": 54581326,
+      "git_sha": "52b8aef152a6bc6bb640425ae60666c2497e97c3",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/mutantroar.wav",
+      "name": "mutantroar",
+      "kind": "audio",
+      "bytes": 59864,
+      "git_sha": "3be24bcf9e592e299d076cdf9456b826cea5f824",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/NEambi.wav",
+      "name": "NEambi",
+      "kind": "audio",
+      "bytes": 36265038,
+      "git_sha": "3ec97bb01e48fbb51a2538d4e523003ae61d302d",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/oceania_tis_for_thee.wav",
+      "name": "oceania_tis_for_thee",
+      "kind": "audio",
+      "bytes": 30085872,
+      "git_sha": "d1338976131f104041a3b2e300ca27c31b7a82fa",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/paradise/air.wav",
+      "name": "air",
+      "kind": "audio",
+      "bytes": 709254,
+      "git_sha": "0502c1e707c3c67e177e51dbe9d372272375c689",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/paradise/amb_frogs00.wav",
+      "name": "amb_frogs00",
+      "kind": "audio",
+      "bytes": 241762,
+      "git_sha": "41a45a184fa830ec57c78761a218a9726fcff877",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/paradise/buzzer_liftstart.wav",
+      "name": "buzzer_liftstart",
+      "kind": "audio",
+      "bytes": 54780,
+      "git_sha": "f59c5e2f56bb15bec6bf37e719cbeb285a924784",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/paradise/city2.wav",
+      "name": "city2",
+      "kind": "audio",
+      "bytes": 87302,
+      "git_sha": "151486bbc2f2e23d48711771ae66acff4239945d",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/paradise/darkw.wav",
+      "name": "darkw",
+      "kind": "audio",
+      "bytes": 916608,
+      "git_sha": "99f2f449e27fc8673df6256d7f268530a116268e",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/paradise/enginermAMB.wav",
+      "name": "enginermAMB",
+      "kind": "audio",
+      "bytes": 71364,
+      "git_sha": "b35b5a81e76b395493a86010aea25d030d2e832d",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/paradise/ind1.wav",
+      "name": "ind1",
+      "kind": "audio",
+      "bytes": 180172,
+      "git_sha": "b97cef1d9168d039173b007688d1f56c9ec8412b",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/paradise/iw_policeradio.wav",
+      "name": "iw_policeradio",
+      "kind": "audio",
+      "bytes": 199966,
+      "git_sha": "338bc04ad8dd0040801eef9da15ddc783b704ca1",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/paradise/ksong.wav",
+      "name": "ksong",
+      "kind": "audio",
+      "bytes": 342806,
+      "git_sha": "fa376a7b0bb6bb30f76c4e52667872701fa73f17",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/paradise/newcafe.wav",
+      "name": "newcafe",
+      "kind": "audio",
+      "bytes": 2148112,
+      "git_sha": "2bd0b323cb1f252333a94da5f24befdae9b921b8",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/paradise/olympia.wav",
+      "name": "olympia",
+      "kind": "audio",
+      "bytes": 710904,
+      "git_sha": "5e6be168f19e2d8e64df26d0ba9f114aba87a6c7",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/paradise/rain.wav",
+      "name": "rain",
+      "kind": "audio",
+      "bytes": 1333912,
+      "git_sha": "b21bf3a2221978c4c6b7f097ddf5b99d0bed1164",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/paradise/skullo.wav",
+      "name": "skullo",
+      "kind": "audio",
+      "bytes": 86842,
+      "git_sha": "caa4834d588d8bf4e22c25d6728f2749a1a5df5b",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/paradise/station.wav",
+      "name": "station",
+      "kind": "audio",
+      "bytes": 311370,
+      "git_sha": "f2806fcf26bc4342930b98ed6c1a089c8477a03b",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/paradise/t_kitchen.wav",
+      "name": "t_kitchen",
+      "kind": "audio",
+      "bytes": 16778,
+      "git_sha": "1fde308a26468963c2a91c9900a8c526d3861df7",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/paradise/thekiller.wav",
+      "name": "thekiller",
+      "kind": "audio",
+      "bytes": 548178,
+      "git_sha": "f86d77fa35cebd77ce45f2ef1c32f078d4f3cac7",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/paradise/underon.wav",
+      "name": "underon",
+      "kind": "audio",
+      "bytes": 449800,
+      "git_sha": "da21914db1c8f2a2a60789ccd8d92fbdaef3b5e4",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/paradise/wind_bass.wav",
+      "name": "wind_bass",
+      "kind": "audio",
+      "bytes": 207430,
+      "git_sha": "72d87dc86bc542960f13518916d0835086f4d200",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/plant.wav",
+      "name": "plant",
+      "kind": "audio",
+      "bytes": 399438,
+      "git_sha": "9418c59ad4500e773d5d2416abba249bc6cdb420",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/player/airwheel.wav",
+      "name": "airwheel",
+      "kind": "audio",
+      "bytes": 9624,
+      "git_sha": "b0cdc4049027cf1c6c06182ad6263210c9fc3c17",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/player/block.wav",
+      "name": "block",
+      "kind": "audio",
+      "bytes": 63628,
+      "git_sha": "fcea60d79e1380cd7ecf011b368f88b30935e02b",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/player/bodyhit1.wav",
+      "name": "bodyhit1",
+      "kind": "audio",
+      "bytes": 42378,
+      "git_sha": "51956d1617d4baa2d8a2109c5454c5c8257849bd",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/player/bodyhit2.wav",
+      "name": "bodyhit2",
+      "kind": "audio",
+      "bytes": 9626,
+      "git_sha": "8ad547510644eb1e7171fa9e24c40a8471f9e469",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/player/bodyhit3.wav",
+      "name": "bodyhit3",
+      "kind": "audio",
+      "bytes": 8760,
+      "git_sha": "e68b832bde3f761667f779a51273b3317ce144e3",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/player/bodyhit4.wav",
+      "name": "bodyhit4",
+      "kind": "audio",
+      "bytes": 9468,
+      "git_sha": "155faa6e2e3c7efff9f1ad7dcf1c0612ea8b3483",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/player/closecombat.wav",
+      "name": "closecombat",
+      "kind": "audio",
+      "bytes": 4840,
+      "git_sha": "e80d0028a99a460edf820affdbf614300c1f3dd0",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/player/die.wav",
+      "name": "die",
+      "kind": "audio",
+      "bytes": 75790,
+      "git_sha": "49c3c6e463902f4eea90ea25f774f0a9f9c79dbe",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/player/die1.wav",
+      "name": "die1",
+      "kind": "audio",
+      "bytes": 164698,
+      "git_sha": "8706934b3db1ef9227a53ac57459b3040586d458",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/player/die2.wav",
+      "name": "die2",
+      "kind": "audio",
+      "bytes": 75790,
+      "git_sha": "49c3c6e463902f4eea90ea25f774f0a9f9c79dbe",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/player/die3.wav",
+      "name": "die3",
+      "kind": "audio",
+      "bytes": 164698,
+      "git_sha": "34db6e289a6e23e0b709327ced4107b163f7bcad",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/player/dive.wav",
+      "name": "dive",
+      "kind": "audio",
+      "bytes": 17788,
+      "git_sha": "056e14bd14851caf35c1b5f9913d1ac9f1b686c3",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/player/headshot.wav",
+      "name": "headshot",
+      "kind": "audio",
+      "bytes": 30480,
+      "git_sha": "b911f3a558c983d29040e6f70afc00bcd5af293c",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/player/headshot2.wav",
+      "name": "headshot2",
+      "kind": "audio",
+      "bytes": 48756,
+      "git_sha": "108e7a0c1e4cf2b6c0f14935325b944edb115ea6",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/player/heartbeat1.wav",
+      "name": "heartbeat1",
+      "kind": "audio",
+      "bytes": 8162,
+      "git_sha": "3229d31b11992278c6acf3037884d104e64b0725",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/player/kevlarhit.wav",
+      "name": "kevlarhit",
+      "kind": "audio",
+      "bytes": 4928,
+      "git_sha": "e466f8a43e1ee036176970660b7e904dee1faa03",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/player/kungfuhit.wav",
+      "name": "kungfuhit",
+      "kind": "audio",
+      "bytes": 8148,
+      "git_sha": "558cb55533e7c5f8f39b75f59fd826270248c105",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/player/land.wav",
+      "name": "land",
+      "kind": "audio",
+      "bytes": 73074,
+      "git_sha": "e70d860046dc7409f472cadf3c0c418cfbb421bd",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/player/pain1.wav",
+      "name": "pain1",
+      "kind": "audio",
+      "bytes": 52742,
+      "git_sha": "7d8c3f76b935d66616d57f8bf8045d8e06b47f7d",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/player/pain2.wav",
+      "name": "pain2",
+      "kind": "audio",
+      "bytes": 16518,
+      "git_sha": "202fdb46bf33241bd680f270441306d2ea9534e5",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/player/pain3.wav",
+      "name": "pain3",
+      "kind": "audio",
+      "bytes": 19812,
+      "git_sha": "96f63c0d9144db61e2dcaae238a7a86f0e631f8c",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/player/pain4.wav",
+      "name": "pain4",
+      "kind": "audio",
+      "bytes": 16518,
+      "git_sha": "202fdb46bf33241bd680f270441306d2ea9534e5",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/player/splat.wav",
+      "name": "splat",
+      "kind": "audio",
+      "bytes": 11950,
+      "git_sha": "11ba0ef1932348e0ff8dd17ea3c7439d76578048",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/player/superjump-land.wav",
+      "name": "superjump-land",
+      "kind": "audio",
+      "bytes": 34856,
+      "git_sha": "140dc4c10b4af2917499d23c2346f19af25df381",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/scan.wav",
+      "name": "scan",
+      "kind": "audio",
+      "bytes": 135404,
+      "git_sha": "42a6565f7395fd7c74715a95e9637d6b2c0e9e44",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/start/eliminatetheimpure.wav",
+      "name": "eliminatetheimpure",
+      "kind": "audio",
+      "bytes": 271734,
+      "git_sha": "efe0b7917275f1560686516c4c512841bb005539",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/start/fortherepublic.wav",
+      "name": "fortherepublic",
+      "kind": "audio",
+      "bytes": 105918,
+      "git_sha": "0ed3c5fa6fca9d8503a2c9b48038175d434b7f70",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/start/instructions.wav",
+      "name": "instructions",
+      "kind": "audio",
+      "bytes": 254094,
+      "git_sha": "80055d0912f7994d36aea31cda59b350dd292fef",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/start/lordcommander.wav",
+      "name": "lordcommander",
+      "kind": "audio",
+      "bytes": 254094,
+      "git_sha": "a0e726547905094878bbe1db3649d60ce3b0097b",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/start/ripout.wav",
+      "name": "ripout",
+      "kind": "audio",
+      "bytes": 271734,
+      "git_sha": "caa6ec3096fab55dca50cb92ab957a85cccd82ff",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/start/slaythem.wav",
+      "name": "slaythem",
+      "kind": "audio",
+      "bytes": 271734,
+      "git_sha": "536d9ad7b00de8f4f34b42a5724338d7463b10a1",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/Stinkey/Classical.wav",
+      "name": "Classical",
+      "kind": "audio",
+      "bytes": 327980,
+      "git_sha": "1e43b0ab26db1e46cf737b9a202d525c61e1cc6c",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/Stinkey/Rockin.wav",
+      "name": "Rockin",
+      "kind": "audio",
+      "bytes": 322862,
+      "git_sha": "283e89fe0788eb18946158c86f03528691388d99",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/teahouse/birds9.wav",
+      "name": "birds9",
+      "kind": "audio",
+      "bytes": 168412,
+      "git_sha": "0753b3333d455ba14f2091cf40b4ce44f690ac68",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/teahouse/flush2.wav",
+      "name": "flush2",
+      "kind": "audio",
+      "bytes": 129082,
+      "git_sha": "2085226ea69b7fe6af4aba721081a0c89056fd79",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/teahouse/LMD_HB_sadkong.wav",
+      "name": "LMD_HB_sadkong",
+      "kind": "audio",
+      "bytes": 1433136,
+      "git_sha": "ecde8b86df4667ecf870582cf3802bb619401cf5",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/teahouse/LMD_HB_wonglosesit.wav",
+      "name": "LMD_HB_wonglosesit",
+      "kind": "audio",
+      "bytes": 1554560,
+      "git_sha": "fb70e5e8895c0bfea81006d037d6a8e82078e227",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/teahouse/MD-DrJekyll.wav",
+      "name": "MD-DrJekyll",
+      "kind": "audio",
+      "bytes": 923234,
+      "git_sha": "703bb2ecab7662a75e921f46ea05ceecf53b50ae",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/teahouse/phone_busy.wav",
+      "name": "phone_busy",
+      "kind": "audio",
+      "bytes": 114734,
+      "git_sha": "d1b96ce4869ccdffab361f3d1a2d07ae62e6acc4",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/teahouse/phone_flip.wav",
+      "name": "phone_flip",
+      "kind": "audio",
+      "bytes": 60470,
+      "git_sha": "177a3f30954cbd55de9c637bef5a2c803cc1329d",
+      "lfs_pointer_likely": false
+    }
+  ]
+}
