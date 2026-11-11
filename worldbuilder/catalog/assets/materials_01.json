@@ -1,0 +1,113 @@
+{
+  "schema": "h9.git_asset_catalog/1",
+  "category": "materials",
+  "repository": "MakoRehaps/HAVOC-NINE-MMO",
+  "source_tree_sha": "db541cab7b10ff05b1c1701ed092f42dd90a3f6f",
+  "classification": "filename and path only; not geometry-inspected",
+  "entries": [
+    {
+      "path": "H9XASH/ts/decals.wad",
+      "name": "decals",
+      "kind": "wad-texture-archive",
+      "bytes": 1216768,
+      "git_sha": "db9a1c7eb6201ab3b4cf776e58dd4e5e048a2555",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/h9_meridian.wad",
+      "name": "h9_meridian",
+      "kind": "wad-texture-archive",
+      "bytes": 131,
+      "git_sha": "f0d84aafb2e18535c418f120b6c911f1c75c89b2",
+      "lfs_pointer_likely": true
+    },
+    {
+      "path": "H9XASH/ts/maps/alexandria_msr_b4v3_generated.wad",
+      "name": "alexandria_msr_b4v3_generated",
+      "kind": "wad-texture-archive",
+      "bytes": 16173812,
+      "git_sha": "e0d724bb987d08d871671013fd3aafc11013b5bf",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/maps/alexandria_msr_b5_dc.wad",
+      "name": "alexandria_msr_b5_dc",
+      "kind": "wad-texture-archive",
+      "bytes": 16171440,
+      "git_sha": "896974d4d06194d55a0b8432621aa95185d10702",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/maps/xenoncity_true_b3v2_generated.wad",
+      "name": "xenoncity_true_b3v2_generated",
+      "kind": "wad-texture-archive",
+      "bytes": 2922664,
+      "git_sha": "c5ee80bb2258a64b5e425ef43789e49db62d4bdf",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/meridian.wad",
+      "name": "meridian",
+      "kind": "wad-texture-archive",
+      "bytes": 844776,
+      "git_sha": "3d2463ed7f05e40487b303fda3f4312b93a9c901",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/specialists.wad",
+      "name": "specialists",
+      "kind": "wad-texture-archive",
+      "bytes": 6774156,
+      "git_sha": "6868749eb293d4da8491c684ab7042c935d56428",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/tempdecal.wad",
+      "name": "tempdecal",
+      "kind": "wad-texture-archive",
+      "bytes": 129,
+      "git_sha": "f190b07134a706338be1c58a9d444bae334bd8eb",
+      "lfs_pointer_likely": true
+    },
+    {
+      "path": "H9XASH/valve/gfx.wad",
+      "name": "gfx",
+      "kind": "wad-texture-archive",
+      "bytes": 86608,
+      "git_sha": "99544956783b0d8eb5d0bb0c1ac5b9bad7c78c7b",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/halflife.wad",
+      "name": "halflife",
+      "kind": "wad-texture-archive",
+      "bytes": 323816,
+      "git_sha": "b66820eb77659468ca5a0443b73c618663cb131f",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/maps/alexandria_msr_b4v3_generated.wad",
+      "name": "alexandria_msr_b4v3_generated",
+      "kind": "wad-texture-archive",
+      "bytes": 16173812,
+      "git_sha": "e0d724bb987d08d871671013fd3aafc11013b5bf",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/maps/xenoncity_true_b3v2_generated.wad",
+      "name": "xenoncity_true_b3v2_generated",
+      "kind": "wad-texture-archive",
+      "bytes": 2922664,
+      "git_sha": "c5ee80bb2258a64b5e425ef43789e49db62d4bdf",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "ts/meridian.wad",
+      "name": "meridian",
+      "kind": "wad-texture-archive",
+      "bytes": 844776,
+      "git_sha": "3d2463ed7f05e40487b303fda3f4312b93a9c901",
+      "lfs_pointer_likely": false
+    }
+  ]
+}
