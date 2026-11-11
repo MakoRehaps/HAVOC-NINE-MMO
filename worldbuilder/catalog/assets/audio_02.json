@@ -1,0 +1,2409 @@
+{
+  "schema": "h9.git_asset_catalog/1",
+  "category": "audio",
+  "repository": "MakoRehaps/HAVOC-NINE-MMO",
+  "source_tree_sha": "db541cab7b10ff05b1c1701ed092f42dd90a3f6f",
+  "classification": "filename and path only; not geometry-inspected",
+  "entries": [
+    {
+      "path": "H9XASH/ts/sound/teahouse/phone_fu.wav",
+      "name": "phone_fu",
+      "kind": "audio",
+      "bytes": 60470,
+      "git_sha": "0cc021cf9ddf3ed5bbbe0942d1191ec7a14b5237",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/teahouse/phone_matrix.wav",
+      "name": "phone_matrix",
+      "kind": "audio",
+      "bytes": 60470,
+      "git_sha": "a329acab3b8d0f1cbbc26e0ddde146973d18267f",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/teahouse/phone_slowhack.wav",
+      "name": "phone_slowhack",
+      "kind": "audio",
+      "bytes": 60470,
+      "git_sha": "631b55f4a4f8a38749d7c11d3d3b62995ebb83ba",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/teahouse/rain.wav",
+      "name": "rain",
+      "kind": "audio",
+      "bytes": 2401448,
+      "git_sha": "cd3a9f7e9879c0e48d3f27a53bb635667866a632",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ts_chateau/piano_mixdown01.wav",
+      "name": "piano_mixdown01",
+      "kind": "audio",
+      "bytes": 358458,
+      "git_sha": "9ed774e3b98af50ab251405a628591280ceffbe2",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ts_chateau/piano_mixdown02.wav",
+      "name": "piano_mixdown02",
+      "kind": "audio",
+      "bytes": 358458,
+      "git_sha": "034678f3d4e20b6e85534b2014ace032da298d6c",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ts_chateau/piano_mixdown03.wav",
+      "name": "piano_mixdown03",
+      "kind": "audio",
+      "bytes": 344122,
+      "git_sha": "829db6ee3ff886d31c5e15708198cf465a8fc667",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ts_chateau/piano_mixdown04.wav",
+      "name": "piano_mixdown04",
+      "kind": "audio",
+      "bytes": 358458,
+      "git_sha": "1476ffb0d81a85d7334793dc7013629a4cb834bb",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/ts_gpc/ts_stoom1.wav",
+      "name": "ts_stoom1",
+      "kind": "audio",
+      "bytes": 60498,
+      "git_sha": "2af297a1b0fd0a3e742b6ad029b6097b63702f25",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/tsm_tpad/hum.wav",
+      "name": "hum",
+      "kind": "audio",
+      "bytes": 39734,
+      "git_sha": "86cfb0b9c56511a2d6644e8abbb07420e3962d61",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/turret/turret_deploy.wav",
+      "name": "turret_deploy",
+      "kind": "audio",
+      "bytes": 56728,
+      "git_sha": "a8c3c4631ab8c3761b3a1e93d8b51e63beba21da",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/turret/turret_ping.wav",
+      "name": "turret_ping",
+      "kind": "audio",
+      "bytes": 21590,
+      "git_sha": "51260a9a6c250af8dc150e849925a2bdea061173",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/turret/turret-1.wav",
+      "name": "turret-1",
+      "kind": "audio",
+      "bytes": 36246,
+      "git_sha": "0b6b9005341f34bdaebb8886822132acf8f7305a",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/turret/turret-2.wav",
+      "name": "turret-2",
+      "kind": "audio",
+      "bytes": 35088,
+      "git_sha": "59664abf52d70db3b1f38ba6ce4b48cf79baa9c0",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/turret/turret-3.wav",
+      "name": "turret-3",
+      "kind": "audio",
+      "bytes": 36266,
+      "git_sha": "276be859baf55de302f85428223fbf29f0d093c4",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/turret/turret-4.wav",
+      "name": "turret-4",
+      "kind": "audio",
+      "bytes": 35042,
+      "git_sha": "862ec3a596b4c3acd2d44eafcdb6ddc8f45fc22a",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/uncloak.wav",
+      "name": "uncloak",
+      "kind": "audio",
+      "bytes": 81030,
+      "git_sha": "eacee30bc648e45e3158e99394a2e5bdf6bad506",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/uncloak2.wav",
+      "name": "uncloak2",
+      "kind": "audio",
+      "bytes": 115368,
+      "git_sha": "df015a7a10662fe788ffece81ba85c1054cc399e",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/ak47/clipin.wav",
+      "name": "clipin",
+      "kind": "weapon-audio",
+      "bytes": 12600,
+      "git_sha": "03202afbe95644026627090ae516efae894e07fe",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/ak47/clipout.wav",
+      "name": "clipout",
+      "kind": "weapon-audio",
+      "bytes": 6078,
+      "git_sha": "996ac8bb458e2b2cebdf15e1d24823b776af478c",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/ak47/fire.wav",
+      "name": "fire",
+      "kind": "weapon-audio",
+      "bytes": 195940,
+      "git_sha": "acbdaee0f9e5ff5a4686302b06fd418e6bca13de",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/ak47/slideback.wav",
+      "name": "slideback",
+      "kind": "weapon-audio",
+      "bytes": 11598,
+      "git_sha": "9178075b3e3d7dd092759684d08da926750f2550",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/aug/aug-fire-sil.wav",
+      "name": "aug-fire-sil",
+      "kind": "weapon-audio",
+      "bytes": 118410,
+      "git_sha": "05aeb0d9463eaea692732bc8f7cf901192008a1b",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/aug/aug-fire.wav",
+      "name": "aug-fire",
+      "kind": "weapon-audio",
+      "bytes": 132396,
+      "git_sha": "86b97a2db0d0b463348a571834e3bafbfbdb0e51",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/aug/boltpull.wav",
+      "name": "boltpull",
+      "kind": "weapon-audio",
+      "bytes": 7394,
+      "git_sha": "02e9ce17e9255243673d3b6fb811d7170df2da59",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/aug/boltslap.wav",
+      "name": "boltslap",
+      "kind": "weapon-audio",
+      "bytes": 8284,
+      "git_sha": "38d8f712eecc5b37be8087f93609b591b071ec88",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/aug/clipin.wav",
+      "name": "clipin",
+      "kind": "weapon-audio",
+      "bytes": 2504,
+      "git_sha": "ee9fbb9cf4d2c565a15bb1b203dd9368babe4731",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/aug/clipout.wav",
+      "name": "clipout",
+      "kind": "weapon-audio",
+      "bytes": 3704,
+      "git_sha": "ea74017d86749d4de0e46216e127df9d7398fa68",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/barrett/clipin.wav",
+      "name": "clipin",
+      "kind": "weapon-audio",
+      "bytes": 14406,
+      "git_sha": "a917bb2100849d7d22c3a9c01e573157a9f4e4fc",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/barrett/clipout.wav",
+      "name": "clipout",
+      "kind": "weapon-audio",
+      "bytes": 16344,
+      "git_sha": "ef8927987efa0b28cd4143c40bd9bbf410d88f71",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/barrett/fire.wav",
+      "name": "fire",
+      "kind": "weapon-audio",
+      "bytes": 163418,
+      "git_sha": "fe2268b7f344b0f6baed339eea7f27a72a8b6ffd",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/barrett/slideback.wav",
+      "name": "slideback",
+      "kind": "weapon-audio",
+      "bytes": 16560,
+      "git_sha": "a650ed44ef86cc9800eba56a568364fd8e7db921",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/beretta/clipin.wav",
+      "name": "clipin",
+      "kind": "weapon-audio",
+      "bytes": 10702,
+      "git_sha": "b21337a430361b67b3d503d154901c1cfdbce296",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/beretta/clipout.wav",
+      "name": "clipout",
+      "kind": "weapon-audio",
+      "bytes": 3192,
+      "git_sha": "63464d361cd8ef10672b05d2b50bf0173563527e",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/beretta/fire-sil.wav",
+      "name": "fire-sil",
+      "kind": "weapon-audio",
+      "bytes": 11658,
+      "git_sha": "a6ad2e137d00a8a0064cfc57e08fb1ceed109600",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/beretta/fire.wav",
+      "name": "fire",
+      "kind": "weapon-audio",
+      "bytes": 156204,
+      "git_sha": "df6f0c356eaa4b8044c8d519bea455d8634dbd34",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/beretta/sliderelease.wav",
+      "name": "sliderelease",
+      "kind": "weapon-audio",
+      "bytes": 9252,
+      "git_sha": "eb460554918b44f8784dfd5df417d3ce6d340e00",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/bull/cylinderin.wav",
+      "name": "cylinderin",
+      "kind": "weapon-audio",
+      "bytes": 12708,
+      "git_sha": "74f8675e4b9571904fb843d43173cb24f6b2c038",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/bull/cylinderout.wav",
+      "name": "cylinderout",
+      "kind": "weapon-audio",
+      "bytes": 9518,
+      "git_sha": "8530c365b03333920fa58fb1a0736b1b9fb991a8",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/bull/fire01.wav",
+      "name": "fire01",
+      "kind": "weapon-audio",
+      "bytes": 145386,
+      "git_sha": "c2c8ec66eb55357bde7d7223478e012b90f8588f",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/bull/hammerback.wav",
+      "name": "hammerback",
+      "kind": "weapon-audio",
+      "bytes": 6404,
+      "git_sha": "4136e96ebb22733dd4b88d7791f009915b80ca5d",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/bull/insert-shell.wav",
+      "name": "insert-shell",
+      "kind": "weapon-audio",
+      "bytes": 2684,
+      "git_sha": "6667ec90fa1517b61fd18ba9aa6799a10af676a6",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/bull/shellsout.wav",
+      "name": "shellsout",
+      "kind": "weapon-audio",
+      "bytes": 1370,
+      "git_sha": "685b5466268655c713586c70a001345fa2d71d5b",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/contender/close.wav",
+      "name": "close",
+      "kind": "weapon-audio",
+      "bytes": 18756,
+      "git_sha": "da4322bce7b016b4182f1769b7c36b43438b3328",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/contender/fire.wav",
+      "name": "fire",
+      "kind": "weapon-audio",
+      "bytes": 262784,
+      "git_sha": "26a956d6525480016a5407cc39446e4f79b9e3ab",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/contender/hammerback.wav",
+      "name": "hammerback",
+      "kind": "weapon-audio",
+      "bytes": 6404,
+      "git_sha": "4136e96ebb22733dd4b88d7791f009915b80ca5d",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/contender/insert-shell.wav",
+      "name": "insert-shell",
+      "kind": "weapon-audio",
+      "bytes": 5312,
+      "git_sha": "97e9dc2eca555ef213ff478b205af724c41039f5",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/contender/open.wav",
+      "name": "open",
+      "kind": "weapon-audio",
+      "bytes": 9398,
+      "git_sha": "33aaf5decad70f63bc3eb336a9d7b2c0e36154d1",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/contender/shellout.wav",
+      "name": "shellout",
+      "kind": "weapon-audio",
+      "bytes": 3382,
+      "git_sha": "048cbb56d416766038f1d282ed4e6748496144c0",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/deagle/clipin.wav",
+      "name": "clipin",
+      "kind": "weapon-audio",
+      "bytes": 12142,
+      "git_sha": "06109c4e275f75d86c1bd54ea06fe7cd504276ad",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/deagle/clipout.wav",
+      "name": "clipout",
+      "kind": "weapon-audio",
+      "bytes": 3192,
+      "git_sha": "6045f6d68b44398f28068669f7da588142dd40e4",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/deagle/fire-sil.wav",
+      "name": "fire-sil",
+      "kind": "weapon-audio",
+      "bytes": 37616,
+      "git_sha": "db3f4ca23bfa5a8e46d97d9ff18f23c6aaa4daca",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/deagle/fire.wav",
+      "name": "fire",
+      "kind": "weapon-audio",
+      "bytes": 128788,
+      "git_sha": "ba8197e11b7f9bc884ab3486204db24340f50586",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/deagle/slideback.wav",
+      "name": "slideback",
+      "kind": "weapon-audio",
+      "bytes": 6792,
+      "git_sha": "682c2002374f8a8d8d8e62aea6931ea80ac57020",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/draw.wav",
+      "name": "draw",
+      "kind": "weapon-audio",
+      "bytes": 5736,
+      "git_sha": "25136a69d87810e630687ec0c5f6ff19f320aff4",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/fire-inslow-sil.wav",
+      "name": "fire-inslow-sil",
+      "kind": "weapon-audio",
+      "bytes": 6288,
+      "git_sha": "43223046b36ef93adcc897d5d1b4aa50fc3ca06e",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/fire-inslow.wav",
+      "name": "fire-inslow",
+      "kind": "weapon-audio",
+      "bytes": 85256,
+      "git_sha": "f96acea3d3246ff9bf2afadc944d90f6a4e11cbc",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/fnh/clipin.wav",
+      "name": "clipin",
+      "kind": "weapon-audio",
+      "bytes": 6730,
+      "git_sha": "8873d207478ccc3535a4fcda5d388a44172e6bee",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/fnh/clipout.wav",
+      "name": "clipout",
+      "kind": "weapon-audio",
+      "bytes": 8200,
+      "git_sha": "a0b6fb2cb012a9dea250292295b31cfe8ee43c7a",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/fnh/fnh-fire-sil.wav",
+      "name": "fnh-fire-sil",
+      "kind": "weapon-audio",
+      "bytes": 21604,
+      "git_sha": "415a5116510a450d5c0016f5326521475bae274d",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/fnh/fnh-fire.wav",
+      "name": "fnh-fire",
+      "kind": "weapon-audio",
+      "bytes": 65226,
+      "git_sha": "ea0853e08d0f8e13335792240ece2fcc51206d31",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/fnh/sliderelease.wav",
+      "name": "sliderelease",
+      "kind": "weapon-audio",
+      "bytes": 9284,
+      "git_sha": "020e53a6ee0e16bcfdac2f354a00d615af39c327",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/generic_reload.wav",
+      "name": "generic_reload",
+      "kind": "weapon-audio",
+      "bytes": 49676,
+      "git_sha": "b338065efff6939678614286f87e011bc953f69a",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/glock/clipin.wav",
+      "name": "clipin",
+      "kind": "weapon-audio",
+      "bytes": 5632,
+      "git_sha": "409b3d2bbf0f15ec2188a7d132a0bcbd396ec68d",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/glock/clipout.wav",
+      "name": "clipout",
+      "kind": "weapon-audio",
+      "bytes": 8282,
+      "git_sha": "f5b1de8c14e1d152c93a9dfd97933036d603aeae",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/glock/glock-fire-sil.wav",
+      "name": "glock-fire-sil",
+      "kind": "weapon-audio",
+      "bytes": 20502,
+      "git_sha": "9398f44238284eb01bc0f1fd590dc005304b2e24",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/glock/glock-fire.wav",
+      "name": "glock-fire",
+      "kind": "weapon-audio",
+      "bytes": 93072,
+      "git_sha": "0b1b7536defde83cb3817cfbf7dfe6dde01712ba",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/glock/slideback.wav",
+      "name": "slideback",
+      "kind": "weapon-audio",
+      "bytes": 9284,
+      "git_sha": "41c229bd3cb0c8d7543287aca10e1526a9ab6688",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/glock22/glock22-fire-sil.wav",
+      "name": "glock22-fire-sil",
+      "kind": "weapon-audio",
+      "bytes": 15010,
+      "git_sha": "82b559b80135a7be907eb06522b81f5c44e3c32e",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/glock22/glock22-fire.wav",
+      "name": "glock22-fire",
+      "kind": "weapon-audio",
+      "bytes": 74128,
+      "git_sha": "4d8d1db58b3b717a501664f6169346a30a2a8ae4",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/gold/clipin.wav",
+      "name": "clipin",
+      "kind": "weapon-audio",
+      "bytes": 14704,
+      "git_sha": "59ac549bd8d021b8add5f3ae28554a0c9003b9ed",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/gold/clipout.wav",
+      "name": "clipout",
+      "kind": "weapon-audio",
+      "bytes": 3192,
+      "git_sha": "6f74ff51758058892b22f143901ebec112eb39ce",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/gold/gold-fire.wav",
+      "name": "gold-fire",
+      "kind": "weapon-audio",
+      "bytes": 170370,
+      "git_sha": "7fb91c34cbdd3e8d4cea036ad269cab637458011",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/gold/sliderelease.wav",
+      "name": "sliderelease",
+      "kind": "weapon-audio",
+      "bytes": 6146,
+      "git_sha": "6e14a6aac137e409edf85b1e7da0f2dfa5fb5d85",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/gr_pull.wav",
+      "name": "gr_pull",
+      "kind": "weapon-audio",
+      "bytes": 27374,
+      "git_sha": "b82286982124743674d3f75680718dd890d04bf6",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/gr_safe.wav",
+      "name": "gr_safe",
+      "kind": "weapon-audio",
+      "bytes": 12204,
+      "git_sha": "cfdfc37eb6b726177eb9487a29e886c554dd7a20",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/grenbounce1.wav",
+      "name": "grenbounce1",
+      "kind": "weapon-audio",
+      "bytes": 2376,
+      "git_sha": "9ef0f083b3d94f704ccb4090823060f0ad01c354",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/grenbounce2.wav",
+      "name": "grenbounce2",
+      "kind": "weapon-audio",
+      "bytes": 4600,
+      "git_sha": "6a4bed75652d5d6c5f6cebbf6380193620750e32",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/grenbounce3.wav",
+      "name": "grenbounce3",
+      "kind": "weapon-audio",
+      "bytes": 10758,
+      "git_sha": "61284be350e61760dc23413a96981887fad68a87",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/grenbounce4.wav",
+      "name": "grenbounce4",
+      "kind": "weapon-audio",
+      "bytes": 10758,
+      "git_sha": "720267e0d0764edd7cb5f89de445dcbdf321c65e",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/hammer.wav",
+      "name": "hammer",
+      "kind": "weapon-audio",
+      "bytes": 2992,
+      "git_sha": "2da3943fa8ea3de5471022845c4956f80a0764ed",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/insert-shell.wav",
+      "name": "insert-shell",
+      "kind": "weapon-audio",
+      "bytes": 5312,
+      "git_sha": "97e9dc2eca555ef213ff478b205af724c41039f5",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/items.wav",
+      "name": "items",
+      "kind": "weapon-audio",
+      "bytes": 9052,
+      "git_sha": "ef98a7f43df4715e3e73419f0fa724cf276abdc6",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/katana/hit-body.wav",
+      "name": "hit-body",
+      "kind": "weapon-audio",
+      "bytes": 6676,
+      "git_sha": "f4ab63440bc93c8a6d81a7b2d9c16c9c7ecdb01b",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/katana/hit.wav",
+      "name": "hit",
+      "kind": "weapon-audio",
+      "bytes": 3870,
+      "git_sha": "c97acf8b5e9ddc33461446dedf2769dc3b0da7fa",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/katana/hit1.wav",
+      "name": "hit1",
+      "kind": "weapon-audio",
+      "bytes": 7682,
+      "git_sha": "f8f0c2de5cbfe3da886bfca2053403fe965a563f",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/katana/miss.wav",
+      "name": "miss",
+      "kind": "weapon-audio",
+      "bytes": 6858,
+      "git_sha": "5e209a3a13ac9d3b014b9a11a700ee0cbe240ed9",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/katana/miss1.wav",
+      "name": "miss1",
+      "kind": "weapon-audio",
+      "bytes": 6858,
+      "git_sha": "c345650a12d6b1ee329f469ce502d1b8c2676892",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/knife/knife_hit.wav",
+      "name": "knife_hit",
+      "kind": "weapon-audio",
+      "bytes": 5464,
+      "git_sha": "ae13b512f9a0a6bdcdea8e940f3644a6f2c7d91e",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/knife/knife_hitbody.wav",
+      "name": "knife_hitbody",
+      "kind": "weapon-audio",
+      "bytes": 6676,
+      "git_sha": "fd313c5ea455102eb7586940da119b277f2aed60",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/knife/knife_miss.wav",
+      "name": "knife_miss",
+      "kind": "weapon-audio",
+      "bytes": 1758,
+      "git_sha": "4f2eb61bb4d7d3c2f2ff809afcf246adbb0ca614",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/m16/fire.wav",
+      "name": "fire",
+      "kind": "weapon-audio",
+      "bytes": 108936,
+      "git_sha": "ecfa68cb5f4983d4eaaa2197757033450583741d",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/m3/m3-fire.wav",
+      "name": "m3-fire",
+      "kind": "weapon-audio",
+      "bytes": 115754,
+      "git_sha": "562a6186a12b829c69eac9976c69dc85201b12fb",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/m3/m3-pump.wav",
+      "name": "m3-pump",
+      "kind": "weapon-audio",
+      "bytes": 11054,
+      "git_sha": "d53e30451556c964139f71fad42d579d00a1f8c5",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/m4/boltpull.wav",
+      "name": "boltpull",
+      "kind": "weapon-audio",
+      "bytes": 8974,
+      "git_sha": "3fdb7db7806cccf218208b99533c4c66ddd3b68c",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/m4/clipin.wav",
+      "name": "clipin",
+      "kind": "weapon-audio",
+      "bytes": 5632,
+      "git_sha": "f16993ec922c153ac3e3bdd8b4f8316be125f1fa",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/m4/clipout.wav",
+      "name": "clipout",
+      "kind": "weapon-audio",
+      "bytes": 3742,
+      "git_sha": "dfe9116c505130a3ec25d3bc113bf5c1ce241299",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/m4/m4-fire-sil.wav",
+      "name": "m4-fire-sil",
+      "kind": "weapon-audio",
+      "bytes": 118410,
+      "git_sha": "55e218d40fe44f8be400655c1aa1caaf90163fcb",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/m4/m4-fire.wav",
+      "name": "m4-fire",
+      "kind": "weapon-audio",
+      "bytes": 265714,
+      "git_sha": "211f1c89f06da86ddbe96a18d2534477107405cd",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/m60/ammo_belt.wav",
+      "name": "ammo_belt",
+      "kind": "weapon-audio",
+      "bytes": 86940,
+      "git_sha": "47253ec4c41dfa4a0f945575485d658377e45423",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/m60/boltpull.wav",
+      "name": "boltpull",
+      "kind": "weapon-audio",
+      "bytes": 50380,
+      "git_sha": "8edf9c6c622a0e4dc2265acc812905c55c67690b",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/m60/close.wav",
+      "name": "close",
+      "kind": "weapon-audio",
+      "bytes": 56632,
+      "git_sha": "cbf20a3cb154b95b9eed44697066407ca90f4213",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/m60/m60-fire.wav",
+      "name": "m60-fire",
+      "kind": "weapon-audio",
+      "bytes": 86460,
+      "git_sha": "c030e8fb69cb71668d53dfcb0eaba0303f1e89c8",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/m60/open.wav",
+      "name": "open",
+      "kind": "weapon-audio",
+      "bytes": 75814,
+      "git_sha": "0aed8d1174f3fb3340bb99bc6a2572fd2cf29548",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/mac10/clipin.wav",
+      "name": "clipin",
+      "kind": "weapon-audio",
+      "bytes": 5940,
+      "git_sha": "98d10dbafa7e100491c911ec76164d75cf4b30b0",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/mac10/clipout.wav",
+      "name": "clipout",
+      "kind": "weapon-audio",
+      "bytes": 7972,
+      "git_sha": "a17a37d65ac618ac0bc7b7a2ca4c3298e3e9aec3",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/mac10/mac10-fire-sil.wav",
+      "name": "mac10-fire-sil",
+      "kind": "weapon-audio",
+      "bytes": 39736,
+      "git_sha": "a7974333e1ba4e0f9c8045882f02d0224914c808",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/mac10/mac10-fire.wav",
+      "name": "mac10-fire",
+      "kind": "weapon-audio",
+      "bytes": 134364,
+      "git_sha": "5bd6836d66296d391906e46459bd52dc6da922d9",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/mac10/slideback.wav",
+      "name": "slideback",
+      "kind": "weapon-audio",
+      "bytes": 10656,
+      "git_sha": "6800eaed3883501f8df734b9eee6a9c753deaaab",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/mk23/clipin.wav",
+      "name": "clipin",
+      "kind": "weapon-audio",
+      "bytes": 2398,
+      "git_sha": "dd42407d6a711805fe562a3213a64fec56f98ab8",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/mk23/clipout.wav",
+      "name": "clipout",
+      "kind": "weapon-audio",
+      "bytes": 11188,
+      "git_sha": "f179cfaf146fc513f32a3a2dc16b5189c0bd1419",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/mk23/mk23-fire-sil.wav",
+      "name": "mk23-fire-sil",
+      "kind": "weapon-audio",
+      "bytes": 18836,
+      "git_sha": "cd8d8ee00386af937baf2f5556b4638a45a80e35",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/mk23/mk23-fire.wav",
+      "name": "mk23-fire",
+      "kind": "weapon-audio",
+      "bytes": 170374,
+      "git_sha": "3d29ab61b6d7727ec99f04071398054dc93abaac",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/mk23/sliderelease.wav",
+      "name": "sliderelease",
+      "kind": "weapon-audio",
+      "bytes": 9284,
+      "git_sha": "41c229bd3cb0c8d7543287aca10e1526a9ab6688",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/mossberg/fire.wav",
+      "name": "fire",
+      "kind": "weapon-audio",
+      "bytes": 262796,
+      "git_sha": "ad7c87a24ca51a23612561198b8a15b319b9c0f8",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/mp5/boltpull.wav",
+      "name": "boltpull",
+      "kind": "weapon-audio",
+      "bytes": 11560,
+      "git_sha": "252c7538e1addf05cc849ca3c017b01b979f6814",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/mp5/boltslap.wav",
+      "name": "boltslap",
+      "kind": "weapon-audio",
+      "bytes": 5848,
+      "git_sha": "7bcab049b6a0bcc294893d1a5277a20d4312833f",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/mp5/clipin.wav",
+      "name": "clipin",
+      "kind": "weapon-audio",
+      "bytes": 5706,
+      "git_sha": "5409de0d9af8ea35cd7730457911acad7c0ec6f4",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/mp5/clipout.wav",
+      "name": "clipout",
+      "kind": "weapon-audio",
+      "bytes": 4052,
+      "git_sha": "06f87b1a1c0b22e686f65affe527d4be2d95dce4",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/mp5k/mp5k-fire-sil.wav",
+      "name": "mp5k-fire-sil",
+      "kind": "weapon-audio",
+      "bytes": 12520,
+      "git_sha": "3ba914e5d82c56f51883092c6b46ff06c3568e9c",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/mp5k/mp5k-fire.wav",
+      "name": "mp5k-fire",
+      "kind": "weapon-audio",
+      "bytes": 181122,
+      "git_sha": "47acb1f2d131e82119376b4a15bbe80be2cc2d35",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/mp5sd/mp5sd-fire.wav",
+      "name": "mp5sd-fire",
+      "kind": "weapon-audio",
+      "bytes": 5214,
+      "git_sha": "7780af84949b85ef2f8fccafbacb640250973086",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/pdw/clipin.wav",
+      "name": "clipin",
+      "kind": "weapon-audio",
+      "bytes": 4896,
+      "git_sha": "d0280ff448c0d57186bf964781270fd72b03b5df",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/pdw/clipout.wav",
+      "name": "clipout",
+      "kind": "weapon-audio",
+      "bytes": 8054,
+      "git_sha": "5250c9f9a1a3343934866f244f98d23171f8b44e",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/pdw/fire-sil.wav",
+      "name": "fire-sil",
+      "kind": "weapon-audio",
+      "bytes": 15010,
+      "git_sha": "2b1ff09abdbfa4b8fcc21745f7c30f01224ac57e",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/pdw/fire.wav",
+      "name": "fire",
+      "kind": "weapon-audio",
+      "bytes": 72716,
+      "git_sha": "488f6105e40368a8e6b62d439416d384ab403ca2",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/pdw/slideback.wav",
+      "name": "slideback",
+      "kind": "weapon-audio",
+      "bytes": 5358,
+      "git_sha": "5c50e09ed2aca720788eb146d0c556ecbc8ce4a7",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/pistol-empty.wav",
+      "name": "pistol-empty",
+      "kind": "weapon-audio",
+      "bytes": 3836,
+      "git_sha": "0dd38874210d90d06482a10efd647e82b9a8975c",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/rocketfire1.wav",
+      "name": "rocketfire1",
+      "kind": "weapon-audio",
+      "bytes": 19008,
+      "git_sha": "c3f3f363beef36955bb8a55ae676384ec5b48f27",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/ruger/clipin.wav",
+      "name": "clipin",
+      "kind": "weapon-audio",
+      "bytes": 5632,
+      "git_sha": "409b3d2bbf0f15ec2188a7d132a0bcbd396ec68d",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/ruger/clipout.wav",
+      "name": "clipout",
+      "kind": "weapon-audio",
+      "bytes": 3192,
+      "git_sha": "6045f6d68b44398f28068669f7da588142dd40e4",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/ruger/fire.wav",
+      "name": "fire",
+      "kind": "weapon-audio",
+      "bytes": 59274,
+      "git_sha": "801d3780a7f82b56913a66fe95077ee0946d44bf",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/ruger/slide.wav",
+      "name": "slide",
+      "kind": "weapon-audio",
+      "bytes": 4686,
+      "git_sha": "0f6fb16c2e78fb62bd9cc9c1326547f540697564",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/sawedoff/close.wav",
+      "name": "close",
+      "kind": "weapon-audio",
+      "bytes": 18756,
+      "git_sha": "da4322bce7b016b4182f1769b7c36b43438b3328",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/sawedoff/fire.wav",
+      "name": "fire",
+      "kind": "weapon-audio",
+      "bytes": 181342,
+      "git_sha": "6604bfbafa9faf0f4fe92cf1b765b107d6e0d271",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/sawedoff/fire1.wav",
+      "name": "fire1",
+      "kind": "weapon-audio",
+      "bytes": 195940,
+      "git_sha": "e408bebbf4d867642626832eacfddccc62a8c48b",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/sawedoff/insert-shell.wav",
+      "name": "insert-shell",
+      "kind": "weapon-audio",
+      "bytes": 5312,
+      "git_sha": "97e9dc2eca555ef213ff478b205af724c41039f5",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/sawedoff/open.wav",
+      "name": "open",
+      "kind": "weapon-audio",
+      "bytes": 9398,
+      "git_sha": "33aaf5decad70f63bc3eb336a9d7b2c0e36154d1",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/sawedoff/shelldrop.wav",
+      "name": "shelldrop",
+      "kind": "weapon-audio",
+      "bytes": 61792,
+      "git_sha": "b4667739fdd062989aefd77ed3fe2f52b0bd0a84",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/sawedoff/shellout.wav",
+      "name": "shellout",
+      "kind": "weapon-audio",
+      "bytes": 3382,
+      "git_sha": "048cbb56d416766038f1d282ed4e6748496144c0",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/sawedoff/tapspan.wav",
+      "name": "tapspan",
+      "kind": "weapon-audio",
+      "bytes": 6404,
+      "git_sha": "883cb264b7f84babb31688080584826f5f05be48",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/sfire-inslow.wav",
+      "name": "sfire-inslow",
+      "kind": "weapon-audio",
+      "bytes": 85252,
+      "git_sha": "2bb6a3c24927e80aaf1ff031f9fffe2865fe0c1e",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/shell.wav",
+      "name": "shell",
+      "kind": "weapon-audio",
+      "bytes": 9358,
+      "git_sha": "de7b4595812eaede3ed17f5a97833215be50a186",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/shell2.wav",
+      "name": "shell2",
+      "kind": "weapon-audio",
+      "bytes": 4748,
+      "git_sha": "f4bbe89330d4b2cd453b301fcef2b52ce3f4a3d7",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/spas12/spas12-fire.wav",
+      "name": "spas12-fire",
+      "kind": "weapon-audio",
+      "bytes": 170370,
+      "git_sha": "11747fb2e45279f1b41f1a9c831a24eea57bf41b",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/spas12/spas12-pump.wav",
+      "name": "spas12-pump",
+      "kind": "weapon-audio",
+      "bytes": 11774,
+      "git_sha": "40c31e063ed5cba2f0b9aed9d0b98560e37c3eb3",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/sshell.wav",
+      "name": "sshell",
+      "kind": "weapon-audio",
+      "bytes": 30966,
+      "git_sha": "d90350069328404ff6d03c9e73f373fae644cea1",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/sshell1.wav",
+      "name": "sshell1",
+      "kind": "weapon-audio",
+      "bytes": 31356,
+      "git_sha": "de7c98c55af451095150033355eb7835f3bf131e",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/sshell2.wav",
+      "name": "sshell2",
+      "kind": "weapon-audio",
+      "bytes": 22976,
+      "git_sha": "fff1d188c49eaa6b94492ff1fa502158e4d25950",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/sshell3.wav",
+      "name": "sshell3",
+      "kind": "weapon-audio",
+      "bytes": 40240,
+      "git_sha": "1e15a5b31a7d96d0173974f27f4fc903a8c3506f",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/switch.wav",
+      "name": "switch",
+      "kind": "weapon-audio",
+      "bytes": 2890,
+      "git_sha": "714cc231ffc7c27898f09bd731a533eb305339f3",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/tmp/clipin.wav",
+      "name": "clipin",
+      "kind": "weapon-audio",
+      "bytes": 7122,
+      "git_sha": "d78ce1638f3167a30f6969f45f248a88dfc9f742",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/tmp/clipout.wav",
+      "name": "clipout",
+      "kind": "weapon-audio",
+      "bytes": 6114,
+      "git_sha": "efa206f8447de87e72b6fd2933c96a1530bdceff",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/tmp/fire-sil.wav",
+      "name": "fire-sil",
+      "kind": "weapon-audio",
+      "bytes": 11008,
+      "git_sha": "59927fc23f7ac52a0fc55d89afecddc6adf31002",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/tmp/fire.wav",
+      "name": "fire",
+      "kind": "weapon-audio",
+      "bytes": 91338,
+      "git_sha": "f30f3fc2a3cd032a980b59ff6eca65c1323ecf8c",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/tmp/slideback.wav",
+      "name": "slideback",
+      "kind": "weapon-audio",
+      "bytes": 7040,
+      "git_sha": "4cd8cea295a1190c749d12f2145b56f8d851343b",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/ump/boltpull.wav",
+      "name": "boltpull",
+      "kind": "weapon-audio",
+      "bytes": 11560,
+      "git_sha": "252c7538e1addf05cc849ca3c017b01b979f6814",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/ump/boltslap.wav",
+      "name": "boltslap",
+      "kind": "weapon-audio",
+      "bytes": 5848,
+      "git_sha": "7bcab049b6a0bcc294893d1a5277a20d4312833f",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/ump/clipin.wav",
+      "name": "clipin",
+      "kind": "weapon-audio",
+      "bytes": 5940,
+      "git_sha": "98d10dbafa7e100491c911ec76164d75cf4b30b0",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/ump/clipout.wav",
+      "name": "clipout",
+      "kind": "weapon-audio",
+      "bytes": 7972,
+      "git_sha": "a17a37d65ac618ac0bc7b7a2ca4c3298e3e9aec3",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/ump/clipslap.wav",
+      "name": "clipslap",
+      "kind": "weapon-audio",
+      "bytes": 9140,
+      "git_sha": "b2b66aeeda8b1d459ec5da5f2b055a7f84ec0d31",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/ump/slideback.wav",
+      "name": "slideback",
+      "kind": "weapon-audio",
+      "bytes": 10656,
+      "git_sha": "6800eaed3883501f8df734b9eee6a9c753deaaab",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/ump/ump-fire-sil.wav",
+      "name": "ump-fire-sil",
+      "kind": "weapon-audio",
+      "bytes": 39736,
+      "git_sha": "a7974333e1ba4e0f9c8045882f02d0224914c808",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/ump/ump-fire.wav",
+      "name": "ump-fire",
+      "kind": "weapon-audio",
+      "bytes": 134360,
+      "git_sha": "80a744c5ced8cf7c56fc6c831031dca968c8b662",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/usas/clipin.wav",
+      "name": "clipin",
+      "kind": "weapon-audio",
+      "bytes": 8986,
+      "git_sha": "9a5697b90595d160df0116687df5445a228132ef",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/usas/clipout.wav",
+      "name": "clipout",
+      "kind": "weapon-audio",
+      "bytes": 16344,
+      "git_sha": "5bc91629d5a4987efb7512799375dc56ac808c4c",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/usas/slideback.wav",
+      "name": "slideback",
+      "kind": "weapon-audio",
+      "bytes": 16560,
+      "git_sha": "a650ed44ef86cc9800eba56a568364fd8e7db921",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/usas/usas-fire.wav",
+      "name": "usas-fire",
+      "kind": "weapon-audio",
+      "bytes": 145372,
+      "git_sha": "b1090578e9f72cfd3c53ca4350d5a328d1f7b0a5",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/uzi/clipin.wav",
+      "name": "clipin",
+      "kind": "weapon-audio",
+      "bytes": 7122,
+      "git_sha": "d78ce1638f3167a30f6969f45f248a88dfc9f742",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/uzi/clipout.wav",
+      "name": "clipout",
+      "kind": "weapon-audio",
+      "bytes": 6114,
+      "git_sha": "efa206f8447de87e72b6fd2933c96a1530bdceff",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/uzi/slideback.wav",
+      "name": "slideback",
+      "kind": "weapon-audio",
+      "bytes": 7040,
+      "git_sha": "4cd8cea295a1190c749d12f2145b56f8d851343b",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/uzi/uzi-fire-sil.wav",
+      "name": "uzi-fire-sil",
+      "kind": "weapon-audio",
+      "bytes": 21256,
+      "git_sha": "d83ed26ee3403a0822f425282d8259d94a8fe0fe",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/uzi/uzi-fire.wav",
+      "name": "uzi-fire",
+      "kind": "weapon-audio",
+      "bytes": 54536,
+      "git_sha": "bbe96cd9616f2eb22a35aa54c3d65e6d6c0178af",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/weapon_items.wav",
+      "name": "weapon_items",
+      "kind": "weapon-audio",
+      "bytes": 9052,
+      "git_sha": "0cd5395b8f6b5f9d734ed12f850523ea6ce34bd6",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/weapondrop.wav",
+      "name": "weapondrop",
+      "kind": "weapon-audio",
+      "bytes": 12036,
+      "git_sha": "6b19ae66e02787a542ec3709f1de64f8b6818eee",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/whizz1.wav",
+      "name": "whizz1",
+      "kind": "weapon-audio",
+      "bytes": 23820,
+      "git_sha": "30333adcf1cd78922fab5e854c202f95c14818cb",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/whizz2.wav",
+      "name": "whizz2",
+      "kind": "weapon-audio",
+      "bytes": 6962,
+      "git_sha": "2609b805b2450e0634d25c8aaf6c4c526d0da650",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/whizz3.wav",
+      "name": "whizz3",
+      "kind": "weapon-audio",
+      "bytes": 7996,
+      "git_sha": "1299af192a7e71df49ebb489f66283d83b35adb2",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/whizz4.wav",
+      "name": "whizz4",
+      "kind": "weapon-audio",
+      "bytes": 4138,
+      "git_sha": "0003ab7700f082cc77243fe14a6a08085507e276",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/weapons/whizz5.wav",
+      "name": "whizz5",
+      "kind": "weapon-audio",
+      "bytes": 12106,
+      "git_sha": "98203e5863a9c0edbbb04636b16baf40c8373b49",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/Welcome_to_the_Server.wav",
+      "name": "Welcome_to_the_Server",
+      "kind": "audio",
+      "bytes": 1198158,
+      "git_sha": "3f2d6171025fecaa931118bab4328b13bedb05e0",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/welcome.wav",
+      "name": "welcome",
+      "kind": "audio",
+      "bytes": 600586,
+      "git_sha": "1d1f277a148834e3c721927eddb7c98c844933f9",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/xenoncity/buzzer1.wav",
+      "name": "buzzer1",
+      "kind": "audio",
+      "bytes": 15542,
+      "git_sha": "76e2058af5ad05ab4952d79d55bde4ae8f319493",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/xenoncity/cityalert.wav",
+      "name": "cityalert",
+      "kind": "audio",
+      "bytes": 794048,
+      "git_sha": "eb3bb97bc7afa9917ddf58a52f29df9417235ffe",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/xenoncity/floating.wav",
+      "name": "floating",
+      "kind": "audio",
+      "bytes": 836772,
+      "git_sha": "606132b4b62e71de92008594ed7f5278be2024cf",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/xenoncity/jd_BD_fon.wav",
+      "name": "jd_BD_fon",
+      "kind": "audio",
+      "bytes": 463424,
+      "git_sha": "cd6da5a7f7db1da040949831da0850c63ad8efea",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/xenoncity/shatter.wav",
+      "name": "shatter",
+      "kind": "audio",
+      "bytes": 382776,
+      "git_sha": "2a113891f79664379f991e0499464686bf5c497f",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/xenoncity/turbine.wav",
+      "name": "turbine",
+      "kind": "audio",
+      "bytes": 51006,
+      "git_sha": "2170ec7e5835f53579c2ba2bc5f73fb1be4797a0",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/xom_laugh.wav",
+      "name": "xom_laugh",
+      "kind": "audio",
+      "bytes": 359358,
+      "git_sha": "ffda137a7f4be2dd9647dcc4e119ab3e77a340ad",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/xt_theatre/xt_curtain.wav",
+      "name": "xt_curtain",
+      "kind": "audio",
+      "bytes": 51546,
+      "git_sha": "6e90230ef89c6b01f07e9e941b556944f8fd21fc",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/xt_theatre/xt_doh.wav",
+      "name": "xt_doh",
+      "kind": "audio",
+      "bytes": 47086,
+      "git_sha": "fc94562bf819f1fa77de1e2f3a7bc416e251210d",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/xt_theatre/xt_dude.wav",
+      "name": "xt_dude",
+      "kind": "audio",
+      "bytes": 26654,
+      "git_sha": "12c0998dac52c63e727875748af8527fb4ebd4c4",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/xt_theatre/xt_hardon.wav",
+      "name": "xt_hardon",
+      "kind": "audio",
+      "bytes": 184088,
+      "git_sha": "49b47d6bbb1ec429d3c4d4330bac4af26efa9670",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/xt_theatre/xt_mojo.wav",
+      "name": "xt_mojo",
+      "kind": "audio",
+      "bytes": 206480,
+      "git_sha": "5eeb83a9e44400a68fadec19b19c0f6eb5b6de08",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/ts/sound/xt_theatre/xt_theatre_atmo.wav",
+      "name": "xt_theatre_atmo",
+      "kind": "audio",
+      "bytes": 503412,
+      "git_sha": "38758002ffa91b41532ecf141015c16c0325e4e8",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/ambience/boomer.wav",
+      "name": "boomer",
+      "kind": "ambience-or-music",
+      "bytes": 627094,
+      "git_sha": "c6624fa83c6fdfeeb3789395284f5982bba5d431",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/ambience/computalk2.wav",
+      "name": "computalk2",
+      "kind": "ambience-or-music",
+      "bytes": 492500,
+      "git_sha": "278966be3fe647e2fbdb336dd63e2b8f891b49f9",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/ambience/cricket.wav",
+      "name": "cricket",
+      "kind": "ambience-or-music",
+      "bytes": 165632,
+      "git_sha": "6dd16ec4599c72bfbbb72f99ec1a77768384e08c",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/ambience/drips.wav",
+      "name": "drips",
+      "kind": "ambience-or-music",
+      "bytes": 622390,
+      "git_sha": "1916639573223ab110a35ad7b8f81f4a9e824e35",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/ambience/hammer.wav",
+      "name": "hammer",
+      "kind": "ambience-or-music",
+      "bytes": 386486,
+      "git_sha": "3a39a153e5de170e3788dbbdbb1e984c788d6189",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/ambience/industrial2.wav",
+      "name": "industrial2",
+      "kind": "ambience-or-music",
+      "bytes": 420002,
+      "git_sha": "871dffb1c0228673e6815d9b9ab15d0f6917a916",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/ambience/industrial4.wav",
+      "name": "industrial4",
+      "kind": "ambience-or-music",
+      "bytes": 255068,
+      "git_sha": "86856ad1351cb952936c28a4f9c0ac700dc00a21",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/ambience/labdrone2.wav",
+      "name": "labdrone2",
+      "kind": "ambience-or-music",
+      "bytes": 136040,
+      "git_sha": "4cb69e8512f7ea4e315d191d7e3ce8105fb31c58",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/ambience/loader_hydra1.wav",
+      "name": "loader_hydra1",
+      "kind": "ambience-or-music",
+      "bytes": 50758,
+      "git_sha": "f3ed69541e159c025f9f2f44e6b2f0cec30b9104",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/ambience/loader_step1.wav",
+      "name": "loader_step1",
+      "kind": "ambience-or-music",
+      "bytes": 48114,
+      "git_sha": "098485124df18ef6bf806dcc73138c171e01a2e6",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/ambience/steamjet1.wav",
+      "name": "steamjet1",
+      "kind": "ambience-or-music",
+      "bytes": 138114,
+      "git_sha": "e207c2475372bd622d331601d047408d0cfc168f",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/ambience/truck2.wav",
+      "name": "truck2",
+      "kind": "ambience-or-music",
+      "bytes": 52416,
+      "git_sha": "9ccda1bdc3513e4d02b1679a0e359562f24e7b27",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/ambience/wind2.wav",
+      "name": "wind2",
+      "kind": "ambience-or-music",
+      "bytes": 875114,
+      "git_sha": "9a7ddc36df00e3372551ab1b70594a1b356d5100",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/buttons/bell1.wav",
+      "name": "bell1",
+      "kind": "audio",
+      "bytes": 30472,
+      "git_sha": "17101f49d84dc2af422039066294c9293c68330f",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/buttons/button1.wav",
+      "name": "button1",
+      "kind": "audio",
+      "bytes": 59490,
+      "git_sha": "f85b44fcd4c37cd0744711844d2bbffe05255116",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/buttons/button10.wav",
+      "name": "button10",
+      "kind": "audio",
+      "bytes": 15346,
+      "git_sha": "75c48a671e95db7e118d6e22055020459e291358",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/buttons/button2.wav",
+      "name": "button2",
+      "kind": "audio",
+      "bytes": 25136,
+      "git_sha": "8a85e2c4b4fdc55f2c6933c6dc161ea2a3d88d09",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/buttons/button3.wav",
+      "name": "button3",
+      "kind": "audio",
+      "bytes": 10628,
+      "git_sha": "5c03af0035e1750b4fe373a5e057c07d09d08b43",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/buttons/button4.wav",
+      "name": "button4",
+      "kind": "audio",
+      "bytes": 38588,
+      "git_sha": "0d1588c77676dab84afc0afd87260dd7574f3e6e",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/buttons/button5.wav",
+      "name": "button5",
+      "kind": "audio",
+      "bytes": 46966,
+      "git_sha": "11e8e59f8ae447e2f4fa1ba18b87aafedd6a7bea",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/buttons/button7.wav",
+      "name": "button7",
+      "kind": "audio",
+      "bytes": 22800,
+      "git_sha": "f99c56a1f062e6987941e548705d684b5fe64023",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/buttons/button9.wav",
+      "name": "button9",
+      "kind": "audio",
+      "bytes": 17198,
+      "git_sha": "548a4b7eb93b448a6ec519d8cd0fa2b4a3ba2f98",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/buttons/latchlocked1.wav",
+      "name": "latchlocked1",
+      "kind": "audio",
+      "bytes": 55700,
+      "git_sha": "30202d9606f0b541cfa52412404bc2dbf9a85305",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/buttons/lever1.wav",
+      "name": "lever1",
+      "kind": "audio",
+      "bytes": 98212,
+      "git_sha": "0f207596591e91e0d8373d9339504d40229129e0",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/buttons/lightswitch2.wav",
+      "name": "lightswitch2",
+      "kind": "audio",
+      "bytes": 8862,
+      "git_sha": "37ce10ddff4f83a1291840541caf03cde38a5504",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/buttons/spark1.wav",
+      "name": "spark1",
+      "kind": "audio",
+      "bytes": 15302,
+      "git_sha": "9871998bf7fe9c905f9e755a6fe5a481c8beabad",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/buttons/spark2.wav",
+      "name": "spark2",
+      "kind": "audio",
+      "bytes": 3132,
+      "git_sha": "2fe5bfb50842a6168a6b2c7066c665b618822cc7",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/buttons/spark3.wav",
+      "name": "spark3",
+      "kind": "audio",
+      "bytes": 19978,
+      "git_sha": "0c6a30cd0448aebfcc792a46a33d3a1b2186abae",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/buttons/spark4.wav",
+      "name": "spark4",
+      "kind": "audio",
+      "bytes": 22976,
+      "git_sha": "3db6156b44f5167807d13a504c6972c3b95f3be5",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/buttons/spark5.wav",
+      "name": "spark5",
+      "kind": "audio",
+      "bytes": 48040,
+      "git_sha": "913caaf91475e97f5304794a2f8203652baff17c",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/buttons/spark6.wav",
+      "name": "spark6",
+      "kind": "audio",
+      "bytes": 36206,
+      "git_sha": "31718b70be7b9a807925c3ced58768ccb491fdcb",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/common/bodysplat.wav",
+      "name": "bodysplat",
+      "kind": "audio",
+      "bytes": 116514,
+      "git_sha": "6ef26dd5baa888c8d3f0ad4537d13de34f2ab83a",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/common/launch_deny1.wav",
+      "name": "launch_deny1",
+      "kind": "audio",
+      "bytes": 12392,
+      "git_sha": "421d6bafa15f9cf4c0a5632651d8cd43179d04ec",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/common/launch_deny2.wav",
+      "name": "launch_deny2",
+      "kind": "audio",
+      "bytes": 35324,
+      "git_sha": "6baa68f2d635d918bb23f076470240d54800a6de",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/common/launch_dnmenu1.wav",
+      "name": "launch_dnmenu1",
+      "kind": "audio",
+      "bytes": 21212,
+      "git_sha": "cda4a995ace1e9b55c2cdec899d4573b575cdf9d",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/common/launch_glow1.wav",
+      "name": "launch_glow1",
+      "kind": "audio",
+      "bytes": 30912,
+      "git_sha": "d993546d798f1b380fdfd6831df8fedf71293dc3",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/common/launch_move1.wav",
+      "name": "launch_move1",
+      "kind": "audio",
+      "bytes": 8864,
+      "git_sha": "79cfd76c6f33e8e578b736cb45ddf21dd67274c1",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/common/launch_select1.wav",
+      "name": "launch_select1",
+      "kind": "audio",
+      "bytes": 10628,
+      "git_sha": "1c2e81fb91550df308fbf7ccd7a2fab5f1006fcf",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/common/launch_select2.wav",
+      "name": "launch_select2",
+      "kind": "audio",
+      "bytes": 12392,
+      "git_sha": "214aefedb2c3a16a77cacfaeb7761a786b939b2a",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/common/launch_upmenu1.wav",
+      "name": "launch_upmenu1",
+      "kind": "audio",
+      "bytes": 44144,
+      "git_sha": "1cd033d4c5282c312f0cf462b2c25dd9a16b1c9e",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/common/null.wav",
+      "name": "null",
+      "kind": "audio",
+      "bytes": 4454,
+      "git_sha": "eb3de1e62db478f40a8109160c32680a93a81962",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/debris/bustceiling.wav",
+      "name": "bustceiling",
+      "kind": "audio",
+      "bytes": 113524,
+      "git_sha": "e1138f96358f6fb6d53a7479526c59b7b66ef637",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/debris/bustconcrete1.wav",
+      "name": "bustconcrete1",
+      "kind": "audio",
+      "bytes": 76358,
+      "git_sha": "e47ca060f1079ad3c177dc825c8e807d6dedeb1c",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/debris/bustconcrete2.wav",
+      "name": "bustconcrete2",
+      "kind": "audio",
+      "bytes": 112380,
+      "git_sha": "eb9a657fd63e6c1c7cbdd031e79e62d624bcb4dc",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/debris/bustflesh1.wav",
+      "name": "bustflesh1",
+      "kind": "audio",
+      "bytes": 80506,
+      "git_sha": "fbc523e3c086659f203da1367a91702380919150",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/debris/bustflesh2.wav",
+      "name": "bustflesh2",
+      "kind": "audio",
+      "bytes": 24332,
+      "git_sha": "71dc5c24905872e07a2e6ffd520331f80021a248",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/debris/bustmetal1.wav",
+      "name": "bustmetal1",
+      "kind": "audio",
+      "bytes": 56664,
+      "git_sha": "519ae6370083269b9eb28e2d36e4f406d62ff736",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/debris/bustmetal2.wav",
+      "name": "bustmetal2",
+      "kind": "audio",
+      "bytes": 154940,
+      "git_sha": "18084d35e7c299827ebed0a1f5d3c3126907560c",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/debris/concrete1.wav",
+      "name": "concrete1",
+      "kind": "audio",
+      "bytes": 46668,
+      "git_sha": "4567aff8b44122fb549194c5753dc713b590c3ed",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/debris/concrete2.wav",
+      "name": "concrete2",
+      "kind": "audio",
+      "bytes": 99386,
+      "git_sha": "9c3927df53ae86e5576081d13e51dd31e34e3a3b",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/debris/concrete3.wav",
+      "name": "concrete3",
+      "kind": "audio",
+      "bytes": 39582,
+      "git_sha": "a9ec8c3607b5fa6b85b029ba840a7de89dc15d60",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/debris/flesh1.wav",
+      "name": "flesh1",
+      "kind": "audio",
+      "bytes": 21302,
+      "git_sha": "bd8815e9cd147cf31234676ff7452b3d301945a7",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/debris/flesh2.wav",
+      "name": "flesh2",
+      "kind": "audio",
+      "bytes": 96964,
+      "git_sha": "e2ba46877762bdc30d09121e8ad4a5691ddd688a",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/debris/flesh3.wav",
+      "name": "flesh3",
+      "kind": "audio",
+      "bytes": 24284,
+      "git_sha": "40c131004b33e26c156f2eeb9b3e4b07348e576a",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/debris/flesh5.wav",
+      "name": "flesh5",
+      "kind": "audio",
+      "bytes": 36786,
+      "git_sha": "eda2d78b0f778a30e8a5b95da67f770dc40d8aa1",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/debris/flesh6.wav",
+      "name": "flesh6",
+      "kind": "audio",
+      "bytes": 30626,
+      "git_sha": "bc1c8a76753be5dd35314b18ab44bb4425bb67c0",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/debris/flesh7.wav",
+      "name": "flesh7",
+      "kind": "audio",
+      "bytes": 22272,
+      "git_sha": "dbc2f569b7edd542e7943181a38c2b2460c3f937",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/debris/metal6.wav",
+      "name": "metal6",
+      "kind": "audio",
+      "bytes": 43552,
+      "git_sha": "2be68f5db6bce5c3e0dd85cd664b577f08103529",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/debris/pushbox1.wav",
+      "name": "pushbox1",
+      "kind": "audio",
+      "bytes": 153954,
+      "git_sha": "a971c3508fcee5bfde9cbea0b620958d9bbf15e3",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/debris/pushbox2.wav",
+      "name": "pushbox2",
+      "kind": "audio",
+      "bytes": 156916,
+      "git_sha": "1466e58f290c57ed5d519f248c32a82bed90a72a",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/debris/pushbox3.wav",
+      "name": "pushbox3",
+      "kind": "audio",
+      "bytes": 129650,
+      "git_sha": "c854a86196c049211cf0860eb262fbda52135ea7",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/debris/wood4.wav",
+      "name": "wood4",
+      "kind": "audio",
+      "bytes": 48470,
+      "git_sha": "df9a573730cc3acaf9036844bc789ca7e5c5ea06",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/doors/doormove1.wav",
+      "name": "doormove1",
+      "kind": "audio",
+      "bytes": 222308,
+      "git_sha": "ee500a4c6f55e1a4a9cfbf8f25eacdbc684b0cb9",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/doors/doormove10.wav",
+      "name": "doormove10",
+      "kind": "audio",
+      "bytes": 114964,
+      "git_sha": "e2bad7eb12da81bb8af792dfeb5181451b738e54",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/doors/doormove2.wav",
+      "name": "doormove2",
+      "kind": "audio",
+      "bytes": 165682,
+      "git_sha": "04ada3df0c52e1ac880c5133e32b3c64d68f9571",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/doors/doormove3.wav",
+      "name": "doormove3",
+      "kind": "audio",
+      "bytes": 85598,
+      "git_sha": "dae9a376cad47779d37bcf9ce45193e6c02c8b25",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/doors/doormove4.wav",
+      "name": "doormove4",
+      "kind": "audio",
+      "bytes": 45158,
+      "git_sha": "46b2853058d55a3d2f419437d27fe10e40438c1e",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/doors/doormove5.wav",
+      "name": "doormove5",
+      "kind": "audio",
+      "bytes": 79866,
+      "git_sha": "4ff52f6de2d2abee548582a4efb919f948ed55bd",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/doors/doormove6.wav",
+      "name": "doormove6",
+      "kind": "audio",
+      "bytes": 121444,
+      "git_sha": "3684493099fc03a5c6c5495a57345265ad26c697",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/doors/doormove7.wav",
+      "name": "doormove7",
+      "kind": "audio",
+      "bytes": 79416,
+      "git_sha": "35c6ea84922ce31f7c1d1af39b335450a6b39991",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/doors/doormove8.wav",
+      "name": "doormove8",
+      "kind": "audio",
+      "bytes": 129888,
+      "git_sha": "3f45dd07067ec1cebe598e6a5fbb65b857a2a224",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/doors/doormove9.wav",
+      "name": "doormove9",
+      "kind": "audio",
+      "bytes": 99622,
+      "git_sha": "4612bf2994b2b64ce5dae9c2e3a6708001a90e80",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/doors/doorstop1.wav",
+      "name": "doorstop1",
+      "kind": "audio",
+      "bytes": 64896,
+      "git_sha": "ce4efbaa54b53535bd31c455ca27eae3ef237f9f",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/doors/doorstop2.wav",
+      "name": "doorstop2",
+      "kind": "audio",
+      "bytes": 167514,
+      "git_sha": "0dca0b86116b190fd117a3c2edb9637496eccdc5",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/doors/doorstop3.wav",
+      "name": "doorstop3",
+      "kind": "audio",
+      "bytes": 41146,
+      "git_sha": "2f8ec0473033521aac435ac4ad9bd248da5622e9",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/doors/doorstop4.wav",
+      "name": "doorstop4",
+      "kind": "audio",
+      "bytes": 53142,
+      "git_sha": "10b365ce3c99116ed5ff6005c22bdf9f59fb36e3",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/doors/doorstop5.wav",
+      "name": "doorstop5",
+      "kind": "audio",
+      "bytes": 47400,
+      "git_sha": "c8b073b00c006204265b7131739a83ec2bb4be3f",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/doors/doorstop6.wav",
+      "name": "doorstop6",
+      "kind": "audio",
+      "bytes": 55390,
+      "git_sha": "59203b83099cd48825381f721bd53851acb4a584",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/doors/doorstop7.wav",
+      "name": "doorstop7",
+      "kind": "audio",
+      "bytes": 117074,
+      "git_sha": "a121f96b3f930afd4be09e7696fd9063c2c4db96",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/doors/doorstop8.wav",
+      "name": "doorstop8",
+      "kind": "audio",
+      "bytes": 59314,
+      "git_sha": "0fca42f03024547dfcbb2a0e74b7498b90d1a4a5",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/garg/gar_step1.wav",
+      "name": "gar_step1",
+      "kind": "audio",
+      "bytes": 45026,
+      "git_sha": "52588e3def5d026dc52174863e6c3c7a071d8b4b",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/items/9mmclip1.wav",
+      "name": "9mmclip1",
+      "kind": "audio",
+      "bytes": 12882,
+      "git_sha": "af926a0d4683ca971b5ab7166449c6472d928819",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/items/gunpickup2.wav",
+      "name": "gunpickup2",
+      "kind": "audio",
+      "bytes": 45030,
+      "git_sha": "6855c358c66e6c8c5c00ac256dcf8199b7918e63",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/items/medshot4.wav",
+      "name": "medshot4",
+      "kind": "audio",
+      "bytes": 30914,
+      "git_sha": "baa3ce8d5f1d936f941b91e9d3df18dac5eb0421",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/items/smallmedkit1.wav",
+      "name": "smallmedkit1",
+      "kind": "audio",
+      "bytes": 99908,
+      "git_sha": "3558e9168ceeb02cd399650fe3a9560f858cb51e",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/items/suitchargeok1.wav",
+      "name": "suitchargeok1",
+      "kind": "audio",
+      "bytes": 194522,
+      "git_sha": "cf260b4651a7502a7b357c2397cee1b68d228c4f",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/items/weapondrop1.wav",
+      "name": "weapondrop1",
+      "kind": "audio",
+      "bytes": 51286,
+      "git_sha": "7d90c21f028ce807632d95ba569b1c1e1e7b9e6e",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/plats/bigmove2.wav",
+      "name": "bigmove2",
+      "kind": "audio",
+      "bytes": 189182,
+      "git_sha": "ca2be344284b3622f6dcc4539717627e321ab987",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/plats/bigstop2.wav",
+      "name": "bigstop2",
+      "kind": "audio",
+      "bytes": 167330,
+      "git_sha": "50e7414fe50ef3352279a9796fe05ff9bff79bde",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/plats/elevmove1.wav",
+      "name": "elevmove1",
+      "kind": "audio",
+      "bytes": 263622,
+      "git_sha": "5a752d428bdca62cc6cedcc481b8adc90ca19b4c",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/plats/elevmove2.wav",
+      "name": "elevmove2",
+      "kind": "audio",
+      "bytes": 124530,
+      "git_sha": "015614b7c29d7eca8761ffb6cf2dbfa48440a80c",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/plats/elevmove3.wav",
+      "name": "elevmove3",
+      "kind": "audio",
+      "bytes": 69140,
+      "git_sha": "72efe92bd8d9cbd32cbd452de77cad9a863b97bf",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/plats/freightstop1.wav",
+      "name": "freightstop1",
+      "kind": "audio",
+      "bytes": 92168,
+      "git_sha": "ada48ff3e71cee87493007c201c9c9e26a0fa6be",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/plats/railmove1.wav",
+      "name": "railmove1",
+      "kind": "audio",
+      "bytes": 69934,
+      "git_sha": "b32bb5ee47eb2ed1a528c8400b7fd632bb479cf4",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/plats/railstop1.wav",
+      "name": "railstop1",
+      "kind": "audio",
+      "bytes": 205966,
+      "git_sha": "a5d2420098573ab41daef12179fd96138c8abe15",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/plats/talkstop1.wav",
+      "name": "talkstop1",
+      "kind": "audio",
+      "bytes": 40660,
+      "git_sha": "c99b4292c3884d0cdcdd3375df2a2eef74bd3e13",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/player/breathe2.wav",
+      "name": "breathe2",
+      "kind": "audio",
+      "bytes": 136696,
+      "git_sha": "dc4059d8582b18ea9371fb377be17df8bc5ce958",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/player/pl_dirt1.wav",
+      "name": "pl_dirt1",
+      "kind": "audio",
+      "bytes": 22300,
+      "git_sha": "67132fdc3b615aa91bc487596c61b017763b133d",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/player/pl_dirt2.wav",
+      "name": "pl_dirt2",
+      "kind": "audio",
+      "bytes": 24182,
+      "git_sha": "78df5e71d4218b058895593739dc92148f54e37d",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/player/pl_dirt3.wav",
+      "name": "pl_dirt3",
+      "kind": "audio",
+      "bytes": 37298,
+      "git_sha": "238b4d0dccde1ebc040988d93a20ccf140308550",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/player/pl_dirt4.wav",
+      "name": "pl_dirt4",
+      "kind": "audio",
+      "bytes": 57892,
+      "git_sha": "25fd03849f4fe07275e7c081ee48a9c603fcefbe",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/player/pl_duct1.wav",
+      "name": "pl_duct1",
+      "kind": "audio",
+      "bytes": 43372,
+      "git_sha": "e45d2e4723391f8b9aa9a2c4b92982957bc3e985",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/player/pl_duct2.wav",
+      "name": "pl_duct2",
+      "kind": "audio",
+      "bytes": 42042,
+      "git_sha": "293a7861a9aed8f508059a794bec60303627379e",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/player/pl_duct3.wav",
+      "name": "pl_duct3",
+      "kind": "audio",
+      "bytes": 36302,
+      "git_sha": "4d22f24218ff590677e8ed2f6ac00db221c7d303",
+      "lfs_pointer_likely": false
+    },
+    {
+      "path": "H9XASH/valve/sound/player/pl_duct4.wav",
+      "name": "pl_duct4",
+      "kind": "audio",
+      "bytes": 37102,
+      "git_sha": "6378d14b92045a4e800fc1bb1228a48dcbe3ed58",
+      "lfs_pointer_likely": false
+    }
+  ]
+}
