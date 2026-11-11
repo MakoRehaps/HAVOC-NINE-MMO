@@ -1,0 +1,63 @@
+{
+  "schema": "h9.git_assets_index/1",
+  "repository": "MakoRehaps/HAVOC-NINE-MMO",
+  "branch": "main",
+  "source_tree_sha": "db541cab7b10ff05b1c1701ed092f42dd90a3f6f",
+  "generated_utc": "2026-11-11",
+  "method": "GitHub recursive tree inventory (no asset visual inspection or binary decoding)",
+  "count": 2326,
+  "category_counts": {
+    "models": 862,
+    "visuals": 707,
+    "audio": 744,
+    "materials": 13
+  },
+  "parts": [
+    {
+      "path": "worldbuilder/catalog/assets/models_01.json",
+      "entries": 300
+    },
+    {
+      "path": "worldbuilder/catalog/assets/models_02.json",
+      "entries": 300
+    },
+    {
+      "path": "worldbuilder/catalog/assets/models_03.json",
+      "entries": 262
+    },
+    {
+      "path": "worldbuilder/catalog/assets/visuals_01.json",
+      "entries": 300
+    },
+    {
+      "path": "worldbuilder/catalog/assets/visuals_02.json",
+      "entries": 300
+    },
+    {
+      "path": "worldbuilder/catalog/assets/visuals_03.json",
+      "entries": 107
+    },
+    {
+      "path": "worldbuilder/catalog/assets/audio_01.json",
+      "entries": 300
+    },
+    {
+      "path": "worldbuilder/catalog/assets/audio_02.json",
+      "entries": 300
+    },
+    {
+      "path": "worldbuilder/catalog/assets/audio_03.json",
+      "entries": 144
+    },
+    {
+      "path": "worldbuilder/catalog/assets/materials_01.json",
+      "entries": 13
+    }
+  ],
+  "limitations": [
+    "Category labels inferred from path and extension, not validated against model geometry or textures.",
+    "Git LFS pointer Git SHA/size do not represent actual binary content.",
+    "Does not claim every model is placeable scenery; NPC models, weapon and character models are included to make the catalog comprehensive.",
+    "All files remain unchanged in the source repository."
+  ]
+}
