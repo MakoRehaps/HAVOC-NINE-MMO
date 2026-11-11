@@ -2,7 +2,7 @@
 // Three layers: topology, agent preferences, dynamic sector conditions.
 // Pure ES module; does not modify maps or claim RCBot runtime integration.
 export const PROFILES=Object.freeze({
- assault:{distance:1,exposure:0.8,danger:0.5,noise:0.15,vertical:0.3,congestion:0.5,hostile:0.4},
+ assault:{distance:1,exposure:0.15,danger:0.5,noise:0.15,vertical:0.3,congestion:0.5,hostile:0.4},
  scout:{distance:1,exposure:1.7,danger:1.25,noise:1.2,vertical:0.35,congestion:0.8,hostile:1.1},
  stealth:{distance:1,exposure:2.5,danger:1.4,noise:3,vertical:0.5,congestion:0.7,hostile:1.6},
  police:{distance:1,exposure:0.5,danger:0.55,noise:0.2,vertical:0.55,congestion:1,hostile:0.25},
