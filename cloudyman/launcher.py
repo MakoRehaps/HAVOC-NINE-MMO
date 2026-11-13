@@ -47,7 +47,7 @@ class Cloudyman:
         self.cloudflared = tk.StringVar(value=saved.get("cloudflared", str(cfdefault) if cfdefault.is_file() else "cloudflared"))
         self.code = tk.StringVar(value="")
         self.gameport = tk.StringVar(value=str(saved.get("gameport", 27015)))
-        self.relayport = tk.StringVar(value=str(saved.get("relayport", 8092)))
+        self.relayport = tk.StringVar(value=str(saved.get("relayport", 8090)))
         self.localport = tk.StringVar(value=str(saved.get("localport", 27016)))
         self.state = tk.StringVar(value="Stopped")
         self.instructions = tk.StringVar(value="Host: choose Localhost or Domain, then click HOST GAME. Join: enter a host and room code.")
@@ -81,7 +81,7 @@ class Cloudyman:
         ttk.Button(bar, text="STOP", command=self.stop).pack(side="right", ipadx=7, ipady=9)
         ttk.Label(frame, textvariable=self.state, font=("Segoe UI", 12, "bold")).pack(anchor="w", pady=8)
         ttk.Label(frame, textvariable=self.instructions, wraplength=650).pack(anchor="w", pady=8)
-        ttk.Label(frame, text="Domain mode requires an existing Cloudflare tunnel hostname routed to http://127.0.0.1:8092.\nA running tunnel alone is not proof of multiplayer connectivity.\nHost gives friends the domain and room code; they enter both into JOIN GAME.\nLogs are saved in %LOCALAPPDATA%\\Cloudyman\\logs.", wraplength=650).pack(anchor="w", pady=8)
+        ttk.Label(frame, text="Domain mode requires an existing Cloudflare tunnel hostname routed to http://127.0.0.1:8090.\nA running tunnel alone is not proof of multiplayer connectivity.\nHost gives friends the domain and room code; they enter both into JOIN GAME.\nLogs are saved in %LOCALAPPDATA%\\Cloudyman\\logs.", wraplength=650).pack(anchor="w", pady=8)
         root.protocol("WM_DELETE_WINDOW", self.close)
         root.after(1500, self.poll)
 
