@@ -54,6 +54,7 @@ class Cloudyman:
         self.procs = {}
         self.handles = {}
         self.join_auto_started = False
+        self.host_auto_started = False
         frame = ttk.Frame(root, padding=20)
         frame.pack(fill="both", expand=True)
         ttk.Label(frame, text="CLOUDYMAN", font=("Segoe UI", 23, "bold")).pack(anchor="w")
@@ -131,6 +132,7 @@ class Cloudyman:
             if self.procs: raise ValueError("Stop the current session first.")
             node = self.prerequisites()
             gp, rp, _ = self.ports()
+            self.host_auto_started = False
             domain = self.mode_host()
             cf = None
             if self.mode.get() == "domain":
@@ -189,6 +191,7 @@ class Cloudyman:
                 except (OSError, subprocess.SubprocessError): pass
         self.procs.clear()
         self.join_auto_started = False
+        self.host_auto_started = False
         for f in self.handles.values():
             try: f.close()
             except OSError: pass
@@ -204,6 +207,14 @@ class Cloudyman:
                     with urlopen("http://127.0.0.1:" + self.relayport.get() + "/health", timeout=.5) as response:
                         info = json.load(response)
                     game = a2s(int(self.gameport.get()))
+                    if game and not self.host_auto_started:
+                        self.host_auto_started = True
+                        gp, _, localport = self.ports()
+                        # Open the normal player process; don't replace native game networking.
+                        self.spawn("hostgame", ["cmd.exe", "/d", "/c",
+                            str(ROOT / "H9XASH" / "h9xash.bat"),
+                            "-port", str(localport), "+connect", "127.0.0.1:" + str(gp)],
+                            ROOT / "H9XASH", os.environ.copy())
                     self.state.set("Local relay: OK | Game UDP: " + ("replying" if game else "no A2S reply") + " | Clients: " + str(info.get("sessions", 0)) + " — external join not verified")
                 except Exception:
                     self.state.set("Relay starting or unavailable — check logs")
