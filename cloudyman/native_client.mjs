@@ -6,7 +6,18 @@ const WebSocket = globalThis.WebSocket;
 if (!WebSocket) { console.error("Node.js 24+ is required for the native WebSocket client."); process.exit(2); }
 
 const port = Number(process.env.CLOUDYMAN_LOCAL_PORT || 27016);
-const link = process.env.CLOUDYMAN_JOIN_LINK || "";
+const domain = (process.env.CLOUDYMAN_DOMAIN || "").trim();
+const room = (process.env.CLOUDYMAN_ROOM_CODE || "").trim().toUpperCase();
+const explicit = process.env.CLOUDYMAN_JOIN_LINK || "";
+let link = explicit;
+if (!link) {
+  if (!/^[A-Z2-9]{12,20}$/.test(room)) { console.error("Enter the 12-20 character room code."); process.exit(2); }
+  const raw = domain || "localhost:8092";
+  const host = raw.replace(/^https?:\/\//, "").replace(/^wss?:\/\//, "").replace(/\/$/, "");
+  const local = /^localhost(?::\d+)?$|^127\.0\.0\.1(?::\d+)?$/i.test(host);
+  if (!local && !/^[a-z0-9.-]+(?::443)?$/i.test(host)) { console.error("Invalid host domain."); process.exit(2); }
+  link = (local ? "ws://" : "wss://") + host + "/native?key=" + encodeURIComponent(room);
+}
 const probe = process.argv.includes("--probe");
 const MAGIC = "CLOUDYMAN_NATIVE_1";
 if (!Number.isInteger(port) || port < 1 || port > 65535) {
@@ -14,12 +25,23 @@ if (!Number.isInteger(port) || port < 1 || port > 65535) {
 }
 let remote;
 try { remote = new URL(link); } catch { console.error("No valid join link."); process.exit(2); }
+if (remote.pathname !== "/native") { console.error("Invalid Cloudyman relay path."); process.exit(2); }
 if (!["wss:", "ws:"].includes(remote.protocol) || remote.pathname !== "/native" || !remote.searchParams.get("key")) {
   console.error("Expected a Cloudyman native wss://hostname/native?key=... link."); process.exit(2);
 }
 if (remote.protocol === "ws:" && !["localhost", "127.0.0.1"].includes(remote.hostname)) {
   console.error("Unencrypted WebSocket is allowed only for localhost tests."); process.exit(2);
 }
+// Verify the selected server domain advertises the expected Cloudyman protocol.
+const sessionURL = new URL("/session", remote);
+sessionURL.protocol = remote.protocol === "wss:" ? "https:" : "http:";
+try {
+  const response = await fetch(sessionURL, { signal: AbortSignal.timeout(10000), redirect: "error" });
+  if (!response.ok) throw new Error("HTTP " + response.status);
+  const info = await response.json();
+  if (info.service !== "cloudyman-native" || info.protocol !== 1 || !info.hosting) throw new Error("not a Cloudyman native host");
+  console.log("Verified HAVOC-NINE host at " + sessionURL.origin);
+} catch (e) { console.error("Host lookup failed:", e.message); process.exit(2); }
 const udp = dgram.createSocket("udp4");
 let ws, peer = null, ready = false, closed = false;
 let packetsUp = 0, packetsDown = 0;
