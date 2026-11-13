@@ -1,9 +1,9 @@
-# HAVOC-NINE Cloudyman: update, compile GUI, prepare real browser client, open GUI.
+# HAVOC-NINE Cloudyman: update, compile native Host/Join GUI, open GUI.
 # Windows PowerShell 5.1 compatible. Save this file anywhere and run with -File.
 [CmdletBinding()]
 param(
     [string]$RepoPath = '',
-    [switch]$SkipWebBuild,
+    [switch]$BuildWebClient,
     [switch]$NoLaunch,
     [switch]$SkipInstall
 )
@@ -167,19 +167,20 @@ $built = Join-Path (Get-Location) 'dist\Cloudyman.exe'
 if (-not (Test-Path -LiteralPath $built)) { Fail 'PyInstaller finished without producing Cloudyman.exe.' }
 Copy-Item -LiteralPath $built -Destination (Join-Path (Get-Location) 'Cloudyman.exe') -Force
 Pop-Location
-if (-not (WebStageReady $RepoPath)) {
-    if ($SkipWebBuild) { Fail 'WebAssembly stage is missing but -SkipWebBuild was specified.' }
-    Say 'Building the actual Xash WebAssembly browser client and game stage ...'
+Say 'Checking standalone native bridge syntax ...'
+CallExe $node @('--check',(Join-Path $RepoPath 'cloudyman\native_host.mjs'))
+CallExe $node @('--check',(Join-Path $RepoPath 'cloudyman\native_client.mjs'))
+if ($BuildWebClient) {
+    Say 'Optional browser WebAssembly build requested ...'
     & powershell.exe -NoProfile -ExecutionPolicy Bypass -File (Join-Path $RepoPath 'build-webclient.ps1') -Jobs 6
-    if ($LASTEXITCODE -ne 0) { Fail 'Web build failed. See webclient-build\build-webclient.log.' }
+    if ($LASTEXITCODE -ne 0) { Fail 'Optional Web build failed.' }
 }
-if (-not (WebStageReady $RepoPath)) { Fail 'WebAssembly stage is still incomplete.' }
 Say ('Compiled: ' + (Join-Path $RepoPath 'cloudyman\Cloudyman.exe'))
 Say 'LOCAL BUILD READY. External tunnel and actual remote join still require testing.'
-Say 'Tunnel hostname must point to http://localhost:8090 (unless changed in GUI).'
+Say 'Domain mode: Cloudflare hostname must route to http://127.0.0.1:8092 (or configured relay port).'
 if (-not $NoLaunch) {
     Say 'Opening real-game hosting GUI ...'
     Start-Process -FilePath (Join-Path $RepoPath 'cloudyman\Cloudyman.exe') -WorkingDirectory (Join-Path $RepoPath 'cloudyman')
 }
 Pop-Location
-Write-Host 'SUCCESS: Cloudyman compiled and web stage present.' -ForegroundColor Green
+Write-Host 'SUCCESS: Cloudyman native GUI compiled. Multiplayer joins still require live testing.' -ForegroundColor Green
