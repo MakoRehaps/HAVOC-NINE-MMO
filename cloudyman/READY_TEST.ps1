@@ -170,6 +170,9 @@ Pop-Location
 Say 'Checking standalone native bridge syntax ...'
 CallExe $node @('--check',(Join-Path $RepoPath 'cloudyman\native_host.mjs'))
 CallExe $node @('--check',(Join-Path $RepoPath 'cloudyman\native_client.mjs'))
+CallExe $node @('--check',(Join-Path $RepoPath 'cloudyman\test_native.mjs'))
+Say 'Testing host lookup, room authentication and UDP roundtrip without game changes ...'
+CallExe $node @((Join-Path $RepoPath 'cloudyman\test_native.mjs'))
 if ($BuildWebClient) {
     Say 'Optional browser WebAssembly build requested ...'
     & powershell.exe -NoProfile -ExecutionPolicy Bypass -File (Join-Path $RepoPath 'build-webclient.ps1') -Jobs 6
