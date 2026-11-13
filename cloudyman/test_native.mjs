@@ -45,8 +45,11 @@ await new Promise(resolve => game.bind(0, "127.0.0.1", resolve));
 const gamePort = game.address().port;
 game.on("message", (data, peer) => game.send(Buffer.concat([Buffer.from("REPLY"), data]), peer.port, peer.address));
 const hostPort = await tcpFree();
+const reservation = dgram.createSocket("udp4");
+await new Promise(resolve => reservation.bind(0, "127.0.0.1", resolve));
+const localPort = reservation.address().port;
+await new Promise(resolve => reservation.close(resolve));
 await new Promise(resolve => listener.bind(0, "127.0.0.1", resolve));
-const localPort = listener.address().port;
 listener.on("message", data => {
   if (String(data) === "REPLYH9PING") { clearTimeout(watchdog); finish(); }
 });
