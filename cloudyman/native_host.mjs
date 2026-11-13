@@ -8,10 +8,11 @@ import { checkUpgrade, refuseUpgrade, acceptUpgrade, WebSocketConnection } from 
 const port = Number(process.env.CLOUDYMAN_HTTP_PORT || 8092);
 const gamePort = Number(process.env.CLOUDYMAN_GAME_PORT || 27015);
 const maxClients = Number(process.env.CLOUDYMAN_MAX_CLIENTS || 32);
-const key = process.env.CLOUDYMAN_SECRET || "";
+const key = (process.env.CLOUDYMAN_ROOM_CODE || "").toUpperCase();
+const attempts = new Map();
 if (![port, gamePort].every(p => Number.isInteger(p) && p >= 1 && p <= 65535)
-    || !Number.isInteger(maxClients) || maxClients < 1 || maxClients > 128 || key.length < 32) {
-  console.error("Invalid ports/client limit or missing strong CLOUDYMAN_SECRET (32+ characters).");
+    || !Number.isInteger(maxClients) || maxClients < 1 || maxClients > 128 || !/^[A-Z2-9]{12,20}$/.test(key)) {
+  console.error("Invalid ports/client limit or missing CLOUDYMAN_ROOM_CODE (12-20 characters).");
   process.exit(2);
 }
 const sessions = new Set();
@@ -23,11 +24,16 @@ function authenticate(req) {
   let request;
   try { request = new URL(req.url, "http://localhost"); } catch { return false; }
   if (request.pathname !== "/native") return false;
-  const supplied = Buffer.from(request.searchParams.get("key") || "");
+  const supplied = Buffer.from((request.searchParams.get("key") || "").toUpperCase());
   const expected = Buffer.from(key);
   return supplied.length === expected.length && crypto.timingSafeEqual(supplied, expected);
 }
 const server = http.createServer((req, res) => {
+  if (req.method === "GET" && req.url === "/session") {
+    res.writeHead(200, { "Content-Type": "application/json", "Cache-Control": "no-store" });
+    res.end(JSON.stringify({ service: "cloudyman-native", protocol: 1, game: "HAVOC-NINE", hosting: true }));
+    return;
+  }
   if (req.method === "GET" && req.url === "/health") {
     res.writeHead(200, { "Content-Type": "application/json", "Cache-Control": "no-store" });
     res.end(JSON.stringify({ service: "cloudyman-native", version: 1, sessions: sessions.size, ...counters }));
@@ -38,7 +44,12 @@ const server = http.createServer((req, res) => {
 server.on("upgrade", (req, socket, head) => {
   const valid = checkUpgrade(req);
   if (!valid.ok) return refuseUpgrade(socket, valid.status, valid.headers);
-  if (!authenticate(req)) return refuseUpgrade(socket, 401);
+  const ip = socket.remoteAddress || "unknown";
+  let rate = attempts.get(ip) || { count: 0, first: Date.now() };
+  if (Date.now() - rate.first > 60000) rate = { count: 0, first: Date.now() };
+  if (rate.count >= 10) return refuseUpgrade(socket, 429);
+  if (!authenticate(req)) { rate.count++; attempts.set(ip, rate); return refuseUpgrade(socket, 401); }
+  attempts.delete(ip);
   if (sessions.size >= maxClients) return refuseUpgrade(socket, 503);
   // Only the locally configured game server receives datagrams.
   acceptUpgrade(socket, valid.key);
@@ -69,6 +80,7 @@ server.on("upgrade", (req, socket, head) => {
   log("client connected; active=" + sessions.size);
 });
 const timer = setInterval(() => {
+  for (const [ip, rate] of attempts) if (Date.now() - rate.first > 120000) attempts.delete(ip);
   for (const s of sessions) {
     if (Date.now() - s.lastActivity > 180000) s.ws.close(1000, "idle");
     else s.ws.ping();
