@@ -11,7 +11,7 @@ from pathlib import Path
 from tkinter import ttk, messagebox
 from urllib.request import urlopen
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = (Path(sys.executable).resolve().parent.parent if getattr(sys, "frozen", False) else Path(__file__).resolve().parent.parent)
 CONFIG = Path(os.getenv("LOCALAPPDATA") or Path.home()) / "Cloudyman" / "settings.json"
 LOGS = CONFIG.parent / "logs"
 CREATION_FLAGS = getattr(subprocess, "CREATE_NEW_PROCESS_GROUP", 0) | getattr(subprocess, "CREATE_NO_WINDOW", 0)
