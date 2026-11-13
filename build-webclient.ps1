@@ -241,6 +241,20 @@ try {
         $WafText = $WafText.Replace($OldWafProbe, $NewWafProbe)
         [IO.File]::WriteAllText($WafCross, $WafText, (New-Object System.Text.UTF8Encoding $false))
         Say '  patched Waf: Emscripten compilers bypass native MSVC autodetection'
+        # xcompile sets CC/CXX first, so c_emscripten.configure skips find_emcc()
+        # and leaves COMPILER_CC/COMPILER_CXX as Waf ConfigSet [] values.
+        # Fix compiler identities in the temporary engine copy for optimization flags.
+        $WafEmscripten = Join-Path $EngineCopy 'scripts\waifulib\c_emscripten.py'
+        $EmscriptenText = [IO.File]::ReadAllText($WafEmscripten)
+        $EmscriptenAnchor = "def configure(conf):"
+        if (([regex]::Matches($EmscriptenText, [regex]::Escape($EmscriptenAnchor))).Count -ne 1) {
+            Fail "unexpected Emscripten Waf configure structure in $WafEmscripten"
+        }
+        $EmscriptenReplacement = "def configure(conf):`n`t# Cloudyman browser build: Emscripten is Clang; avoid empty compiler ids.`n`tconf.env.COMPILER_CC = 'clang'`n`tconf.env.COMPILER_CXX = 'clang'"
+        $EmscriptenText = $EmscriptenText.Replace($EmscriptenAnchor, $EmscriptenReplacement)
+        [IO.File]::WriteAllText($WafEmscripten, $EmscriptenText, (New-Object System.Text.UTF8Encoding $false))
+        Say '  patched Waf: explicit Emscripten clang compiler identities'
+
 
         Push-Location $EngineCopy
         try {
