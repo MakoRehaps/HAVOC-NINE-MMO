@@ -53,6 +53,7 @@ class Cloudyman:
         self.instructions = tk.StringVar(value="Host: choose Localhost or Domain, then click HOST GAME. Join: enter a host and room code.")
         self.procs = {}
         self.handles = {}
+        self.join_auto_started = False
         frame = ttk.Frame(root, padding=20)
         frame.pack(fill="both", expand=True)
         ttk.Label(frame, text="CLOUDYMAN", font=("Segoe UI", 23, "bold")).pack(anchor="w")
@@ -107,7 +108,7 @@ class Cloudyman:
 
     def spawn(self, name, cmd, cwd, env):
         LOGS.mkdir(parents=True, exist_ok=True)
-        f = open(LOGS / (name + ".log"), "ab", buffering=0)
+        f = open(LOGS / (name + ".log"), "wb", buffering=0)
         try:
             p = subprocess.Popen(cmd, cwd=str(cwd), env=env, stdout=f, stderr=subprocess.STDOUT, creationflags=FLAGS)
         except Exception:
@@ -166,9 +167,10 @@ class Cloudyman:
             env["CLOUDYMAN_DOMAIN"] = domain
             env["CLOUDYMAN_ROOM_CODE"] = code
             env["CLOUDYMAN_LOCAL_PORT"] = str(lp)
+            self.join_auto_started = False
             self.spawn("join", [node, str(ROOT / "cloudyman" / "native_client.mjs")], ROOT, env)
             self.state.set("JOINING — looking up " + domain)
-            self.instructions.set("After the relay connects, open HAVOC 9 and enter: connect 127.0.0.1:" + str(lp) + ". The external domain is requested by Cloudyman, not by the game console.")
+            self.instructions.set("Cloudyman will automatically open HAVOC 9 and connect when the relay is verified. No game console commands needed.")
         except Exception as exc:
             self.stop()
             messagebox.showerror("Cannot join", str(exc))
@@ -186,6 +188,7 @@ class Cloudyman:
                     subprocess.run(["taskkill", "/PID", str(p.pid), "/T", "/F"], capture_output=True, timeout=8, creationflags=FLAGS)
                 except (OSError, subprocess.SubprocessError): pass
         self.procs.clear()
+        self.join_auto_started = False
         for f in self.handles.values():
             try: f.close()
             except OSError: pass
@@ -205,7 +208,28 @@ class Cloudyman:
                 except Exception:
                     self.state.set("Relay starting or unavailable — check logs")
             elif "join" in self.procs:
-                self.state.set("Native client relay running — check join.log for connection verification")
+                try:
+                    trace = (LOGS / "join.log").read_text(encoding="utf-8", errors="replace")
+                    if "RELAY VERIFIED." in trace and not self.join_auto_started:
+                        self.join_auto_started = True
+                        _, _, joinport = self.ports()
+                        # Invoke the game's existing launcher. It maintains game networking
+                        # config and uses ordinary Xash +connect, without replacing anything.
+                        self.spawn("clientgame", ["cmd.exe", "/d", "/c",
+                            str(ROOT / "H9XASH" / "h9xash.bat"),
+                            "+connect", "127.0.0.1:" + str(joinport)], ROOT / "H9XASH", os.environ.copy())
+                        self.state.set("RELAY VERIFIED — launching HAVOC 9")
+                        self.instructions.set("Connected to Cloudyman host. Launching the native game into the room.")
+                    elif "Host lookup failed:" in trace:
+                        self.state.set("HOST LOOKUP FAILED — check domain and tunnel route")
+                    elif "Relay closed" in trace and "RELAY VERIFIED." not in trace:
+                        self.state.set("RELAY AUTH FAILED — check room code")
+                    elif not self.join_auto_started:
+                        self.state.set("JOINING — verifying Cloudyman host and room code")
+                    else:
+                        self.state.set("HAVOC 9 started through native relay — game join not yet confirmed")
+                except (OSError, ValueError) as exc:
+                    self.state.set("Joining — " + str(exc))
         self.root.after(1500, self.poll)
 
     def close(self):
