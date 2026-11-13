@@ -104,6 +104,19 @@ if (!FILES) fs.mkdirSync(NO_FILES, { recursive: true });
 
 const SERVERS = path.join(LOCAL, "servers.json");
 if (!fs.existsSync(SERVERS)) fs.writeFileSync(SERVERS, JSON.stringify({ servers: [] }, null, 2) + "\n");
+// Cloudyman: opt-in local dedicated server for the browser relay.
+// The browser addresses this virtual IPv4 server; the relay sends to loopback UDP.
+const h9Port = Number(process.env.H9WEB_LOCAL_GAME_PORT || 0);
+const h9Advertised = "198.51.100.20";
+if (h9Port && Number.isInteger(h9Port) && h9Port >= 1 && h9Port <= 65535) {
+  fs.writeFileSync(SERVERS, JSON.stringify({ servers: [
+    { name: "HAVOC-NINE (Cloudyman)", address: h9Advertised + ":" + h9Port, target: "127.0.0.1:" + h9Port }
+  ] }, null, 2) + "\n");
+  const settingsFile = path.join(WC, "settings.json");
+  const settings = JSON.parse(fs.readFileSync(settingsFile, "utf8"));
+  settings.servers = [{ name: "HAVOC-NINE (Cloudyman)", address: h9Advertised + ":" + h9Port }];
+  fs.writeFileSync(settingsFile, JSON.stringify(settings, null, 2) + "\n");
+}
 
 const MODULES = path.join(HOME, "modules");
 const modules = process.env.H9WEB_MODULES
@@ -113,9 +126,11 @@ const modules = process.env.H9WEB_MODULES
     : [];
 
 const origin = "http://127.0.0.1:" + port;
+const publicOrigin = (process.env.H9WEB_PUBLIC_ORIGIN || "").replace(/\/$/, "");
+if (publicOrigin && !/^https:\/\/[a-z0-9.-]+(?::443)?$/i.test(publicOrigin)) fail("H9WEB_PUBLIC_ORIGIN must be an HTTPS hostname");
 const config = {
   listen: { host: "127.0.0.1", port },
-  allowedOrigins: [origin],
+  allowedOrigins: publicOrigin ? [origin, publicOrigin] : [origin],
   dataDir: path.join(LOCAL, "data"),
   serversFile: SERVERS,
   modulesDir: MODULES,
