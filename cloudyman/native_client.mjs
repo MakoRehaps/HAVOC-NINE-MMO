@@ -2,7 +2,8 @@
 // This process sends and receives unchanged UDP datagrams through Cloudyman WSS.
 // No engine patches, no browser and no writes into the game tree.
 import dgram from "node:dgram";
-import { WebSocket } from "node:undici";
+const WebSocket = globalThis.WebSocket;
+if (!WebSocket) { console.error("Node.js 24+ is required for the native WebSocket client."); process.exit(2); }
 
 const port = Number(process.env.CLOUDYMAN_LOCAL_PORT || 27016);
 const link = process.env.CLOUDYMAN_JOIN_LINK || "";
