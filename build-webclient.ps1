@@ -229,6 +229,19 @@ try {
         # folder is named by full path: mpg123 has a source folder called build.
         Robo $Fwgs $EngineCopy @('/MIR', '/XD', (Join-Path $Fwgs '.git'), (Join-Path $Fwgs 'build'),
             'build-web', 'waf3-*', '__pycache__', '/XF', '.git', '.lock-waf*', '*.bak_*')
+        # Waf's Windows auto-detector tries MSVC /help on em++.exe.
+        # For the WebAssembly copy only, use the repository's c_emscripten tool
+        # instead of native Windows compiler auto-detection. Do not edit FWGS sources.
+        $WafCross = Join-Path $EngineCopy 'scripts\waifulib\xcompile.py'
+        $WafText = [IO.File]::ReadAllText($WafCross)
+        $OldWafProbe = 'if not conf.env.MSVC_WINE:'
+        $ProbeCount = ([regex]::Matches($WafText, [regex]::Escape($OldWafProbe))).Count
+        if ($ProbeCount -ne 2) { Fail "unexpected Waf compiler wrapper in $WafCross (expected 2 probes, saw $ProbeCount)" }
+        $NewWafProbe = "if conf.options.EMSCRIPTEN:`n`t`tconf.load('c_emscripten')`n`telif not conf.env.MSVC_WINE:"
+        $WafText = $WafText.Replace($OldWafProbe, $NewWafProbe)
+        [IO.File]::WriteAllText($WafCross, $WafText, (New-Object System.Text.UTF8Encoding $false))
+        Say '  patched Waf: Emscripten compilers bypass native MSVC autodetection'
+
         Push-Location $EngineCopy
         try {
             if (-not (Test-Path -LiteralPath (Join-Path $EngineOut 'c4che\_cache.py'))) {
