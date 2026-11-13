@@ -12,7 +12,7 @@ const explicit = process.env.CLOUDYMAN_JOIN_LINK || "";
 let link = explicit;
 if (!link) {
   if (!/^[A-Z2-9]{12,20}$/.test(room)) { console.error("Enter the 12-20 character room code."); process.exit(2); }
-  const raw = domain || "localhost:8092";
+  const raw = domain || "localhost:8090";
   const host = raw.replace(/^https?:\/\//, "").replace(/^wss?:\/\//, "").replace(/\/$/, "");
   const local = /^localhost(?::\d+)?$|^127\.0\.0\.1(?::\d+)?$/i.test(host);
   if (!local && !/^[a-z0-9.-]+(?::443)?$/i.test(host)) { console.error("Invalid host domain."); process.exit(2); }
