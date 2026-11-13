@@ -5,7 +5,7 @@ import dgram from "node:dgram";
 import crypto from "node:crypto";
 import { checkUpgrade, refuseUpgrade, acceptUpgrade, WebSocketConnection } from "../h9web/lib/websocket.js";
 
-const port = Number(process.env.CLOUDYMAN_HTTP_PORT || 8092);
+const port = Number(process.env.CLOUDYMAN_HTTP_PORT || 8090);
 const gamePort = Number(process.env.CLOUDYMAN_GAME_PORT || 27015);
 const maxClients = Number(process.env.CLOUDYMAN_MAX_CLIENTS || 32);
 const key = (process.env.CLOUDYMAN_ROOM_CODE || "").toUpperCase();
