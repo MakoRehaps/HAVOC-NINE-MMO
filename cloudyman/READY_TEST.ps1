@@ -177,7 +177,7 @@ if ($BuildWebClient) {
 }
 Say ('Compiled: ' + (Join-Path $RepoPath 'cloudyman\Cloudyman.exe'))
 Say 'LOCAL BUILD READY. External tunnel and actual remote join still require testing.'
-Say 'Domain mode: Cloudflare hostname must route to http://127.0.0.1:8092 (or configured relay port).'
+Say 'Domain mode: Cloudflare hostname must route to http://127.0.0.1:8090 (or configured relay port).'
 if (-not $NoLaunch) {
     Say 'Opening real-game hosting GUI ...'
     Start-Process -FilePath (Join-Path $RepoPath 'cloudyman\Cloudyman.exe') -WorkingDirectory (Join-Path $RepoPath 'cloudyman')
