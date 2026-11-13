@@ -1,7 +1,9 @@
-"""HAVOC-NINE Cloudyman Windows GUI. Runs a local browser test and existing cloudflared named tunnel."""
+"""Cloudyman: Windows GUI for the *actual* HAVOC-NINE dedicated server and browser client."""
 import json
 import os
+import re
 import shutil
+import socket
 import subprocess
 import sys
 import tkinter as tk
@@ -9,92 +11,169 @@ from pathlib import Path
 from tkinter import ttk, messagebox
 from urllib.request import urlopen
 
-BASE=Path(getattr(sys,'_MEIPASS',Path(__file__).parent))
-CONFIG=Path(os.environ.get('APPDATA',str(Path.home())))/'HAVOC-NINE'/'cloudyman.json'
-FLAGS=getattr(subprocess,'CREATE_NO_WINDOW',0)
+ROOT = Path(__file__).resolve().parent.parent
+CONFIG = Path(os.getenv("LOCALAPPDATA") or Path.home()) / "Cloudyman" / "settings.json"
+LOGS = CONFIG.parent / "logs"
+CREATION_FLAGS = getattr(subprocess, "CREATE_NEW_PROCESS_GROUP", 0) | getattr(subprocess, "CREATE_NO_WINDOW", 0)
 
-class App:
-    def __init__(self,root):
-        self.root=root;root.title('HAVOC-NINE / Cloudyman');root.geometry('640x490')
-        try: cfg=json.loads(CONFIG.read_text(encoding='utf-8'))
-        except (OSError,ValueError):cfg={}
-        self.host=tk.StringVar(value=cfg.get('host','play.example.com'))
-        self.tunnel=tk.StringVar(value=cfg.get('tunnel','havoc-nine'))
-        self.port=tk.StringVar(value=str(cfg.get('port',8080)))
-        self.exe=tk.StringVar(value=cfg.get('exe','cloudflared'))
-        self.status=tk.StringVar(value='Stopped');self.players=tk.StringVar(value='Players: 0')
-        self.info=tk.StringVar(value='Uses your existing Cloudflare tunnel — no new domain.')
-        self.server_proc=None;self.tunnel_proc=None
-        f=ttk.Frame(root,padding=20);f.pack(fill='both',expand=True)
-        ttk.Label(f,text='CLOUDYMAN',font=('Segoe UI',24,'bold')).pack(anchor='w')
-        ttk.Label(f,text='HAVOC-NINE browser multiplayer testing').pack(anchor='w',pady=(0,14))
-        for label,var in [('Existing hostname',self.host),('Existing named tunnel',self.tunnel),('Test server port',self.port),('cloudflared executable',self.exe)]:
-            row=ttk.Frame(f);row.pack(fill='x',pady=5)
-            ttk.Label(row,text=label,width=27).pack(side='left')
-            ttk.Entry(row,textvariable=var).pack(side='left',fill='x',expand=True)
-        bar=ttk.Frame(f);bar.pack(fill='x',pady=17)
-        ttk.Button(bar,text='START HOSTING',command=self.start).pack(side='left',ipadx=10,ipady=10)
-        ttk.Button(bar,text='STOP',command=self.stop).pack(side='left',padx=8,ipadx=10,ipady=10)
-        ttk.Button(bar,text='COPY JOIN LINK',command=self.copy).pack(side='right',ipady=10)
-        ttk.Label(f,textvariable=self.status,font=('Segoe UI',15,'bold')).pack(anchor='w')
-        ttk.Label(f,textvariable=self.players).pack(anchor='w',pady=8)
-        ttk.Label(f,textvariable=self.info,wraplength=560).pack(anchor='w')
-        ttk.Label(f,text='Your existing Cloudflare public hostname must forward to localhost on this port.\nLocal status does not prove external tunnel connectivity.',wraplength=560).pack(anchor='w',pady=18)
-        root.protocol('WM_DELETE_WINDOW',self.close);self.poll()
+def find_repo():
+    return ROOT if (ROOT / "H9XASH" / "h9xash_server.bat").is_file() else None
 
-    def link(self):
-        return 'https://'+self.host.get().strip().removeprefix('https://').rstrip('/')+'/'
+def locate(program):
+    return shutil.which(program) or (str(Path(program).resolve()) if Path(program).is_file() else None)
+
+def check_server(port):
+    """A2S_INFO, distinct from browser relay socket count."""
+    try:
+        with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as sock:
+            sock.settimeout(.35)
+            sock.sendto(b"\xff\xff\xff\xffTSource Engine Query\x00", ("127.0.0.1", port))
+            response, _ = sock.recvfrom(4096)
+        if response[:5] == b"\xff\xff\xff\xff\x49":
+            body = response[6:]
+            for _ in range(4):
+                i = body.find(b"\x00")
+                if i < 0: return "Responding"
+                body = body[i + 1:]
+            if len(body) >= 4:
+                return str(body[2]) + "/" + str(body[3])
+            return "Responding"
+        if response[:5] == b"\xff\xff\xff\xff\x6d":
+            body = response[5:]
+            for _ in range(5):
+                i=body.find(b"\x00")
+                if i<0:return "Responding"
+                body=body[i+1:]
+            return str(body[0]) + "/" + str(body[1]) if len(body)>1 else "Responding"
+        return "Responding"
+    except OSError:
+        return "Not responding"
+
+class Cloudyman:
+    def __init__(self, root):
+        self.root=root
+        root.title("CLOUDYMAN — HAVOC-NINE HOST")
+        root.geometry("660x540")
+        try: saved=json.loads(CONFIG.read_text(encoding="utf-8"))
+        except (OSError, ValueError): saved={}
+        self.domain=tk.StringVar(value=saved.get("domain",""))
+        self.tunnel=tk.StringVar(value=saved.get("tunnel",""))
+        self.cfexe=tk.StringVar(value=saved.get("cfexe","cloudflared"))
+        self.port=tk.StringVar(value=str(saved.get("port",27015)))
+        self.webport=tk.StringVar(value=str(saved.get("webport",8090)))
+        self.status=tk.StringVar(value="OFFLINE")
+        self.site_status=tk.StringVar(value="Website: stopped")
+        self.game_status=tk.StringVar(value="Game server: stopped")
+        self.player_status=tk.StringVar(value="Players: —")
+        self.note=tk.StringVar(value="Uses the actual H9XASH and h9web components in this checkout.")
+        self.procs={}
+        self.logs={}
+        frame=ttk.Frame(root,padding=20);frame.pack(fill="both",expand=True)
+        ttk.Label(frame,text="CLOUDYMAN",font=("Segoe UI",24,"bold")).pack(anchor="w")
+        ttk.Label(frame,text="HAVOC-NINE  |  REAL SERVER HOSTING",font=("Segoe UI",11)).pack(anchor="w",pady=(0,16))
+        for label,var in [("Cloudflare hostname",self.domain),("Existing tunnel name / UUID",self.tunnel),("cloudflared executable",self.cfexe),("Game UDP port",self.port),("Website HTTP port",self.webport)]:
+            line=ttk.Frame(frame);line.pack(fill="x",pady=4)
+            ttk.Label(line,text=label,width=29).pack(side="left")
+            ttk.Entry(line,textvariable=var).pack(side="left",fill="x",expand=True)
+        buttons=ttk.Frame(frame);buttons.pack(fill="x",pady=15)
+        ttk.Button(buttons,text="START HOSTING",command=self.start).pack(side="left",ipadx=12,ipady=12)
+        ttk.Button(buttons,text="STOP ALL",command=self.stop).pack(side="left",padx=8,ipadx=12,ipady=12)
+        ttk.Button(buttons,text="COPY JOIN LINK",command=self.copy).pack(side="right",ipady=12)
+        for variable in (self.status,self.game_status,self.site_status,self.player_status,self.note):
+            ttk.Label(frame,textvariable=variable,wraplength=590).pack(anchor="w",pady=4)
+        ttk.Label(frame,text="Requires Node.js 24+, existing cloudflared named tunnel credentials, and H9XASH.\nCloudflare public hostname must route to http://localhost:8090 (or your HTTP port).\nAn HTTPS tunnel alone does NOT publish native Xash UDP connections.",wraplength=585).pack(anchor="w",pady=14)
+        root.protocol("WM_DELETE_WINDOW",self.close)
+        self.poll()
+    def origin(self):
+        return "https://" + self.domain.get().strip().removeprefix("https://").rstrip("/")
     def copy(self):
-        self.root.clipboard_clear();self.root.clipboard_append(self.link())
-        self.info.set('Copied: '+self.link())
+        if not self.domain.get().strip():return
+        link=self.origin()+"/webclient/"
+        self.root.clipboard_clear();self.root.clipboard_append(link)
+        self.note.set("Copied browser client: "+link)
+    def launch(self,key,cmd,cwd,env):
+        log=open(LOGS/(key+".log"),"ab",buffering=0)
+        try:
+            p=subprocess.Popen(cmd,cwd=cwd,env=env,stdout=log,stderr=subprocess.STDOUT,creationflags=CREATION_FLAGS)
+        except BaseException:
+            log.close()
+            raise
+        self.logs[key]=log;self.procs[key]=p
     def start(self):
-        if self.server_proc and self.server_proc.poll() is None:return
+        if any(p.poll() is None for p in self.procs.values()):
+            self.note.set("Already running. Stop before changing settings.")
+            return
+        if not find_repo():
+            messagebox.showerror("Repository missing","Run this launcher from HAVOC-NINE-MMO/cloudyman/ inside the full checkout.")
+            return
+        domain=self.domain.get().strip().removeprefix("https://").rstrip("/")
+        if not re.fullmatch(r"[a-z0-9-]+(?:\.[a-z0-9-]+)+",domain,re.I):
+            messagebox.showerror("Invalid hostname","Enter your existing Cloudflare DNS hostname (no https://).")
+            return
         try:
-            port=int(self.port.get())
-            if port<1024 or port>65535 or '.' not in self.host.get() or not self.tunnel.get().strip():raise ValueError()
-            CONFIG.parent.mkdir(parents=True,exist_ok=True)
-            CONFIG.write_text(json.dumps({'host':self.host.get(),'tunnel':self.tunnel.get(),'port':port,'exe':self.exe.get()},indent=2),encoding='utf-8')
-        except (ValueError,OSError):
-            messagebox.showerror('Configuration','Enter a valid hostname, tunnel name and port (1024-65535).');return
-        exe=self.exe.get().strip()
-        if not (shutil.which(exe) or Path(exe).is_file()):
-            messagebox.showerror('Cloudflare client missing','Install cloudflared or enter its full exe path.');return
-        cmd=[sys.executable,'--server','--port',str(port)] if getattr(sys,'frozen',False) else [sys.executable,str(BASE/'server.py'),'--port',str(port)]
+            port=int(self.port.get());webport=int(self.webport.get())
+            if not (1024<=port<=65535 and 1024<=webport<=65535 and port!=webport):raise ValueError()
+        except ValueError:
+            messagebox.showerror("Ports","Ports must be distinct numbers between 1024 and 65535.")
+            return
+        cf=locate(self.cfexe.get().strip())
+        node=locate("node")
+        if not cf or not node:
+            messagebox.showerror("Missing dependency",("cloudflared" if not cf else "Node.js")+" not found in PATH. Install it or select cloudflared.exe.")
+            return
+        if not self.tunnel.get().strip():
+            messagebox.showerror("Existing tunnel","Enter your existing named Cloudflare tunnel or UUID.")
+            return
+        if not (ROOT/"H9XASH"/"HAVOC 9.exe").exists():
+            messagebox.showerror("Missing engine","H9XASH/HAVOC 9.exe is missing.")
+            return
+        LOGS.mkdir(parents=True,exist_ok=True)
+        CONFIG.parent.mkdir(parents=True,exist_ok=True)
+        CONFIG.write_text(json.dumps({"domain":domain,"tunnel":self.tunnel.get().strip(),"cfexe":self.cfexe.get().strip(),"port":port,"webport":webport},indent=2),encoding="utf-8")
+        env=os.environ.copy()
+        env["H9WEB_PUBLIC_ORIGIN"]="https://"+domain
+        env["H9WEB_LOCAL_GAME_PORT"]=str(port)
+        # These are regular child processes, not demo game services.
         try:
-            self.server_proc=subprocess.Popen(cmd,creationflags=FLAGS,stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL)
-            self.tunnel_proc=subprocess.Popen([exe,'tunnel','run',self.tunnel.get().strip()],creationflags=FLAGS,stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL)
+            self.launch("game",["cmd.exe","/d","/c",str(ROOT/"H9XASH"/"h9xash_server.bat"),"-port",str(port)],ROOT/"H9XASH",env)
+            self.launch("website",[node,str(ROOT/"h9web"/"bin"/"local-site.js"),"--port",str(webport)],ROOT,env)
+            self.launch("cloudflare",[cf,"tunnel","run",self.tunnel.get().strip()],ROOT,env)
         except OSError as e:
-            self.stop();messagebox.showerror('Start error',str(e));return
-        self.status.set('Starting server and tunnel…')
+            self.stop()
+            messagebox.showerror("Launch failed",str(e))
+            return
+        self.status.set("STARTING")
+        self.note.set("Logs: "+str(LOGS))
     def stop(self):
-        for p in (self.tunnel_proc,self.server_proc):
+        # Windows process tree handling: cmd.exe's server child must be stopped too.
+        for name in ("cloudflare","website","game"):
+            p=self.procs.get(name)
             if p and p.poll() is None:
-                p.terminate()
-                try:p.wait(timeout=3)
-                except subprocess.TimeoutExpired:p.kill()
-        self.server_proc=None;self.tunnel_proc=None
-        self.status.set('Stopped');self.players.set('Players: 0')
-    def poll(self):
-        if self.server_proc:
-            if self.server_proc.poll() is not None:
-                self.status.set('ERROR: local server stopped')
-            elif self.tunnel_proc and self.tunnel_proc.poll() is not None:
-                self.status.set('ERROR: cloudflared stopped');self.info.set('Check tunnel credentials and existing config.')
-            else:
                 try:
-                    with urlopen('http://127.0.0.1:'+self.port.get()+'/status',timeout=.4) as r:data=json.load(r)
-                    self.status.set('LOCAL SERVER ONLINE')
-                    self.players.set('Players: '+str(data['players']))
-                    self.info.set('Join link: '+self.link()+' (public reachability unverified)')
-                except Exception:self.status.set('Starting local server…')
-        self.root.after(1500,self.poll)
-    def close(self):self.stop();self.root.destroy()
+                    if os.name=="nt":subprocess.run(["taskkill","/PID",str(p.pid),"/T","/F"],capture_output=True,timeout=8,creationflags=getattr(subprocess,"CREATE_NO_WINDOW",0))
+                    else:p.terminate()
+                except (OSError,subprocess.SubprocessError):pass
+        for file in self.logs.values():
+            try:file.close()
+            except OSError:pass
+        self.logs.clear();self.procs.clear()
+        self.status.set("OFFLINE");self.game_status.set("Game server: stopped");self.site_status.set("Website: stopped");self.player_status.set("Players: —")
+    def poll(self):
+        if self.procs:
+            failures=[name for name,p in self.procs.items() if p.poll() is not None]
+            self.status.set("ERROR — "+", ".join(failures)+" stopped; check logs" if failures else "HOSTING (check public DNS separately)")
+            try:
+                with urlopen("http://127.0.0.1:"+self.webport.get()+"/",timeout=.5) as resp:
+                    self.site_status.set("Website: local HTTP "+str(resp.status))
+            except Exception:self.site_status.set("Website: no local HTTP response")
+            game=check_server(int(self.port.get()))
+            self.game_status.set("Game server UDP: "+game)
+            self.player_status.set("Players: "+game if "/" in game else "Players: —")
+        self.root.after(2000,self.poll)
+    def close(self):
+        self.stop();self.root.destroy()
 
-if __name__=='__main__':
-    if '--server' in sys.argv:
-        from aiohttp import web
-        from server import create_app
-        i=sys.argv.index('--port')
-        web.run_app(create_app(),host='127.0.0.1',port=int(sys.argv[i+1]),print=None)
-    else:
-        root=tk.Tk();App(root);root.mainloop()
+if __name__=="__main__":
+    root=tk.Tk()
+    Cloudyman(root)
+    root.mainloop()
