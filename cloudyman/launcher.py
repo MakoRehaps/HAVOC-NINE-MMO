@@ -58,7 +58,7 @@ class Cloudyman:
         except (OSError, ValueError): saved={}
         self.domain=tk.StringVar(value=saved.get("domain",""))
         self.tunnel=tk.StringVar(value=saved.get("tunnel",""))
-        self.cfexe=tk.StringVar(value=saved.get("cfexe","cloudflared"))
+        self.cfexe=tk.StringVar(value=saved.get("cfexe",str(ROOT / "cloudyman" / "tools" / "cloudflared.exe") if (ROOT / "cloudyman" / "tools" / "cloudflared.exe").is_file() else "cloudflared"))
         self.port=tk.StringVar(value=str(saved.get("port",27015)))
         self.webport=tk.StringVar(value=str(saved.get("webport",8090)))
         self.status=tk.StringVar(value="OFFLINE")
